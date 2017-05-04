@@ -358,8 +358,8 @@
 <text x="-2.54" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="DE1E3KX222MA4BL01">
-<pad name="1" x="-2.5" y="0" drill="0.6" shape="square"/>
-<pad name="2" x="2.5" y="0" drill="0.6" shape="square"/>
+<pad name="1" x="-5" y="0" drill="0.6" shape="square"/>
+<pad name="2" x="5" y="0" drill="0.6" shape="square"/>
 <wire x1="-4.5" y1="3.5" x2="-4.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="-4.5" y1="-3.5" x2="4.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="4.5" y1="-3.5" x2="4.5" y2="3.5" width="0.127" layer="51"/>
