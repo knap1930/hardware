@@ -158,8 +158,6 @@
 <wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="51"/>
 <wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
 <smd name="GND-ISO" x="0" y="0" dx="3.1" dy="2.2" layer="1"/>
-<text x="-3.2" y="3.2" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.6" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
 <pad name="P$1" x="-1.2" y="0.7" drill="0.2" shape="square" stop="no" thermals="no"/>
 <pad name="P$2" x="-0.4" y="0.7" drill="0.2" shape="square" stop="no" thermals="no"/>
 <pad name="P$3" x="0.4" y="0.7" drill="0.2" shape="square" stop="no" thermals="no"/>
@@ -172,261 +170,74 @@
 <pad name="P$10" x="-0.4" y="-0.7" drill="0.2" shape="square" stop="no" thermals="no"/>
 <pad name="P$11" x="0.4" y="-0.7" drill="0.2" shape="square" stop="no" thermals="no"/>
 <pad name="P$12" x="1.2" y="-0.7" drill="0.2" shape="square" stop="no" thermals="no"/>
+<text x="-1.732" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.732" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
-<package name="1210_280">
-<smd name="1" x="-1.4986" y="0" dx="1.1176" dy="2.6924" layer="1"/>
-<smd name="2" x="1.4986" y="0" dx="1.1176" dy="2.6924" layer="1"/>
-<wire x1="-0.6096" y1="-1.3462" x2="0.6096" y2="-1.3462" width="0.1524" layer="21"/>
-<wire x1="0.6096" y1="1.3462" x2="-0.6096" y2="1.3462" width="0.1524" layer="21"/>
-<wire x1="-0.9398" y1="-1.3462" x2="-0.9398" y2="1.3462" width="0.1524" layer="25"/>
-<wire x1="-0.9398" y1="1.3462" x2="-1.7018" y2="1.3462" width="0.1524" layer="25"/>
-<wire x1="-1.7018" y1="-1.3462" x2="-0.9398" y2="-1.3462" width="0.1524" layer="25"/>
-<wire x1="0.9398" y1="1.3462" x2="0.9398" y2="-1.3462" width="0.1524" layer="25"/>
-<wire x1="0.9398" y1="-1.3462" x2="1.7018" y2="-1.3462" width="0.1524" layer="25"/>
-<wire x1="1.7018" y1="1.3462" x2="0.9398" y2="1.3462" width="0.1524" layer="25"/>
-<wire x1="-0.9398" y1="-1.3462" x2="0.9398" y2="-1.3462" width="0.1524" layer="25"/>
-<wire x1="1.7018" y1="-1.3462" x2="1.7018" y2="1.3462" width="0.1524" layer="25"/>
-<wire x1="0.9398" y1="1.3462" x2="-0.9398" y2="1.3462" width="0.1524" layer="25"/>
-<wire x1="-1.7018" y1="1.3462" x2="-1.7018" y2="-1.3462" width="0.1524" layer="25"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
 </package>
 <package name="0402">
-<smd name="1" x="-0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<smd name="2" x="0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<wire x1="-0.1524" y1="-0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="-0.3048" x2="-0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.1524" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="0.3048" x2="0.127" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="-0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CRCW0402121KFKED">
-<smd name="1" x="-0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<smd name="2" x="0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<wire x1="-0.1524" y1="-0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="-0.3048" x2="-0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.1524" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="0.3048" x2="0.127" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="-0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CRCW04027K68FKED">
-<smd name="1" x="-0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<smd name="2" x="0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<wire x1="-0.1524" y1="-0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="-0.3048" x2="-0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.1524" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="0.3048" x2="0.127" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="-0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CC0805KRX7R9BB103">
-<smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<smd name="2" x="0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<wire x1="-0.3556" y1="-0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="0.7112" x2="-1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="-0.7112" x2="-0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="-0.7112" x2="1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="1.1176" y2="0.7366" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7366" x2="0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="-0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="-0.7112" x2="1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="0.7112" x2="-1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<text x="-2.54" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CRCW04021K00FKED">
-<smd name="1" x="-0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<smd name="2" x="0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<wire x1="-0.1524" y1="-0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="-0.3048" x2="-0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.1524" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="0.3048" x2="0.127" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="-0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CC0805KRX7R8BB104">
-<smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<smd name="2" x="0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<wire x1="-0.3556" y1="-0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="0.7112" x2="-1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="-0.7112" x2="-0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="-0.7112" x2="1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="1.1176" y2="0.7366" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7366" x2="0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="-0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="-0.7112" x2="1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="0.7112" x2="-1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<text x="-2.54" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CRCW0402162KFKED">
-<smd name="1" x="-0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<smd name="2" x="0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<wire x1="-0.1524" y1="-0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="-0.3048" x2="-0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.1524" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="0.3048" x2="0.127" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="-0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="1" x="-0.425" y="0" dx="0.55" dy="0.6" layer="1"/>
+<smd name="2" x="0.425" y="0" dx="0.55" dy="0.6" layer="1"/>
+<text x="0" y="0.462" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.462" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SOD-123F">
-<smd name="1" x="-1.400003125" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
-<smd name="2" x="1.399996875" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
-<wire x1="-2.3114" y1="-1.016" x2="2.0066" y2="-1.016" width="0.1778" layer="21"/>
-<wire x1="-2.3114" y1="1.016" x2="2.0066" y2="1.016" width="0.1778" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-2.6416" y="-1.1176"/>
-<vertex x="-2.1336" y="-1.1176"/>
-<vertex x="-2.1336" y="1.1176"/>
-<vertex x="-2.6416" y="1.1176"/>
-</polygon>
-<wire x1="-2.3114" y1="1.016" x2="2.0066" y2="1.016" width="0.1524" layer="25"/>
-<wire x1="-2.3114" y1="-1.016" x2="2.0066" y2="-1.016" width="0.1524" layer="25"/>
-<wire x1="2.0066" y1="-1.016" x2="2.0066" y2="1.016" width="0.1524" layer="25"/>
-<polygon width="0.0254" layer="25">
-<vertex x="-2.6416" y="-1.1176"/>
-<vertex x="-2.1336" y="-1.1176"/>
-<vertex x="-2.1336" y="1.1176"/>
-<vertex x="-2.6416" y="1.1176"/>
-</polygon>
-<text x="-2.54" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="C" x="-1.45" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
+<smd name="A" x="1.45" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
+<wire x1="-2.37" y1="0.625" x2="-2.37" y2="-0.625" width="0.2032" layer="21"/>
+<text x="0" y="1.2532" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.2532" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="1.05" x2="0.9" y2="1.05" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-1.05" x2="0.9" y2="-1.05" width="0.2032" layer="21"/>
 </package>
 <package name="0805">
-<smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<smd name="2" x="0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<wire x1="-0.3556" y1="-0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="0.7112" x2="-1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="-0.7112" x2="-0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="-0.7112" x2="1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="1.1176" y2="0.7366" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7366" x2="0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="-0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="-0.7112" x2="1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="0.7112" x2="-1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="1" x="-0.875" y="0" dx="1.1" dy="1.4" layer="1"/>
+<smd name="2" x="0.875" y="0" dx="1.1" dy="1.4" layer="1"/>
+<text x="0" y="0.862" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SOD-323">
-<smd name="1" x="-1.099996875" y="0" dx="0.6" dy="0.6" layer="1" rot="R180"/>
-<smd name="2" x="1.100003125" y="0" dx="0.6" dy="0.6" layer="1" rot="R180"/>
-<wire x1="-1.8034" y1="0.762" x2="1.524" y2="0.762" width="0.1778" layer="21"/>
-<wire x1="-1.8034" y1="-0.762" x2="1.524" y2="-0.762" width="0.1778" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-2.0574" y="-0.8636"/>
-<vertex x="-1.5494" y="-0.8636"/>
-<vertex x="-1.5494" y="0.8636"/>
-<vertex x="-2.0574" y="0.8636"/>
-</polygon>
-<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="25"/>
-<wire x1="-1.8034" y1="-0.762" x2="1.524" y2="-0.762" width="0.1524" layer="25"/>
-<wire x1="-1.8034" y1="0.762" x2="1.524" y2="0.762" width="0.1524" layer="25"/>
-<polygon width="0.0254" layer="25">
-<vertex x="-2.0574" y="-0.8636"/>
-<vertex x="-1.5494" y="-0.8636"/>
-<vertex x="-1.5494" y="0.8636"/>
-<vertex x="-2.0574" y="0.8636"/>
-</polygon>
-<text x="-2.54" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<description>SOD-323 (Small Outline Diode)</description>
+<wire x1="-1.67" y1="0.625" x2="-1.67" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.962" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="0.825" x2="0.9" y2="0.825" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.825" x2="0.9" y2="-0.825" width="0.2032" layer="21"/>
 </package>
 <package name="IND_WE-SPC">
-<smd name="1" x="-1.7526" y="0" dx="2.0066" dy="5.3086" layer="1"/>
-<smd name="2" x="1.7526" y="0" dx="2.0066" dy="5.3086" layer="1"/>
-<wire x1="-0.4064" y1="-2.54" x2="0.4064" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.4064" y1="2.54" x2="-0.4064" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.4544" y1="0" x2="-3.6068" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-3.6068" y1="0" x2="-3.4544" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="25"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.1524" layer="25"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="25"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="25"/>
-<wire x1="-3.4544" y1="0" x2="-3.6068" y2="0" width="0" layer="25" curve="-180"/>
-<wire x1="-3.6068" y1="0" x2="-3.4544" y2="0" width="0" layer="25" curve="-180"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="CRM0805-FX-R510ELF">
-<smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<smd name="2" x="0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<wire x1="-0.3556" y1="-0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="0.7112" x2="-1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="-0.7112" x2="-0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="-0.7112" x2="1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="1.1176" y2="0.7366" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7366" x2="0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="-0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="-0.7112" x2="1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="0.7112" x2="-1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
-<package name="GMK212B7105KG-T">
-<smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<smd name="2" x="0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<wire x1="-0.3556" y1="-0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="0.7112" x2="-1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="-0.7112" x2="-0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="-0.7112" x2="1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="1.1176" y2="0.7366" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7366" x2="0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="-0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="-0.7112" x2="1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="0.7112" x2="-1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="1" x="-1.75" y="0" dx="2" dy="5.3" layer="1"/>
+<smd name="2" x="1.75" y="0" dx="2" dy="5.3" layer="1"/>
+<text x="0" y="2.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.962" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="2.4" x2="0.9" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-2.4" x2="0.9" y2="-2.4" width="0.2032" layer="21"/>
 </package>
 <package name="XLAMP-XPG">
-<smd name="A" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
-<smd name="C" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
-<text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A" x="1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
+<smd name="C" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
 <smd name="GND" x="0" y="0" dx="1.3" dy="3.3" layer="1"/>
 <pad name="P$1" x="0" y="1" drill="0.4" shape="square" stop="no" thermals="no"/>
 <pad name="P$2" x="0" y="0" drill="0.4" shape="square" stop="no" thermals="no"/>
 <pad name="P$3" x="0" y="-1" drill="0.4" shape="square" stop="no" thermals="no"/>
+<wire x1="-1.97" y1="0.625" x2="-1.97" y2="-0.625" width="0.2032" layer="21"/>
+<text x="0" y="1.862" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="1X02">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
@@ -1188,41 +999,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1210_280">
+<device name="" package="1210">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CAP_CASE" value="1210" constant="no"/>
-<attribute name="CAP_F" value="0.00001" constant="no"/>
-<attribute name="COMPTYPE" value="Capacitor" constant="no"/>
-<attribute name="KIND" value="General" constant="no"/>
-<attribute name="MANUFACTURER" value="MuRata" constant="no"/>
-<attribute name="MAPPING" value="112100" constant="no"/>
-<attribute name="MOUNTTYPE" value="SMT" constant="no"/>
-<attribute name="PACKAGEREFERENCE" value="1210" constant="no"/>
-<attribute name="PARTNUMBER" value="GRM32ER71J106KA12L" constant="no"/>
-<attribute name="PIN_COUNT" value="2" constant="no"/>
-<attribute name="POLARIZED" value="N" constant="no"/>
-<attribute name="PUBLISHED" value="20080619" constant="no"/>
-<attribute name="REFDES" value="RefDes" constant="no"/>
-<attribute name="ROHS" value="Y" constant="no"/>
-<attribute name="SUPPLIER1" value="DigiKey" constant="no"/>
-<attribute name="SUPPLIER2" value="Mouser" constant="no"/>
-<attribute name="SUPPLIERPARTNUMBER1" value="49099701ND" constant="no"/>
-<attribute name="SUPPLIERPARTNUMBER2" value="81GRM32ER71J106KA2L" constant="no"/>
-<attribute name="TAMAX_C" value="125" constant="no"/>
-<attribute name="TAMIN_C" value="55" constant="no"/>
-<attribute name="TECHNOLOGY" value="Ceramic" constant="no"/>
-<attribute name="TEMPCO" value="X7R" constant="no"/>
-<attribute name="TYPE" value="TYPE" constant="no"/>
-<attribute name="VALUE1" value="Unknown" constant="no"/>
-<attribute name="VALUE2" value="63V" constant="no"/>
-<attribute name="VALUEDISPLAYED" value="10µF" constant="no"/>
-<attribute name="VDC_V" value="63" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1255,19 +1038,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRCW0402121KFKED">
+<device name="" package="0402">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402121KFKED" constant="no"/>
-<attribute name="POWER" value="0.063" constant="no"/>
-<attribute name="RESISTANCE" value="121000.0" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="VishayDale" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1277,19 +1054,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRCW04027K68FKED">
+<device name="" package="0402">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04027K68FKED" constant="no"/>
-<attribute name="POWER" value="0.063" constant="no"/>
-<attribute name="RESISTANCE" value="7680.0" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="VishayDale" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1299,20 +1070,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CC0805KRX7R9BB103">
+<device name="" package="0805">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CAP" value="1.0E8" constant="no"/>
-<attribute name="ESR" value="0.0" constant="no"/>
-<attribute name="IRMS" value="0.0" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0805KRX7R9BB103" constant="no"/>
-<attribute name="VDC" value="50.0" constant="no"/>
-<attribute name="VENDOR" value="Yageo America" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1322,19 +1086,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRCW04021K00FKED">
+<device name="" package="0402">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04021K00FKED" constant="no"/>
-<attribute name="POWER" value="0.063" constant="no"/>
-<attribute name="RESISTANCE" value="1000.0" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="VishayDale" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1344,20 +1102,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CC0805KRX7R8BB104">
+<device name="" package="0805">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CAP" value="1.0E7" constant="no"/>
-<attribute name="ESR" value="0.0" constant="no"/>
-<attribute name="IRMS" value="0.0" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0805KRX7R8BB104" constant="no"/>
-<attribute name="VDC" value="25.0" constant="no"/>
-<attribute name="VENDOR" value="Yageo America" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1367,19 +1118,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRCW0402162KFKED">
+<device name="" package="0402">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402162KFKED" constant="no"/>
-<attribute name="POWER" value="0.063" constant="no"/>
-<attribute name="RESISTANCE" value="162000.0" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="VishayDale" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1391,8 +1136,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <devices>
 <device name="" package="SOD-123F">
 <connects>
-<connect gate="A" pin="A" pad="2"/>
-<connect gate="A" pin="C" pad="1"/>
+<connect gate="A" pin="A" pad="A"/>
+<connect gate="A" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1437,8 +1182,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <devices>
 <device name="" package="SOD-323">
 <connects>
-<connect gate="A" pin="A" pad="2"/>
-<connect gate="A" pin="C" pad="1"/>
+<connect gate="A" pin="A" pad="A"/>
+<connect gate="A" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1484,19 +1229,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRM0805-FX-R510ELF">
+<device name="" package="0805">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRM0805FXR510ELF" constant="no"/>
-<attribute name="POWER" value="0.25" constant="no"/>
-<attribute name="RESISTANCE" value="0.51" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="Bourns" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1506,20 +1245,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="GMK212B7105KG-T">
+<device name="" package="0805">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CAP" value="1.0E6" constant="no"/>
-<attribute name="ESR" value="0.0" constant="no"/>
-<attribute name="IRMS" value="0.0" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GMK212B7105KGT" constant="no"/>
-<attribute name="VDC" value="35.0" constant="no"/>
-<attribute name="VENDOR" value="Taiyo Yuden" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1900,6 +1632,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <part name="GND-ISO10" library="derek" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO11" library="derek" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO12" library="derek" deviceset="GND-ISO" device=""/>
+<part name="SUPPLY3" library="derek" deviceset="24V" device=""/>
+<part name="GND-ISO13" library="derek" deviceset="GND-ISO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1922,12 +1656,12 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <instance part="RSENSE1" gate="A" x="55.88" y="142.24"/>
 <instance part="RSENSE" gate="A" x="73.66" y="106.68" rot="R90"/>
 <instance part="COUT" gate="A" x="73.66" y="154.94" rot="R90"/>
-<instance part="D3" gate="G$1" x="91.44" y="177.8" rot="R90"/>
-<instance part="D4" gate="G$1" x="91.44" y="160.02" rot="R90"/>
-<instance part="D5" gate="G$1" x="91.44" y="142.24" rot="R90"/>
-<instance part="D6" gate="G$1" x="91.44" y="124.46" rot="R90"/>
-<instance part="D7" gate="G$1" x="91.44" y="106.68" rot="R90"/>
-<instance part="J1" gate="G$1" x="-88.9" y="121.92"/>
+<instance part="D3" gate="G$1" x="91.44" y="106.68" rot="R90"/>
+<instance part="D4" gate="G$1" x="91.44" y="177.8" rot="R90"/>
+<instance part="D5" gate="G$1" x="91.44" y="160.02" rot="R90"/>
+<instance part="D6" gate="G$1" x="91.44" y="142.24" rot="R90"/>
+<instance part="D7" gate="G$1" x="91.44" y="124.46" rot="R90"/>
+<instance part="J1" gate="G$1" x="-101.6" y="121.92"/>
 <instance part="J2" gate="G$1" x="-101.6" y="86.36"/>
 <instance part="SUPPLY1" gate="G$1" x="-73.66" y="142.24"/>
 <instance part="GND-ISO1" gate="G$1" x="-73.66" y="99.06"/>
@@ -1954,16 +1688,18 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <instance part="D14" gate="G$1" x="91.44" y="-2.54" rot="R90"/>
 <instance part="SUPPLY2" gate="G$1" x="-73.66" y="33.02"/>
 <instance part="GND-ISO2" gate="G$1" x="-73.66" y="-10.16"/>
-<instance part="GND-ISO3" gate="G$1" x="104.14" y="167.64"/>
-<instance part="GND-ISO4" gate="G$1" x="104.14" y="149.86"/>
-<instance part="GND-ISO5" gate="G$1" x="104.14" y="129.54"/>
-<instance part="GND-ISO6" gate="G$1" x="104.14" y="111.76"/>
-<instance part="GND-ISO7" gate="G$1" x="104.14" y="93.98"/>
+<instance part="GND-ISO3" gate="G$1" x="104.14" y="96.52"/>
+<instance part="GND-ISO4" gate="G$1" x="104.14" y="167.64"/>
+<instance part="GND-ISO5" gate="G$1" x="104.14" y="147.32"/>
+<instance part="GND-ISO6" gate="G$1" x="104.14" y="129.54"/>
+<instance part="GND-ISO7" gate="G$1" x="104.14" y="111.76"/>
 <instance part="GND-ISO8" gate="G$1" x="106.68" y="-15.24"/>
 <instance part="GND-ISO9" gate="G$1" x="106.68" y="2.54"/>
 <instance part="GND-ISO10" gate="G$1" x="106.68" y="20.32"/>
 <instance part="GND-ISO11" gate="G$1" x="106.68" y="38.1"/>
 <instance part="GND-ISO12" gate="G$1" x="106.68" y="63.5"/>
+<instance part="SUPPLY3" gate="G$1" x="-88.9" y="127"/>
+<instance part="GND-ISO13" gate="G$1" x="-88.9" y="116.84"/>
 </instances>
 <busses>
 </busses>
@@ -2021,10 +1757,10 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <junction x="73.66" y="142.24"/>
 <wire x1="73.66" y1="142.24" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 <junction x="73.66" y="142.24"/>
-<pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="91.44" y1="99.06" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="91.44" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="91.44" y1="99.06" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -2037,11 +1773,11 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="D2" gate="A" pin="A"/>
 <wire x1="25.4" y1="177.8" x2="73.66" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="177.8" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="185.42" x2="91.44" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="193.04" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="193.04" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="91.44" y1="185.42" x2="91.44" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -2076,32 +1812,25 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="RSENSE1" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="170.18" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="152.4" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="170.18" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="134.62" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="152.4" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="C"/>
 <pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="116.84" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="134.62" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND-ISO" class="0">
@@ -2146,13 +1875,9 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="40.64" y1="99.06" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
 <junction x="40.64" y="91.44"/>
 <wire x1="-66.04" y1="106.68" x2="-73.66" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="106.68" x2="-73.66" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="121.92" x2="-81.28" y2="121.92" width="0.1524" layer="91"/>
 <junction x="-66.04" y="106.68"/>
-<pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="GND-ISO1" gate="G$1" pin="GND-ISO"/>
 <wire x1="-73.66" y1="106.68" x2="-73.66" y2="101.6" width="0.1524" layer="91"/>
-<junction x="-73.66" y="106.68"/>
 </segment>
 <segment>
 <pinref part="D14" gate="G$1" pin="GND"/>
@@ -2187,30 +1912,30 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <segment>
 <pinref part="D7" gate="G$1" pin="GND"/>
 <pinref part="GND-ISO7" gate="G$1" pin="GND-ISO"/>
-<wire x1="96.52" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="99.06" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D6" gate="G$1" pin="GND"/>
-<pinref part="GND-ISO6" gate="G$1" pin="GND-ISO"/>
 <wire x1="96.52" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="116.84" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="GND"/>
-<pinref part="GND-ISO5" gate="G$1" pin="GND-ISO"/>
+<pinref part="D6" gate="G$1" pin="GND"/>
+<pinref part="GND-ISO6" gate="G$1" pin="GND-ISO"/>
 <wire x1="96.52" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="134.62" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="D5" gate="G$1" pin="GND"/>
+<pinref part="GND-ISO5" gate="G$1" pin="GND-ISO"/>
+<wire x1="96.52" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="152.4" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="D4" gate="G$1" pin="GND"/>
 <pinref part="GND-ISO4" gate="G$1" pin="GND-ISO"/>
-<wire x1="96.52" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="GND"/>
 <pinref part="GND-ISO3" gate="G$1" pin="GND-ISO"/>
-<wire x1="96.52" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CIN1" gate="A" pin="2"/>
@@ -2257,6 +1982,12 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="U2" gate="A" pin="GND"/>
 <wire x1="12.7" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="GND-ISO13" gate="G$1" pin="GND-ISO"/>
+<wire x1="-93.98" y1="121.92" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="121.92" x2="-88.9" y2="119.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="24V" class="0">
 <segment>
@@ -2280,12 +2011,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="U1" gate="A" pin="VIN"/>
 <wire x1="-66.04" y1="137.16" x2="-73.66" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-66.04" y="137.16"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-81.28" y1="124.46" x2="-73.66" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="124.46" x2="-73.66" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="24V"/>
 <wire x1="-73.66" y1="137.16" x2="-73.66" y2="142.24" width="0.1524" layer="91"/>
-<junction x="-73.66" y="137.16"/>
 </segment>
 <segment>
 <pinref part="CIN1" gate="A" pin="1"/>
@@ -2310,6 +2037,12 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <junction x="-66.04" y="27.94"/>
 <pinref part="SUPPLY2" gate="G$1" pin="24V"/>
 <wire x1="-73.66" y1="27.94" x2="-73.66" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY3" gate="G$1" pin="24V"/>
+<wire x1="-93.98" y1="124.46" x2="-88.9" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="124.46" x2="-88.9" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PDIM1" class="0">
@@ -2470,6 +2203,13 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="D13" gate="G$1" pin="C"/>
 <pinref part="D14" gate="G$1" pin="A"/>
 <wire x1="91.44" y1="7.62" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="91.44" y1="116.84" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
