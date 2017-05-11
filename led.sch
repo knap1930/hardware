@@ -1610,7 +1610,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <part name="R_RT1" library="derek" deviceset="CRCW0402162KFKED" device=""/>
 <part name="D8" library="derek" deviceset="PMEG6010CEH,115" device=""/>
 <part name="CBOOT1" library="derek" deviceset="08053C104KAT2A" device=""/>
-<part name="D9" library="derek" deviceset="BAT54WSTR" device=""/>
+<part name="GND-ISO" library="derek" deviceset="BAT54WSTR" device=""/>
 <part name="L2" library="derek" deviceset="74408943220" device=""/>
 <part name="RSENSE2" library="derek" deviceset="CRCW04021K00FKED" device=""/>
 <part name="RSENSE3" library="derek" deviceset="CRM0805-FX-R510ELF" device=""/>
@@ -1676,7 +1676,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <instance part="R_RT1" gate="A" x="-27.94" y="-2.54" rot="R90"/>
 <instance part="D8" gate="A" x="17.78" y="68.58"/>
 <instance part="CBOOT1" gate="A" x="17.78" y="58.42"/>
-<instance part="D9" gate="A" x="40.64" y="-2.54" rot="R270"/>
+<instance part="GND-ISO" gate="A" x="40.64" y="-2.54" rot="R270"/>
 <instance part="L2" gate="A" x="55.88" y="58.42"/>
 <instance part="RSENSE2" gate="A" x="55.88" y="33.02"/>
 <instance part="RSENSE3" gate="A" x="73.66" y="-2.54" rot="R90"/>
@@ -1972,7 +1972,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="CIADJ1" gate="A" pin="2"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="10.16" y="-17.78"/>
-<pinref part="D9" gate="A" pin="A"/>
+<pinref part="GND-ISO" gate="A" pin="A"/>
 <wire x1="40.64" y1="-10.16" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="40.64" y="-17.78"/>
 <wire x1="-66.04" y1="-2.54" x2="-73.66" y2="-2.54" width="0.1524" layer="91"/>
@@ -2098,7 +2098,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <net name="N$16" class="0">
 <segment>
 <pinref part="L2" gate="A" pin="1"/>
-<pinref part="D9" gate="A" pin="C"/>
+<pinref part="GND-ISO" gate="A" pin="C"/>
 <wire x1="48.26" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="58.42" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="CBOOT1" gate="A" pin="1"/>
