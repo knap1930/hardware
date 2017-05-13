@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -173,6 +173,23 @@
 <text x="-1.732" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="1.732" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 <package name="1210">
 <description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
@@ -220,13 +237,13 @@
 <wire x1="-0.9" y1="0.825" x2="0.9" y2="0.825" width="0.2032" layer="21"/>
 <wire x1="-0.9" y1="-0.825" x2="0.9" y2="-0.825" width="0.2032" layer="21"/>
 </package>
-<package name="IND_WE-SPC">
-<smd name="1" x="-1.75" y="0" dx="2" dy="5.3" layer="1"/>
-<smd name="2" x="1.75" y="0" dx="2" dy="5.3" layer="1"/>
-<text x="0" y="2.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.962" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.9" y1="2.4" x2="0.9" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-2.4" x2="0.9" y2="-2.4" width="0.2032" layer="21"/>
+<package name="SRN6045">
+<smd name="1" x="-2.15" y="0" dx="2" dy="6" layer="1"/>
+<smd name="2" x="2.15" y="0" dx="2" dy="6" layer="1"/>
+<text x="0" y="3.162" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="-0.1" y="-3.162" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="3" x2="0.9" y2="3" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-3" x2="0.9" y2="-3" width="0.2032" layer="21"/>
 </package>
 <package name="XLAMP-XPG">
 <smd name="A" x="1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
@@ -972,7 +989,11 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <connect gate="A" pin="VIN" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND"/>
+<attribute name="PART_NUMBER" value="TPS92513DGQT" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="HV" package="TPS92513">
@@ -992,7 +1013,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <technology name="">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="296-42114-1-ND"/>
-<attribute name="PART_NUMBER" value="TPS92513HV" constant="no"/>
+<attribute name="PART_NUMBER" value="TPS92513HVDGQT" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1040,43 +1061,43 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW0402121KFKED" prefix="R">
+<deviceset name="CRCW040297K6FKED">
 <gates>
-<gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-121KLCT-ND" constant="no"/>
-<attribute name="PART_NUMBER" value="CRCW0402121KFKED"/>
-<attribute name="VALUE" value="121k" constant="no"/>
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND"/>
+<attribute name="PART_NUMBER" value="CRCW040297K6FKED"/>
+<attribute name="VALUE" value="97.6k"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW04027K68FKED" prefix="R">
+<deviceset name="CRCW04025K49FKED">
 <gates>
-<gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-7.68KLCT-ND"/>
-<attribute name="PART_NUMBER" value="CRCW04027K68FKED" constant="no"/>
-<attribute name="VALUE" value="7.68k"/>
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND"/>
+<attribute name="PART_NUMBER" value="CRCW04025K49FKED"/>
+<attribute name="VALUE" value="5.49k"/>
 </technology>
 </technologies>
 </device>
@@ -1227,22 +1248,22 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </device>
 </devices>
 </deviceset>
-<deviceset name="74408943220" prefix="L">
+<deviceset name="SRN6045-330M">
 <gates>
-<gate name="A" symbol="WB_INDUCTOR" x="0" y="0"/>
+<gate name="G$1" symbol="WB_INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IND_WE-SPC">
+<device name="" package="SRN6045">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET_URL" value="http://katalog.we-online.de/pbs/datasheet/74408943220.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="732-3034-1-ND"/>
-<attribute name="PART_NUMBER" value="74408943220"/>
-<attribute name="VALUE" value="22µH"/>
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND"/>
+<attribute name="PART_NUMBER" value="SRN6045-330M"/>
+<attribute name="VALUE" value="33µH"/>
 </technology>
 </technologies>
 </device>
@@ -1614,47 +1635,28 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </device>
 </devices>
 </deviceset>
-<deviceset name="BAT54WS-TP">
-<gates>
-<gate name="G$1" symbol="WB_DIODE_SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET_URL" value="http://www.mccsemi.com/up_pdf/BAT54WS(SOD-323).pdf" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="BAT54WS-TPCT-ND" constant="no"/>
-<attribute name="PART_NUMBER" value="BAT54WS-TP"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="GRM32ER71J106MA12L">
+<deviceset name="GRM31MR71H105KA88L">
 <gates>
 <gate name="G$1" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1210">
+<device name="" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-9971-1-ND"/>
-<attribute name="PART_NUMBER" value="GRM32ER71J106MA12L"/>
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L"/>
+<attribute name="VALUE" value="1µF"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW04021K00DHEDP">
+<deviceset name="CRCW0402976RFKED">
 <gates>
 <gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
@@ -1666,9 +1668,10 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND"/>
-<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP"/>
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND"/>
+<attribute name="PART_NUMBER" value="CRCW0402976RFKED" constant="no"/>
+<attribute name="VALUE" value="976"/>
 </technology>
 </technologies>
 </device>
@@ -1686,20 +1689,20 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </class>
 </classes>
 <parts>
-<part name="U1" library="derek" deviceset="TPS92513" device="HV"/>
-<part name="CIN" library="derek" deviceset="GRM32ER71J106MA12L" device="" value="10µF"/>
+<part name="U1" library="derek" deviceset="TPS92513" device="" value="TPS92513"/>
+<part name="CIN" library="derek" deviceset="GRM31MR71H105KA88L" device="" value="1µF"/>
 <part name="CINX" library="derek" deviceset="GCM155R71H103KA55D" device="" value="10000pF"/>
-<part name="RUVLOT" library="derek" deviceset="CRCW0402121KFKED" device="" value="121k"/>
-<part name="RUVLOB" library="derek" deviceset="CRCW04027K68FKED" device="" value="7.68k"/>
+<part name="RUVLOT" library="derek" deviceset="CRCW040297K6FKED" device="" value="97.6k"/>
+<part name="RUVLOB" library="derek" deviceset="CRCW04025K49FKED" device="" value="5.49k"/>
 <part name="CIADJ" library="derek" deviceset="CC0805KRX7R9BB103" device="" value="10000pF"/>
-<part name="RIADJ" library="derek" deviceset="CRCW04021K00DHEDP" device="" value="1k"/>
+<part name="RIADJ" library="derek" deviceset="CRCW0402976RFKED" device="" value="976"/>
 <part name="CCOMP" library="derek" deviceset="CC0805KRX7R8BB104" device="" value="0.1µF"/>
-<part name="R_RT" library="derek" deviceset="CRCW0402162KFKED" device="" value="162k"/>
+<part name="RT" library="derek" deviceset="CRCW0402162KFKED" device="" value="162k"/>
 <part name="D2" library="derek" deviceset="PMEG6010CEH,115" device=""/>
 <part name="CBOOT" library="derek" deviceset="08053C104KAT2A" device="" value="0.1µF"/>
-<part name="D1" library="derek" deviceset="BAT54WS-TP" device=""/>
-<part name="L1" library="derek" deviceset="74408943220" device="" value="22µH"/>
-<part name="RSENSE1" library="derek" deviceset="CRCW04021K00DHEDP" device="" value="1k"/>
+<part name="D1" library="derek" deviceset="PMEG6010CEH,115" device=""/>
+<part name="L1" library="derek" deviceset="SRN6045-330M" device="" value="33µH"/>
+<part name="RSENSE1" library="derek" deviceset="CRCW0402976RFKED" device="" value="976"/>
 <part name="RSENSE" library="derek" deviceset="CRM0805-FX-R510ELF" device="" value="0.51"/>
 <part name="COUT" library="derek" deviceset="GMK212B7105KG-T" device="" value="1µF"/>
 <part name="D3" library="derek" deviceset="XPGWHT" device="-L1-0000-00BE8" value="XPGWHT-L1-0000-00BE8"/>
@@ -1711,21 +1714,21 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <part name="J2" library="derek" deviceset="CONN_02" device=""/>
 <part name="SUPPLY1" library="derek" deviceset="24V" device=""/>
 <part name="GND-ISO1" library="derek" deviceset="GND-ISO" device=""/>
-<part name="U2" library="derek" deviceset="TPS92513" device="HV"/>
-<part name="CIN1" library="derek" deviceset="GRM32ER71J106MA12L" device="" value="10µF"/>
+<part name="U2" library="derek" deviceset="TPS92513" device="" value="TPS92513"/>
+<part name="CIN1" library="derek" deviceset="GRM31MR71H105KA88L" device="" value="1µF"/>
 <part name="CINX1" library="derek" deviceset="GCM155R71H103KA55D" device="" value="10000pF"/>
-<part name="RUVLOT1" library="derek" deviceset="CRCW0402121KFKED" device="" value="121k"/>
-<part name="RUVLOB1" library="derek" deviceset="CRCW04027K68FKED" device="" value="7.68k"/>
+<part name="RUVLOT1" library="derek" deviceset="CRCW040297K6FKED" device="" value="97.6k"/>
+<part name="RUVLOB1" library="derek" deviceset="CRCW04025K49FKED" device="" value="5.49k"/>
 <part name="CIADJ1" library="derek" deviceset="CC0805KRX7R9BB103" device="" value="10000pF"/>
-<part name="RIADJ1" library="derek" deviceset="CRCW04021K00DHEDP" device="" value="1k"/>
+<part name="RIADJ1" library="derek" deviceset="CRCW0402976RFKED" device="" value="976"/>
 <part name="CCOMP1" library="derek" deviceset="CC0805KRX7R8BB104" device="" value="0.1µF"/>
-<part name="R_RT1" library="derek" deviceset="CRCW0402162KFKED" device="" value="162k"/>
+<part name="RT1" library="derek" deviceset="CRCW0402162KFKED" device="" value="162k"/>
 <part name="D8" library="derek" deviceset="PMEG6010CEH,115" device=""/>
 <part name="CBOOT1" library="derek" deviceset="08053C104KAT2A" device="" value="0.1µF"/>
-<part name="GND-ISO" library="derek" deviceset="BAT54WS-TP" device=""/>
-<part name="L2" library="derek" deviceset="74408943220" device="" value="22µH"/>
-<part name="RSENSE2" library="derek" deviceset="CRCW04021K00DHEDP" device="" value="1k"/>
-<part name="RSENSE3" library="derek" deviceset="CRM0805-FX-R510ELF" device="" value="0.51"/>
+<part name="D9" library="derek" deviceset="PMEG6010CEH,115" device=""/>
+<part name="L2" library="derek" deviceset="SRN6045-330M" device="" value="33µH"/>
+<part name="RSENSE3" library="derek" deviceset="CRCW0402976RFKED" device="" value="976"/>
+<part name="RSENSE2" library="derek" deviceset="CRM0805-FX-R510ELF" device="" value="0.51"/>
 <part name="COUT1" library="derek" deviceset="GMK212B7105KG-T" device="" value="1µF"/>
 <part name="D10" library="derek" deviceset="XPGWHT" device="-L1-0000-00G51" value="XPGWHT-L1-0000-00G51"/>
 <part name="D11" library="derek" deviceset="XPGWHT" device="-L1-0000-00G51" value="XPGWHT-L1-0000-00G51"/>
@@ -1746,6 +1749,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <part name="GND-ISO12" library="derek" deviceset="GND-ISO" device=""/>
 <part name="SUPPLY3" library="derek" deviceset="24V" device=""/>
 <part name="GND-ISO13" library="derek" deviceset="GND-ISO" device=""/>
+<part name="CIN2" library="derek" deviceset="GRM31MR71H105KA88L" device="" value="1µF"/>
+<part name="CIN3" library="derek" deviceset="GRM31MR71H105KA88L" device="" value="1µF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1755,16 +1760,16 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <instance part="U1" gate="A" x="-5.08" y="147.32"/>
 <instance part="CIN" gate="G$1" x="-66.04" y="121.92" rot="R90"/>
 <instance part="CINX" gate="A" x="-58.42" y="121.92" rot="R90"/>
-<instance part="RUVLOT" gate="A" x="-50.8" y="137.16" rot="R90"/>
-<instance part="RUVLOB" gate="A" x="-50.8" y="106.68" rot="R90"/>
+<instance part="RUVLOT" gate="G$1" x="-50.8" y="137.16" rot="R90"/>
+<instance part="RUVLOB" gate="G$1" x="-50.8" y="106.68" rot="R90"/>
 <instance part="CIADJ" gate="A" x="10.16" y="106.68" rot="R90"/>
 <instance part="RIADJ" gate="G$1" x="17.78" y="106.68" rot="R90"/>
 <instance part="CCOMP" gate="A" x="25.4" y="106.68" rot="R90"/>
-<instance part="R_RT" gate="A" x="-27.94" y="106.68" rot="R90"/>
+<instance part="RT" gate="A" x="-27.94" y="106.68" rot="R90"/>
 <instance part="D2" gate="A" x="17.78" y="177.8"/>
 <instance part="CBOOT" gate="A" x="17.78" y="167.64"/>
-<instance part="D1" gate="G$1" x="40.64" y="106.68" rot="R270"/>
-<instance part="L1" gate="A" x="55.88" y="167.64"/>
+<instance part="D1" gate="A" x="40.64" y="106.68" rot="R270"/>
+<instance part="L1" gate="G$1" x="55.88" y="167.64"/>
 <instance part="RSENSE1" gate="G$1" x="55.88" y="142.24"/>
 <instance part="RSENSE" gate="A" x="73.66" y="106.68" rot="R90"/>
 <instance part="COUT" gate="A" x="73.66" y="154.94" rot="R90"/>
@@ -1780,18 +1785,18 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <instance part="U2" gate="A" x="-5.08" y="38.1"/>
 <instance part="CIN1" gate="G$1" x="-66.04" y="12.7" rot="R90"/>
 <instance part="CINX1" gate="A" x="-58.42" y="12.7" rot="R90"/>
-<instance part="RUVLOT1" gate="A" x="-50.8" y="27.94" rot="R90"/>
-<instance part="RUVLOB1" gate="A" x="-50.8" y="-2.54" rot="R90"/>
+<instance part="RUVLOT1" gate="G$1" x="-50.8" y="27.94" rot="R90"/>
+<instance part="RUVLOB1" gate="G$1" x="-50.8" y="-2.54" rot="R90"/>
 <instance part="CIADJ1" gate="A" x="10.16" y="-2.54" rot="R90"/>
 <instance part="RIADJ1" gate="G$1" x="17.78" y="-2.54" rot="R90"/>
 <instance part="CCOMP1" gate="A" x="25.4" y="-2.54" rot="R90"/>
-<instance part="R_RT1" gate="A" x="-27.94" y="-2.54" rot="R90"/>
+<instance part="RT1" gate="A" x="-27.94" y="-2.54" rot="R90"/>
 <instance part="D8" gate="A" x="17.78" y="68.58"/>
 <instance part="CBOOT1" gate="A" x="17.78" y="58.42"/>
-<instance part="GND-ISO" gate="G$1" x="40.64" y="-2.54" rot="R270"/>
-<instance part="L2" gate="A" x="55.88" y="58.42"/>
-<instance part="RSENSE2" gate="G$1" x="55.88" y="33.02"/>
-<instance part="RSENSE3" gate="A" x="73.66" y="-2.54" rot="R90"/>
+<instance part="D9" gate="A" x="40.64" y="-2.54" rot="R270"/>
+<instance part="L2" gate="G$1" x="55.88" y="58.42"/>
+<instance part="RSENSE3" gate="G$1" x="55.88" y="33.02"/>
+<instance part="RSENSE2" gate="A" x="73.66" y="-2.54" rot="R90"/>
 <instance part="COUT1" gate="A" x="73.66" y="45.72" rot="R90"/>
 <instance part="D10" gate="G$1" x="91.44" y="68.58" rot="R90"/>
 <instance part="D11" gate="G$1" x="91.44" y="50.8" rot="R90"/>
@@ -1812,6 +1817,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <instance part="GND-ISO12" gate="G$1" x="106.68" y="63.5"/>
 <instance part="SUPPLY3" gate="G$1" x="-88.9" y="127"/>
 <instance part="GND-ISO13" gate="G$1" x="-88.9" y="116.84"/>
+<instance part="CIN2" gate="G$1" x="-76.2" y="121.92" rot="R90"/>
+<instance part="CIN3" gate="G$1" x="-76.2" y="12.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1821,8 +1828,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="-43.18" y1="121.92" x2="-43.18" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="UVLO"/>
 <wire x1="-43.18" y1="147.32" x2="-22.86" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="RUVLOT" gate="A" pin="2"/>
-<pinref part="RUVLOB" gate="A" pin="1"/>
+<pinref part="RUVLOT" gate="G$1" pin="2"/>
+<pinref part="RUVLOB" gate="G$1" pin="1"/>
 <wire x1="-50.8" y1="114.3" x2="-50.8" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="121.92" x2="-50.8" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="121.92" x2="-50.8" y2="121.92" width="0.1524" layer="91"/>
@@ -1844,8 +1851,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="L1" gate="A" pin="1"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="D1" gate="A" pin="C"/>
 <wire x1="48.26" y1="167.64" x2="40.64" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="167.64" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="CBOOT" gate="A" pin="1"/>
@@ -1877,7 +1884,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="L1" gate="A" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="COUT" gate="A" pin="1"/>
 <wire x1="73.66" y1="162.56" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
@@ -1894,7 +1901,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R_RT" gate="A" pin="1"/>
+<pinref part="RT" gate="A" pin="1"/>
 <wire x1="-27.94" y1="114.3" x2="-27.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="137.16" x2="-22.86" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="RT/CLK"/>
@@ -1953,12 +1960,12 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="-66.04" y1="106.68" x2="-66.04" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="91.44" x2="-58.42" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="91.44" x2="-58.42" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="RUVLOB" gate="A" pin="2"/>
+<pinref part="RUVLOB" gate="G$1" pin="2"/>
 <wire x1="-50.8" y1="99.06" x2="-50.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="91.44" x2="-58.42" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-58.42" y="91.44"/>
 <junction x="-50.8" y="91.44"/>
-<pinref part="R_RT" gate="A" pin="2"/>
+<pinref part="RT" gate="A" pin="2"/>
 <wire x1="-50.8" y1="91.44" x2="-27.94" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="91.44" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="RSENSE" gate="A" pin="2"/>
@@ -1983,13 +1990,17 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="CIADJ" gate="A" pin="2"/>
 <wire x1="10.16" y1="99.06" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <junction x="10.16" y="91.44"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D1" gate="A" pin="A"/>
 <wire x1="40.64" y1="99.06" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
 <junction x="40.64" y="91.44"/>
 <wire x1="-66.04" y1="106.68" x2="-73.66" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-66.04" y="106.68"/>
 <pinref part="GND-ISO1" gate="G$1" pin="GND-ISO"/>
 <wire x1="-73.66" y1="106.68" x2="-73.66" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="CIN2" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="114.3" x2="-73.66" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="114.3" x2="-73.66" y2="106.68" width="0.1524" layer="91"/>
+<junction x="-73.66" y="106.68"/>
 </segment>
 <segment>
 <pinref part="D14" gate="G$1" pin="GND"/>
@@ -2056,15 +2067,15 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="-66.04" y1="-2.54" x2="-66.04" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="-17.78" x2="-58.42" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-17.78" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="RUVLOB1" gate="A" pin="2"/>
+<pinref part="RUVLOB1" gate="G$1" pin="2"/>
 <wire x1="-50.8" y1="-10.16" x2="-50.8" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-17.78" x2="-58.42" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="-58.42" y="-17.78"/>
 <junction x="-50.8" y="-17.78"/>
-<pinref part="R_RT1" gate="A" pin="2"/>
+<pinref part="RT1" gate="A" pin="2"/>
 <wire x1="-50.8" y1="-17.78" x2="-27.94" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-17.78" x2="-27.94" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="RSENSE3" gate="A" pin="2"/>
+<pinref part="RSENSE2" gate="A" pin="2"/>
 <wire x1="-27.94" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="-17.78" x2="17.78" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
@@ -2084,7 +2095,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <pinref part="CIADJ1" gate="A" pin="2"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="10.16" y="-17.78"/>
-<pinref part="GND-ISO" gate="G$1" pin="A"/>
+<pinref part="D9" gate="A" pin="A"/>
 <wire x1="40.64" y1="-10.16" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="40.64" y="-17.78"/>
 <wire x1="-66.04" y1="-2.54" x2="-73.66" y2="-2.54" width="0.1524" layer="91"/>
@@ -2093,6 +2104,10 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="-73.66" y1="-2.54" x2="-73.66" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="GND"/>
 <wire x1="12.7" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="CIN3" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="5.08" x2="-73.66" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="5.08" x2="-73.66" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-73.66" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -2109,7 +2124,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="-66.04" y1="137.16" x2="-66.04" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="152.4" x2="-58.42" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="152.4" x2="-58.42" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="RUVLOT" gate="A" pin="1"/>
+<pinref part="RUVLOT" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="152.4" x2="-50.8" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="152.4" x2="-50.8" y2="144.78" width="0.1524" layer="91"/>
 <junction x="-58.42" y="152.4"/>
@@ -2125,6 +2140,10 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <junction x="-66.04" y="137.16"/>
 <pinref part="SUPPLY1" gate="G$1" pin="24V"/>
 <wire x1="-73.66" y1="137.16" x2="-73.66" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="CIN2" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="129.54" x2="-73.66" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="129.54" x2="-73.66" y2="137.16" width="0.1524" layer="91"/>
+<junction x="-73.66" y="137.16"/>
 </segment>
 <segment>
 <pinref part="CIN1" gate="G$1" pin="1"/>
@@ -2133,7 +2152,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="-66.04" y1="27.94" x2="-66.04" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="43.18" x2="-58.42" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="43.18" x2="-58.42" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="RUVLOT1" gate="A" pin="1"/>
+<pinref part="RUVLOT1" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="43.18" x2="-50.8" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="43.18" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-58.42" y="43.18"/>
@@ -2149,6 +2168,10 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <junction x="-66.04" y="27.94"/>
 <pinref part="SUPPLY2" gate="G$1" pin="24V"/>
 <wire x1="-73.66" y1="27.94" x2="-73.66" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="CIN3" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="20.32" x2="-73.66" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="20.32" x2="-73.66" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-73.66" y="27.94"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -2186,8 +2209,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <wire x1="-43.18" y1="12.7" x2="-43.18" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="UVLO"/>
 <wire x1="-43.18" y1="38.1" x2="-22.86" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="RUVLOT1" gate="A" pin="2"/>
-<pinref part="RUVLOB1" gate="A" pin="1"/>
+<pinref part="RUVLOT1" gate="G$1" pin="2"/>
+<pinref part="RUVLOB1" gate="G$1" pin="1"/>
 <wire x1="-50.8" y1="5.08" x2="-50.8" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="12.7" x2="-50.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="12.7" x2="-50.8" y2="12.7" width="0.1524" layer="91"/>
@@ -2209,8 +2232,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="L2" gate="A" pin="1"/>
-<pinref part="GND-ISO" gate="G$1" pin="C"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="D9" gate="A" pin="C"/>
 <wire x1="48.26" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="58.42" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="CBOOT1" gate="A" pin="1"/>
@@ -2225,8 +2248,8 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="RSENSE2" gate="G$1" pin="1"/>
-<pinref part="RSENSE3" gate="A" pin="1"/>
+<pinref part="RSENSE3" gate="G$1" pin="1"/>
+<pinref part="RSENSE2" gate="A" pin="1"/>
 <wire x1="63.5" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="33.02" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="COUT1" gate="A" pin="2"/>
@@ -2242,7 +2265,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="L2" gate="A" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="COUT1" gate="A" pin="1"/>
 <wire x1="73.66" y1="53.34" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
@@ -2259,7 +2282,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R_RT1" gate="A" pin="1"/>
+<pinref part="RT1" gate="A" pin="1"/>
 <wire x1="-27.94" y1="5.08" x2="-27.94" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="27.94" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="RT/CLK"/>
@@ -2286,7 +2309,7 @@ tDocu indicate polarity for connections that match SparkFun LiPo battery termina
 <segment>
 <pinref part="U2" gate="A" pin="ISENSE"/>
 <wire x1="12.7" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="RSENSE2" gate="G$1" pin="2"/>
+<pinref part="RSENSE3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$23" class="0">

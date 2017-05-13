@@ -150,21 +150,22 @@
 <libraries>
 <library name="derek">
 <packages>
-<package name="1210">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+<package name="1206">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="0402">
 <smd name="1" x="-0.425" y="0" dx="0.55" dy="0.6" layer="1"/>
@@ -177,16 +178,6 @@
 <smd name="2" x="0.875" y="0" dx="1.1" dy="1.4" layer="1"/>
 <text x="0" y="0.862" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD-323">
-<description>SOD-323 (Small Outline Diode)</description>
-<wire x1="-1.67" y1="0.625" x2="-1.67" y2="-0.625" width="0.2032" layer="21"/>
-<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="0" y="0.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.962" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.9" y1="0.825" x2="0.9" y2="0.825" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.825" x2="0.9" y2="-0.825" width="0.2032" layer="21"/>
 </package>
 <package name="SOD-123F">
 <smd name="C" x="-1.45" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
@@ -238,13 +229,13 @@
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="IND_WE-SPC">
-<smd name="1" x="-1.75" y="0" dx="2" dy="5.3" layer="1"/>
-<smd name="2" x="1.75" y="0" dx="2" dy="5.3" layer="1"/>
-<text x="0" y="2.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.962" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.9" y1="2.4" x2="0.9" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-2.4" x2="0.9" y2="-2.4" width="0.2032" layer="21"/>
+<package name="SRN6045">
+<smd name="1" x="-2.15" y="0" dx="2" dy="6" layer="1"/>
+<smd name="2" x="2.15" y="0" dx="2" dy="6" layer="1"/>
+<text x="0" y="3.162" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="-0.1" y="-3.162" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="3" x2="0.9" y2="3" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-3" x2="0.9" y2="-3" width="0.2032" layer="21"/>
 </package>
 <package name="TPS92513">
 <smd name="1" x="-1" y="-2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
@@ -464,11 +455,11 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="CIN" library="derek" package="1210" value="10µF" x="34.55509375" y="53.16588125" rot="R198">
+<element name="CIN" library="derek" package="1206" value="1µF" x="34.55509375" y="53.16588125" rot="R198">
 <attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-9971-1-ND" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="PART_NUMBER" value="GRM32ER71J106MA12L" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="VALUE" value="10µF" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="1µF" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
 <element name="CINX" library="derek" package="0402" value="10000pF" x="36.219290625" y="51.6036875" rot="R198">
 <attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
@@ -500,10 +491,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="41.0900625" y="39.20185" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="VALUE" value="1µF" x="41.0900625" y="39.20185" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
-<element name="D1" library="derek" package="SOD-323" value="BAT54WS-TP" x="42.000921875" y="42.547046875" rot="R288">
-<attribute name="DATASHEET_URL" value="http://www.mccsemi.com/up_pdf/BAT54WS(SOD-323).pdf" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="BAT54WS-TPCT-ND" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="PART_NUMBER" value="BAT54WS-TP" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
+<element name="D1" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="42.000921875" y="42.547046875" rot="R288">
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
 </element>
 <element name="D2" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="42.381953125" y="51.08255" rot="R288">
 <attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
@@ -536,41 +527,41 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="13.1651" y="32.0422" size="1.778" layer="27" rot="R162" display="off"/>
 </element>
 <element name="J1" library="derek" package="1X02" value="" x="27.07" y="53.09" rot="R90"/>
-<element name="L1" library="derek" package="IND_WE-SPC" value="22µH" x="46.15946875" y="44.634265625" rot="R288">
-<attribute name="DATASHEET_URL" value="http://katalog.we-online.de/pbs/datasheet/74408943220.pdf" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="732-3034-1-ND" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="PART_NUMBER" value="74408943220" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VALUE" value="22µH" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<element name="L1" library="derek" package="SRN6045" value="33µH" x="46.15946875" y="44.634265625" rot="R288">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="PART_NUMBER" value="SRN6045-330M" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="VALUE" value="33µH" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
 </element>
-<element name="RUVLOT" library="derek" package="0402" value="121k" x="36.528309375" y="50.65263125" rot="R198">
+<element name="RUVLOT" library="derek" package="0402" value="97.6k" x="36.528309375" y="50.65263125" rot="R198">
 <attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-121KLCT-ND" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402121KFKED" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="VALUE" value="121k" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW040297K6FKED" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="97.6k" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
-<element name="RUVLOB" library="derek" package="0402" value="7.68k" x="33.86535" y="49.787384375" rot="R198">
+<element name="RUVLOB" library="derek" package="0402" value="5.49k" x="33.86535" y="49.787384375" rot="R198">
 <attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-7.68KLCT-ND" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW04027K68FKED" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="VALUE" value="7.68k" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04025K49FKED" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="5.49k" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
-<element name="RIADJ" library="derek" package="0402" value="1k" x="35.41733125" y="41.774809375" rot="R198">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="VALUE" value="1k" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+<element name="RIADJ" library="derek" package="0402" value="976" x="35.41733125" y="41.774809375" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="976" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
-<element name="R_RT" library="derek" package="0402" value="162k" x="34.514284375" y="47.790165625" rot="R198">
+<element name="RT" library="derek" package="0402" value="162k" x="34.514284375" y="47.790165625" rot="R198">
 <attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
 <attribute name="VALUE" value="162k" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
-<element name="RSENSE1" library="derek" package="0402" value="1k" x="36.722403125" y="38.729028125" rot="R108">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="VALUE" value="1k" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+<element name="RSENSE1" library="derek" package="0402" value="976" x="36.722403125" y="38.729028125" rot="R108">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="VALUE" value="976" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
 </element>
 <element name="RSENSE" library="derek" package="0805" value="0.51" x="38.1489875" y="39.192553125" rot="R108">
 <attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="38.1489875" y="39.192553125" size="1.778" layer="27" rot="R108" display="off"/>
@@ -578,22 +569,22 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="38.1489875" y="39.192553125" size="1.778" layer="27" rot="R108" display="off"/>
 <attribute name="VALUE" value="0.51" x="38.1489875" y="39.192553125" size="1.778" layer="27" rot="R108" display="off"/>
 </element>
-<element name="U1" library="derek" package="TPS92513" value="TPS92513HV" x="37.761975" y="46.5321875" rot="R198">
+<element name="U1" library="derek" package="TPS92513" value="TPS92513" x="37.761975" y="46.5321875" rot="R198">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="296-42114-1-ND" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="PART_NUMBER" value="TPS92513HV" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="TPS92513DGQT" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
 <element name="J2" library="derek" package="1X02" value="" x="29.6" y="50.2" rot="R180"/>
-<element name="U2" library="derek" package="TPS92513" value="TPS92513HV" x="14.6" y="43" rot="R270">
+<element name="U2" library="derek" package="TPS92513" value="TPS92513" x="14.6" y="43" rot="R270">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="296-42114-1-ND" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="TPS92513HV" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="TPS92513DGQT" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="CIN1" library="derek" package="1210" value="10µF" x="5.9" y="42" rot="R270">
+<element name="CIN1" library="derek" package="1206" value="1µF" x="5.9" y="42" rot="R270">
 <attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-9971-1-ND" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="GRM32ER71J106MA12L" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="10µF" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="1µF" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CINX1" library="derek" package="0402" value="10000pF" x="8.2" y="43.1" rot="R270">
 <attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="8.2" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -601,17 +592,17 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="8.2" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10000pF" x="8.2" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RUVLOT1" library="derek" package="0402" value="121k" x="9.3" y="43.1" rot="R270">
+<element name="RUVLOT1" library="derek" package="0402" value="97.6k" x="9.3" y="43.1" rot="R270">
 <attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-121KLCT-ND" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402121KFKED" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="121k" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW040297K6FKED" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="97.6k" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RUVLOB1" library="derek" package="0402" value="7.68k" x="9.3" y="40.5" rot="R270">
+<element name="RUVLOB1" library="derek" package="0402" value="5.49k" x="9.3" y="40.5" rot="R270">
 <attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-7.68KLCT-ND" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW04027K68FKED" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="7.68k" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04025K49FKED" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="5.49k" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CIADJ1" library="derek" package="0805" value="10000pF" x="17.4" y="39.6" rot="R270">
 <attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="17.4" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -619,11 +610,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="17.4" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10000pF" x="17.4" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RIADJ1" library="derek" package="0402" value="1k" x="19.1" y="39.6" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="1k" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="RIADJ1" library="derek" package="0402" value="976" x="19.1" y="39.6" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="976" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CCOMP1" library="derek" package="0805" value="0.1µF" x="20.3" y="43">
 <attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="20.3" y="43" size="1.778" layer="27" display="off"/>
@@ -631,7 +622,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="20.3" y="43" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1µF" x="20.3" y="43" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R_RT1" library="derek" package="0402" value="162k" x="12.4" y="40.5" rot="R270">
+<element name="RT1" library="derek" package="0402" value="162k" x="12.4" y="40.5" rot="R270">
 <attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="12.4" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="12.4" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="12.4" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -648,24 +639,24 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="08053C104KAT2A" x="14.7" y="46.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1µF" x="14.7" y="46.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="GND-ISO" library="derek" package="SOD-323" value="BAT54WS-TP" x="20.1" y="45.7">
-<attribute name="DATASHEET_URL" value="http://www.mccsemi.com/up_pdf/BAT54WS(SOD-323).pdf" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="BAT54WS-TPCT-ND" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="BAT54WS-TP" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
+<element name="D9" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="20.1" y="45.7">
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L2" library="derek" package="IND_WE-SPC" value="22µH" x="21.3" y="49.6">
-<attribute name="DATASHEET_URL" value="http://katalog.we-online.de/pbs/datasheet/74408943220.pdf" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="732-3034-1-ND" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="74408943220" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="22µH" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
+<element name="L2" library="derek" package="SRN6045" value="33µH" x="21.3" y="49.6">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="SRN6045-330M" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="33µH" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RSENSE2" library="derek" package="0402" value="1k" x="22.1" y="39.7" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="1k" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="RSENSE3" library="derek" package="0402" value="976" x="22.1" y="39.7" rot="R180">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="976" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="RSENSE3" library="derek" package="0805" value="0.51" x="22.1" y="41.2" rot="R180">
+<element name="RSENSE2" library="derek" package="0805" value="0.51" x="22.1" y="41.2" rot="R180">
 <attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="22.1" y="41.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="22.1" y="41.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="22.1" y="41.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -702,6 +693,16 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="14.4011" y="35.8464" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="14.4011" y="35.8464" size="1.778" layer="27" rot="R162" display="off"/>
 </element>
+<element name="CIN2" library="derek" package="1206" value="1µF" x="3.5" y="38.3" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="3.5" y="38.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="3.5" y="38.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="3.5" y="38.3" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="CIN3" library="derek" package="1206" value="1µF" x="32.4" y="55.6" rot="R180">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="32.4" y="55.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="32.4" y="55.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="32.4" y="55.6" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$3">
@@ -729,10 +730,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="10"/>
 <wire x1="40.2504375" y1="45.027521875" x2="39.39286875" y2="44.748878125" width="0.4064" layer="1"/>
 <wire x1="40.2504375" y1="45.027521875" x2="41.011540625" y2="46.562859375" width="0.4064" layer="1"/>
-<wire x1="41.661003125" y1="43.59320625" x2="41.3823625" y2="44.450775" width="0.4064" layer="1"/>
+<wire x1="41.552846875" y1="43.926078125" x2="41.3823625" y2="44.450775" width="0.4064" layer="1"/>
 <wire x1="41.3823625" y1="44.450775" x2="40.2504375" y2="45.027521875" width="0.4064" layer="1"/>
 <wire x1="41.011540625" y1="46.562859375" x2="43.54418125" y2="47.357690625" width="0.4064" layer="1"/>
-<wire x1="43.54418125" y1="47.357690625" x2="45.6186875" y2="46.2986125" width="0.4064" layer="1"/>
+<wire x1="43.54418125" y1="47.357690625" x2="45.49508125" y2="46.679034375" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="RSENSE1" pad="1"/>
@@ -755,17 +756,17 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D4" pad="A"/>
 <wire x1="42.830025" y1="49.703515625" x2="44.9069" y2="50.430909375" width="0.4064" layer="1"/>
 <wire x1="48.561115625" y1="48.56899375" x2="44.9069" y2="50.430909375" width="0.4064" layer="1"/>
-<wire x1="46.700246875" y1="42.969915625" x2="49.7895125" y2="43.97094375" width="0.4064" layer="1"/>
+<wire x1="46.823853125" y1="42.58949375" x2="49.7895125" y2="43.97094375" width="0.4064" layer="1"/>
 <wire x1="49.7895125" y1="43.97094375" x2="49.951690625" y2="44.2892375" width="0.4064" layer="1"/>
 <wire x1="49.951690625" y1="44.2892375" x2="48.561115625" y2="48.56899375" width="0.4064" layer="1"/>
 <wire x1="45.514946875" y1="40.639584375" x2="41.922234375" y2="39.4722375" width="0.4064" layer="1"/>
-<wire x1="45.514946875" y1="40.639584375" x2="46.700246875" y2="42.969915625" width="0.4064" layer="1"/>
+<wire x1="45.514946875" y1="40.639584375" x2="46.823853125" y2="42.58949375" width="0.4064" layer="1"/>
 <wire x1="41.922234375" y1="39.4722375" x2="43.3195125" y2="39.4804875" width="0.4064" layer="1"/>
 <wire x1="43.3195125" y1="39.4804875" x2="44.2" y2="38.6" width="0.4064" layer="1"/>
 <wire x1="44.2" y1="38.6" x2="44.930378125" y2="36.279021875" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8">
-<contactref element="R_RT" pad="1"/>
+<contactref element="RT" pad="1"/>
 <contactref element="U1" pad="5"/>
 <wire x1="36.131078125" y1="48.31549375" x2="34.91848125" y2="47.921496875" width="0.4064" layer="1"/>
 </signal>
@@ -825,7 +826,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CIN" pad="2"/>
 <contactref element="CINX" pad="2"/>
 <contactref element="RUVLOB" pad="2"/>
-<contactref element="R_RT" pad="2"/>
+<contactref element="RT" pad="2"/>
 <contactref element="RSENSE" pad="2"/>
 <contactref element="CCOMP" pad="2"/>
 <contactref element="U1" pad="9"/>
@@ -842,14 +843,14 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CIN1" pad="2"/>
 <contactref element="CINX1" pad="2"/>
 <contactref element="RUVLOB1" pad="2"/>
-<contactref element="R_RT1" pad="2"/>
-<contactref element="RSENSE3" pad="2"/>
+<contactref element="RT1" pad="2"/>
+<contactref element="RSENSE2" pad="2"/>
 <contactref element="CCOMP1" pad="2"/>
 <contactref element="U2" pad="GND-ISO"/>
 <contactref element="U2" pad="9"/>
 <contactref element="RIADJ1" pad="2"/>
 <contactref element="CIADJ1" pad="2"/>
-<contactref element="GND-ISO" pad="A"/>
+<contactref element="D9" pad="A"/>
 <contactref element="D3" pad="P$3"/>
 <contactref element="D3" pad="P$1"/>
 <contactref element="D3" pad="P$2"/>
@@ -922,7 +923,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.4" y1="40.075" x2="9.3" y2="40.075" width="0.4064" layer="1"/>
 <wire x1="8.1" y1="40.0809" x2="9.3" y2="40.075" width="0.4064" layer="1"/>
 <wire x1="8.1" y1="40.0809" x2="6.3205" y2="40.0809" width="0.4064" layer="1"/>
-<wire x1="6.3205" y1="40.0809" x2="5.9" y2="40.245" width="0.4064" layer="1"/>
+<wire x1="6.3205" y1="40.0809" x2="5.9" y2="40.6" width="0.4064" layer="1"/>
 <wire x1="8.2" y1="42.675" x2="8.2" y2="40.1809" width="0.4064" layer="1"/>
 <wire x1="8.2" y1="40.1809" x2="8.1" y2="40.0809" width="0.4064" layer="1"/>
 <wire x1="14.7" y1="43.5" x2="16.8" y2="43.5" width="0.4064" layer="1"/>
@@ -931,7 +932,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.9" y1="43.5" x2="19.1" y2="44.7" width="0.4064" layer="1"/>
 <wire x1="21.2" y1="44.7" x2="20.5" y2="44.7" width="0.4064" layer="1"/>
 <wire x1="20.5" y1="44.7" x2="19.1" y2="44.7" width="0.4064" layer="1"/>
-<wire x1="21.2" y1="45.699996875" x2="21.2" y2="45.7" width="0.4064" layer="1"/>
+<wire x1="21.2" y1="45.699996875" x2="21.55" y2="45.7" width="0.4064" layer="1"/>
 <wire x1="21.2017" y1="44.6983" x2="21.2" y2="44.7" width="0.4064" layer="1"/>
 <wire x1="15.5017" y1="38.6983" x2="17.4" y2="38.725" width="0.4064" layer="1"/>
 <wire x1="15.5017" y1="38.6983" x2="14.1" y2="40.1" width="0.4064" layer="1"/>
@@ -940,12 +941,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="33.46115" y1="49.65605" x2="34.110084375" y2="47.65883125" width="0.4064" layer="1"/>
 <wire x1="33.12684375" y1="50.7040375" x2="33.46115" y2="49.65605" width="0.4064" layer="1"/>
 <wire x1="33.12684375" y1="50.7040375" x2="32.73145625" y2="51.920915625" width="0.4064" layer="1"/>
-<wire x1="32.73145625" y1="51.920915625" x2="32.8859875" y2="52.62355625" width="0.4064" layer="1"/>
+<wire x1="32.73145625" y1="51.920915625" x2="33.2236125" y2="52.73325625" width="0.4064" layer="1"/>
 <wire x1="35.815090625" y1="51.472353125" x2="33.25285" y2="50.639834375" width="0.4064" layer="1"/>
 <wire x1="33.25285" y1="50.639834375" x2="33.12684375" y2="50.7040375" width="0.4064" layer="1"/>
 <wire x1="41.295203125" y1="41.15935" x2="42.33975" y2="41.49874375" width="0.4064" layer="1"/>
 <wire x1="41.295203125" y1="41.15935" x2="39.670153125" y2="40.6594125" width="0.4064" layer="1"/>
-<wire x1="42.33975" y1="41.49874375" x2="42.3408375" y2="41.500884375" width="0.4064" layer="1"/>
+<wire x1="42.33975" y1="41.49874375" x2="42.44899375" y2="41.1680125" width="0.4064" layer="1"/>
 <wire x1="39.670153125" y1="40.6594125" x2="37.87463125" y2="40.0479375" width="0.4064" layer="1"/>
 <wire x1="37.87463125" y1="40.0479375" x2="37.878596875" y2="40.024725" width="0.4064" layer="1"/>
 <wire x1="38.48471875" y1="45.92585" x2="38.917340625" y2="44.59436875" width="0.4064" layer="1"/>
@@ -983,6 +984,10 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 <via x="20.5" y="44.7" extent="1-16" drill="0.6" shape="square"/>
 <via x="21.4" y="44.7" extent="1-16" drill="0.6" shape="square"/>
+<contactref element="CIN2" pad="2"/>
+<contactref element="CIN3" pad="2"/>
+<wire x1="33.2236125" y1="52.73325625" x2="31" y2="55.6" width="0" layer="19" extent="1-1"/>
+<wire x1="3.5" y1="36.9" x2="5" y2="38.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24V">
 <contactref element="CIN" pad="1"/>
@@ -998,7 +1003,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J1" pad="2"/>
 <wire x1="8.2" y1="43.525" x2="9.3" y2="43.525" width="0.4064" layer="1"/>
 <wire x1="8.2" y1="43.525" x2="5.9205" y2="43.5191" width="0.4064" layer="1"/>
-<wire x1="5.9205" y1="43.5191" x2="5.9" y2="43.755" width="0.4064" layer="1"/>
+<wire x1="5.9205" y1="43.5191" x2="5.9" y2="43.4" width="0.4064" layer="1"/>
 <wire x1="9.3" y1="43.525" x2="12.3809" y2="43.5191" width="0.4064" layer="1"/>
 <wire x1="12.3809" y1="43.5191" x2="12.4" y2="43.5" width="0.4064" layer="1"/>
 <wire x1="9.3" y1="43.525" x2="9.3" y2="45.600003125" width="0.4064" layer="1"/>
@@ -1009,14 +1014,18 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.07" y1="55.63" x2="24.54" y2="54.8" width="0.4064" layer="1"/>
 <wire x1="36.93250625" y1="50.7839625" x2="36.6234875" y2="51.73501875" width="0.4064" layer="1"/>
 <wire x1="36.6234875" y1="51.73501875" x2="36.00618125" y2="53.6158125" width="0.4064" layer="1"/>
-<wire x1="36.00618125" y1="53.6158125" x2="36.224196875" y2="53.708203125" width="0.4064" layer="1"/>
+<wire x1="36.00618125" y1="53.6158125" x2="35.886571875" y2="53.598503125" width="0.4064" layer="1"/>
 <wire x1="37.557665625" y1="48.77901875" x2="36.914634375" y2="50.758075" width="0.4064" layer="1"/>
 <wire x1="36.914634375" y1="50.758075" x2="36.93250625" y2="50.7839625" width="0.4064" layer="1"/>
 <wire x1="41.933878125" y1="52.46158125" x2="36.93250625" y2="50.7839625" width="0.4064" layer="1"/>
-<wire x1="36.224196875" y1="53.708203125" x2="35.980346875" y2="54.419653125" width="0.4064" layer="1"/>
+<wire x1="35.886571875" y1="53.598503125" x2="35.980346875" y2="54.419653125" width="0.4064" layer="1"/>
 <wire x1="35.980346875" y1="54.419653125" x2="34.3" y2="56.1" width="0.4064" layer="1"/>
 <wire x1="34.3" y1="56.1" x2="29.64" y2="56.1" width="0.4064" layer="1"/>
 <wire x1="29.64" y1="56.1" x2="27.07" y2="55.63" width="0.4064" layer="1"/>
+<contactref element="CIN2" pad="1"/>
+<contactref element="CIN3" pad="1"/>
+<wire x1="34.3" y1="56.1" x2="33.8" y2="55.6" width="0" layer="19" extent="1-1"/>
+<wire x1="3.5" y1="39.7" x2="5.9" y2="43.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PDIM1">
 <contactref element="U1" pad="4"/>
@@ -1058,19 +1067,19 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$16">
 <contactref element="L2" pad="1"/>
-<contactref element="GND-ISO" pad="C"/>
+<contactref element="D9" pad="C"/>
 <contactref element="CBOOT1" pad="1"/>
 <contactref element="U2" pad="10"/>
 <wire x1="16.8" y1="45.3017" x2="16.8" y2="44" width="0.4064" layer="1"/>
 <wire x1="16.8" y1="45.3017" x2="15.575" y2="46.5" width="0.4064" layer="1"/>
 <wire x1="16.8" y1="44" x2="17.300003125" y2="44" width="0.4064" layer="1"/>
-<wire x1="17.300003125" y1="44" x2="19" y2="45.7" width="0.4064" layer="1"/>
+<wire x1="17.300003125" y1="44" x2="18.65" y2="45.7" width="0.4064" layer="1"/>
 <wire x1="16.8" y1="44" x2="16.8" y2="48.2526" width="0.4064" layer="1"/>
-<wire x1="16.8" y1="48.2526" x2="19.55" y2="49.6" width="0.4064" layer="1"/>
+<wire x1="16.8" y1="48.2526" x2="19.15" y2="49.6" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$17">
-<contactref element="RSENSE2" pad="1"/>
 <contactref element="RSENSE3" pad="1"/>
+<contactref element="RSENSE2" pad="1"/>
 <contactref element="COUT1" pad="2"/>
 <contactref element="D14" pad="C"/>
 <wire x1="23.0017" y1="42.9966" x2="22.975" y2="41.2" width="0.4064" layer="1"/>
@@ -1088,12 +1097,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D8" pad="A"/>
 <contactref element="D10" pad="A"/>
 <wire x1="23" y1="49.4526" x2="23" y2="44.775" width="0.4064" layer="1"/>
-<wire x1="23" y1="49.4526" x2="23.05" y2="49.6" width="0.4064" layer="1"/>
+<wire x1="23" y1="49.4526" x2="23.45" y2="49.6" width="0.4064" layer="1"/>
 <wire x1="23" y1="44.775" x2="23" y2="45.8" width="0.4064" layer="1"/>
 <wire x1="23" y1="45.8" x2="24.9" y2="47.7" width="0.4064" layer="1"/>
 <wire x1="24.9" y1="47.7" x2="29.7" y2="47.7" width="0.4064" layer="1"/>
 <wire x1="29.7" y1="47.7" x2="31" y2="46.4" width="0.4064" layer="1"/>
-<wire x1="23.05" y1="49.6" x2="22.2526" y2="52.7474" width="0.4064" layer="1"/>
+<wire x1="23.45" y1="49.6" x2="22.2526" y2="52.7474" width="0.4064" layer="1"/>
 <wire x1="22.2526" y1="52.7474" x2="21.6" y2="53.5" width="0.4064" layer="1"/>
 <wire x1="21.6" y1="53.5" x2="18.7" y2="53" width="0.4064" layer="1"/>
 <wire x1="18.7" y1="53" x2="16" y2="51.4" width="0.4064" layer="1"/>
@@ -1101,7 +1110,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="15.2" y1="48.700003125" x2="15.25" y2="48.7" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="R_RT1" pad="1"/>
+<contactref element="RT1" pad="1"/>
 <contactref element="U2" pad="5"/>
 <wire x1="12.4" y1="40.925" x2="12.4" y2="42" width="0.4064" layer="1"/>
 </signal>
@@ -1118,7 +1127,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$22">
 <contactref element="U2" pad="7"/>
-<contactref element="RSENSE2" pad="2"/>
+<contactref element="RSENSE3" pad="2"/>
 <wire x1="21.675" y1="39.7" x2="20.8" y2="39.7" width="0.4064" layer="1"/>
 <wire x1="20.8" y1="39.7" x2="18" y2="42.5" width="0.4064" layer="1"/>
 <wire x1="18" y1="42.5" x2="16.8" y2="42.5" width="0.4064" layer="1"/>
