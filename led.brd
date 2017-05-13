@@ -291,10 +291,10 @@
 <designrules name="LaenPCBOrder">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
+Die Standard-Design-Rules sind so gewählt, dass sie für
+die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
+Einstellungen hier und speichern die Design Rules unter
 einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
 &lt;p&gt;
@@ -464,126 +464,244 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="CIN" library="derek" package="1210" value="GRM32ER71J106KA12L" x="34.55509375" y="53.16588125" rot="R198"/>
-<element name="CINX" library="derek" package="0402" value="GCM155R71H103KA55D" x="36.219290625" y="51.6036875" rot="R198">
-<attribute name="CAP" value="1.0E8" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="ESR" value="0.0" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="IRMS" value="0.0" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GCM155R71H103KA55D" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="VDC" value="50.0" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
-<attribute name="VENDOR" value="MuRata" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
+<element name="CIN" library="derek" package="1210" value="10µF" x="34.55509375" y="53.16588125" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-9971-1-ND" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="GRM32ER71J106MA12L" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="10µF" x="34.55509375" y="53.16588125" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
-<element name="CIADJ" library="derek" package="0805" value="CC0805KRX7R9BB103" x="34.944534375" y="43.229925" rot="R198"/>
-<element name="CCOMP" library="derek" package="0805" value="CC0805KRX7R8BB104" x="39.399765625" y="41.4915875" rot="R288"/>
-<element name="CBOOT" library="derek" package="0805" value="08053C104KAT2A" x="40.741153125" y="47.395034375" rot="R108">
-<attribute name="CAP" value="1.0E7" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="ESR" value="0.28" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="IRMS" value="0.0" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="08053C104KAT2A" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="VDC" value="25.0" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
-<attribute name="VENDOR" value="AVX" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
+<element name="CINX" library="derek" package="0402" value="10000pF" x="36.219290625" y="51.6036875" rot="R198">
+<attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-4762-1-ND " x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="10000pF" x="36.219290625" y="51.6036875" size="1.778" layer="27" rot="R198" display="off"/>
 </element>
-<element name="COUT" library="derek" package="0805" value="GMK212B7105KG-T" x="41.0900625" y="39.20185" rot="R198"/>
-<element name="D1" library="derek" package="SOD-323" value="BAT54WSTR" x="42.000921875" y="42.547046875" rot="R288">
-<attribute name="DATASHEETURL" value="httpwww.smc%2Ddiodes.compropdfBAT54WS%2520N0714%2520REV.C.pdf" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="IO" value="0.2" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BAT54WSTR" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VENDOR" value="SMC Diode Solutions" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VFATIO" value="1.0" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VRRM" value="30.0" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
+<element name="CIADJ" library="derek" package="0805" value="10000pF" x="34.944534375" y="43.229925" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="34.944534375" y="43.229925" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1136-1-ND" x="34.944534375" y="43.229925" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="34.944534375" y="43.229925" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="10000pF" x="34.944534375" y="43.229925" size="1.778" layer="27" rot="R198" display="off"/>
+</element>
+<element name="CCOMP" library="derek" package="0805" value="0.1µF" x="39.399765625" y="41.4915875" rot="R288">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="39.399765625" y="41.4915875" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1141-1-ND" x="39.399765625" y="41.4915875" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="39.399765625" y="41.4915875" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="39.399765625" y="41.4915875" size="1.778" layer="27" rot="R288" display="off"/>
+</element>
+<element name="CBOOT" library="derek" package="0805" value="0.1µF" x="40.741153125" y="47.395034375" rot="R108">
+<attribute name="DATASHEET_URL" value="http://datasheets.avx.com/X7RDielectric.pdf" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="478-3755-1-ND" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="PART_NUMBER" value="08053C104KAT2A" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="40.741153125" y="47.395034375" size="1.778" layer="27" rot="R108" display="off"/>
+</element>
+<element name="COUT" library="derek" package="0805" value="1µF" x="41.0900625" y="39.20185" rot="R198">
+<attribute name="DATASHEET_URL" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212B7105KG-T&amp;fileName=GMK212B7105KG-T_SS&amp;mode=specSheetDownload" x="41.0900625" y="39.20185" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="587-1438-1-ND" x="41.0900625" y="39.20185" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="41.0900625" y="39.20185" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="1µF" x="41.0900625" y="39.20185" size="1.778" layer="27" rot="R198" display="off"/>
+</element>
+<element name="D1" library="derek" package="SOD-323" value="BAT54WS-TP" x="42.000921875" y="42.547046875" rot="R288">
+<attribute name="DATASHEET_URL" value="http://www.mccsemi.com/up_pdf/BAT54WS(SOD-323).pdf" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="BAT54WS-TPCT-ND" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="PART_NUMBER" value="BAT54WS-TP" x="42.000921875" y="42.547046875" size="1.778" layer="27" rot="R288" display="off"/>
 </element>
 <element name="D2" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="42.381953125" y="51.08255" rot="R288">
-<attribute name="DATASHEETURL" value="httpwww.nxp.comdocumentsdata%5FsheetPMEG6010CEH%5FPMEG6010CEJ.pdf" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="IO" value="1.0" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMEG6010CEH115" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VENDOR" value="NXP Semiconductor" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VFATIO" value="0.57" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VRRM" value="60.0" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="42.381953125" y="51.08255" size="1.778" layer="27" rot="R288" display="off"/>
 </element>
-<element name="D3" library="derek" package="XLAMP-XPG" value="XPGWHT" x="27" y="45" locked="yes" rot="R90"/>
-<element name="D4" library="derek" package="XLAMP-XPG" value="XPGWHT" x="43.5989" y="35.8464" locked="yes" rot="R18"/>
-<element name="D5" library="derek" package="XLAMP-XPG" value="XPGWHT" x="40.0226" y="17.2313" locked="yes" rot="R306"/>
-<element name="D6" library="derek" package="XLAMP-XPG" value="XPGWHT" x="21.2135" y="14.8802" locked="yes" rot="R234"/>
-<element name="D7" library="derek" package="XLAMP-XPG" value="XPGWHT" x="13.1651" y="32.0422" locked="yes" rot="R162"/>
+<element name="D3" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="27" y="45" locked="yes" rot="R90">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="27" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="27" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="27" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D4" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="43.5989" y="35.8464" locked="yes" rot="R18">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="43.5989" y="35.8464" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="43.5989" y="35.8464" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="43.5989" y="35.8464" size="1.778" layer="27" rot="R18" display="off"/>
+</element>
+<element name="D5" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="40.0226" y="17.2313" locked="yes" rot="R306">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="40.0226" y="17.2313" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="40.0226" y="17.2313" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="40.0226" y="17.2313" size="1.778" layer="27" rot="R306" display="off"/>
+</element>
+<element name="D6" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="21.2135" y="14.8802" locked="yes" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="21.2135" y="14.8802" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="21.2135" y="14.8802" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="21.2135" y="14.8802" size="1.778" layer="27" rot="R234" display="off"/>
+</element>
+<element name="D7" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="13.1651" y="32.0422" locked="yes" rot="R162">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="13.1651" y="32.0422" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="13.1651" y="32.0422" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="13.1651" y="32.0422" size="1.778" layer="27" rot="R162" display="off"/>
+</element>
 <element name="J1" library="derek" package="1X02" value="" x="27.07" y="53.09" rot="R90"/>
-<element name="L1" library="derek" package="IND_WE-SPC" value="74408943220" x="46.15946875" y="44.634265625" rot="R288">
-<attribute name="DATASHEETURL" value="httpkatalog.weonline.dekatalogeeisosmediapdf74408943220.pdf" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="DCR" value="0.185" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="DESCRIPTION" value="Unknown" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="IDC" value="1.1" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="L" value="2.2E5" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="MANUFACTURER" value="Wurth Elektronik" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74408943220" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="PACKAGE_DESIGNATOR" value="IND_WESPC" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
-<attribute name="VENDOR" value="Wurth Elektronik eiSos" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<element name="L1" library="derek" package="IND_WE-SPC" value="22µH" x="46.15946875" y="44.634265625" rot="R288">
+<attribute name="DATASHEET_URL" value="http://katalog.we-online.de/pbs/datasheet/74408943220.pdf" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="732-3034-1-ND" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="PART_NUMBER" value="74408943220" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
+<attribute name="VALUE" value="22µH" x="46.15946875" y="44.634265625" size="1.778" layer="27" rot="R288" display="off"/>
 </element>
-<element name="RUVLOT" library="derek" package="0402" value="CRCW0402121KFKED" x="36.528309375" y="50.65263125" rot="R198"/>
-<element name="RUVLOB" library="derek" package="0402" value="CRCW04027K68FKED" x="33.86535" y="49.787384375" rot="R198"/>
-<element name="RIADJ" library="derek" package="0402" value="CRCW04021K00FKED" x="35.41733125" y="41.774809375" rot="R198"/>
-<element name="R_RT" library="derek" package="0402" value="CRCW0402162KFKED" x="34.514284375" y="47.790165625" rot="R198"/>
-<element name="RSENSE1" library="derek" package="0402" value="CRCW04021K00FKED" x="36.722403125" y="38.729028125" rot="R108"/>
-<element name="RSENSE" library="derek" package="0805" value="CRM0805-FX-R510ELF" x="38.1489875" y="39.192553125" rot="R108"/>
-<element name="U1" library="derek" package="TPS92513" value="TPS92513HV" x="37.761975" y="46.5321875" rot="R198"/>
+<element name="RUVLOT" library="derek" package="0402" value="121k" x="36.528309375" y="50.65263125" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-121KLCT-ND" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402121KFKED" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="121k" x="36.528309375" y="50.65263125" size="1.778" layer="27" rot="R198" display="off"/>
+</element>
+<element name="RUVLOB" library="derek" package="0402" value="7.68k" x="33.86535" y="49.787384375" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-7.68KLCT-ND" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04027K68FKED" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="7.68k" x="33.86535" y="49.787384375" size="1.778" layer="27" rot="R198" display="off"/>
+</element>
+<element name="RIADJ" library="derek" package="0402" value="1k" x="35.41733125" y="41.774809375" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="1k" x="35.41733125" y="41.774809375" size="1.778" layer="27" rot="R198" display="off"/>
+</element>
+<element name="R_RT" library="derek" package="0402" value="162k" x="34.514284375" y="47.790165625" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="VALUE" value="162k" x="34.514284375" y="47.790165625" size="1.778" layer="27" rot="R198" display="off"/>
+</element>
+<element name="RSENSE1" library="derek" package="0402" value="1k" x="36.722403125" y="38.729028125" rot="R108">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="VALUE" value="1k" x="36.722403125" y="38.729028125" size="1.778" layer="27" rot="R108" display="off"/>
+</element>
+<element name="RSENSE" library="derek" package="0805" value="0.51" x="38.1489875" y="39.192553125" rot="R108">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="38.1489875" y="39.192553125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="38.1489875" y="39.192553125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="38.1489875" y="39.192553125" size="1.778" layer="27" rot="R108" display="off"/>
+<attribute name="VALUE" value="0.51" x="38.1489875" y="39.192553125" size="1.778" layer="27" rot="R108" display="off"/>
+</element>
+<element name="U1" library="derek" package="TPS92513" value="TPS92513HV" x="37.761975" y="46.5321875" rot="R198">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-42114-1-ND" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
+<attribute name="PART_NUMBER" value="TPS92513HV" x="37.761975" y="46.5321875" size="1.778" layer="27" rot="R198" display="off"/>
+</element>
 <element name="J2" library="derek" package="1X02" value="" x="29.6" y="50.2" rot="R180"/>
-<element name="U2" library="derek" package="TPS92513" value="TPS92513HV" x="14.6" y="43" rot="R270"/>
-<element name="CIN1" library="derek" package="1210" value="GRM32ER71J106KA12L" x="5.9" y="42" rot="R270"/>
-<element name="CINX1" library="derek" package="0402" value="GCM155R71H103KA55D" x="8.2" y="43.1" rot="R270">
-<attribute name="CAP" value="1.0E8" x="59.9" y="50" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ESR" value="0.0" x="59.9" y="50" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="IRMS" value="0.0" x="59.9" y="50" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GCM155R71H103KA55D" x="59.9" y="50" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VDC" value="50.0" x="59.9" y="50" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="MuRata" x="59.9" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U2" library="derek" package="TPS92513" value="TPS92513HV" x="14.6" y="43" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-42114-1-ND" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="TPS92513HV" x="14.6" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RUVLOT1" library="derek" package="0402" value="CRCW0402121KFKED" x="9.3" y="43.1" rot="R270"/>
-<element name="RUVLOB1" library="derek" package="0402" value="CRCW04027K68FKED" x="9.3" y="40.5" rot="R270"/>
-<element name="CIADJ1" library="derek" package="0805" value="CC0805KRX7R9BB103" x="17.4" y="39.6" rot="R270"/>
-<element name="RIADJ1" library="derek" package="0402" value="CRCW04021K00FKED" x="19.1" y="39.6" rot="R270"/>
-<element name="CCOMP1" library="derek" package="0805" value="CC0805KRX7R8BB104" x="20.3" y="43"/>
-<element name="R_RT1" library="derek" package="0402" value="CRCW0402162KFKED" x="12.4" y="40.5" rot="R270"/>
+<element name="CIN1" library="derek" package="1210" value="10µF" x="5.9" y="42" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-9971-1-ND" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="GRM32ER71J106MA12L" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="10µF" x="5.9" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="CINX1" library="derek" package="0402" value="10000pF" x="8.2" y="43.1" rot="R270">
+<attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="8.2" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-4762-1-ND " x="8.2" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="8.2" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="10000pF" x="8.2" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="RUVLOT1" library="derek" package="0402" value="121k" x="9.3" y="43.1" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-121KLCT-ND" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402121KFKED" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="121k" x="9.3" y="43.1" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="RUVLOB1" library="derek" package="0402" value="7.68k" x="9.3" y="40.5" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-7.68KLCT-ND" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04027K68FKED" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="7.68k" x="9.3" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="CIADJ1" library="derek" package="0805" value="10000pF" x="17.4" y="39.6" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="17.4" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1136-1-ND" x="17.4" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="17.4" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="10000pF" x="17.4" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="RIADJ1" library="derek" package="0402" value="1k" x="19.1" y="39.6" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="1k" x="19.1" y="39.6" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="CCOMP1" library="derek" package="0805" value="0.1µF" x="20.3" y="43">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="20.3" y="43" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1141-1-ND" x="20.3" y="43" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="20.3" y="43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="20.3" y="43" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R_RT1" library="derek" package="0402" value="162k" x="12.4" y="40.5" rot="R270">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="12.4" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="12.4" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="12.4" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="162k" x="12.4" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="D8" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="13.8" y="48.7">
-<attribute name="DATASHEETURL" value="httpwww.nxp.comdocumentsdata%5FsheetPMEG6010CEH%5FPMEG6010CEJ.pdf" x="6.9" y="49.3" size="1.778" layer="27" display="off"/>
-<attribute name="IO" value="1.0" x="6.9" y="49.3" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMEG6010CEH115" x="6.9" y="49.3" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="NXP Semiconductor" x="6.9" y="49.3" size="1.778" layer="27" display="off"/>
-<attribute name="VFATIO" value="0.57" x="6.9" y="49.3" size="1.778" layer="27" display="off"/>
-<attribute name="VRRM" value="60.0" x="6.9" y="49.3" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="13.8" y="48.7" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="13.8" y="48.7" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="13.8" y="48.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="CBOOT1" library="derek" package="0805" value="08053C104KAT2A" x="14.7" y="46.5" rot="R180">
-<attribute name="CAP" value="1.0E7" x="33.4" y="45.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ESR" value="0.28" x="33.4" y="45.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IRMS" value="0.0" x="33.4" y="45.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="08053C104KAT2A" x="33.4" y="45.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VDC" value="25.0" x="33.4" y="45.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VENDOR" value="AVX" x="33.4" y="45.9" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="CBOOT1" library="derek" package="0805" value="0.1µF" x="14.7" y="46.5" rot="R180">
+<attribute name="DATASHEET_URL" value="http://datasheets.avx.com/X7RDielectric.pdf" x="14.7" y="46.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="478-3755-1-ND" x="14.7" y="46.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_NUMBER" value="08053C104KAT2A" x="14.7" y="46.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="14.7" y="46.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="GND-ISO" library="derek" package="SOD-323" value="BAT54WSTR" x="20.1" y="45.7">
-<attribute name="DATASHEETURL" value="httpwww.smc%2Ddiodes.compropdfBAT54WS%2520N0714%2520REV.C.pdf" x="13.1" y="41.5" size="1.778" layer="27" display="off"/>
-<attribute name="IO" value="0.2" x="13.1" y="41.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BAT54WSTR" x="13.1" y="41.5" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="SMC Diode Solutions" x="13.1" y="41.5" size="1.778" layer="27" display="off"/>
-<attribute name="VFATIO" value="1.0" x="13.1" y="41.5" size="1.778" layer="27" display="off"/>
-<attribute name="VRRM" value="30.0" x="13.1" y="41.5" size="1.778" layer="27" display="off"/>
+<element name="GND-ISO" library="derek" package="SOD-323" value="BAT54WS-TP" x="20.1" y="45.7">
+<attribute name="DATASHEET_URL" value="http://www.mccsemi.com/up_pdf/BAT54WS(SOD-323).pdf" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="BAT54WS-TPCT-ND" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="BAT54WS-TP" x="20.1" y="45.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L2" library="derek" package="IND_WE-SPC" value="74408943220" x="21.3" y="49.6">
-<attribute name="DATASHEETURL" value="httpkatalog.weonline.dekatalogeeisosmediapdf74408943220.pdf" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="DCR" value="0.185" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Unknown" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="IDC" value="1.1" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="L" value="2.2E5" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Wurth Elektronik" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="74408943220" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE_DESIGNATOR" value="IND_WESPC" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Wurth Elektronik eiSos" x="6.8" y="1.6" size="1.778" layer="27" display="off"/>
+<element name="L2" library="derek" package="IND_WE-SPC" value="22µH" x="21.3" y="49.6">
+<attribute name="DATASHEET_URL" value="http://katalog.we-online.de/pbs/datasheet/74408943220.pdf" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="732-3034-1-ND" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="74408943220" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="22µH" x="21.3" y="49.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RSENSE2" library="derek" package="0402" value="CRCW04021K00FKED" x="22.1" y="39.7" rot="R180"/>
-<element name="RSENSE3" library="derek" package="0805" value="CRM0805-FX-R510ELF" x="22.1" y="41.2" rot="R180"/>
-<element name="COUT1" library="derek" package="0805" value="GMK212B7105KG-T" x="23" y="43.9" rot="R270"/>
-<element name="D10" library="derek" package="XLAMP-XPG" value="XPGWHT" x="31" y="45" locked="yes" rot="R90"/>
-<element name="D11" library="derek" package="XLAMP-XPG" value="XPGWHT" x="44.8349" y="32.0422" locked="yes" rot="R18"/>
-<element name="D12" library="derek" package="XLAMP-XPG" value="XPGWHT" x="36.7865" y="14.8802" locked="yes" rot="R306"/>
-<element name="D13" library="derek" package="XLAMP-XPG" value="XPGWHT" x="17.9774" y="17.2313" locked="yes" rot="R234"/>
-<element name="D14" library="derek" package="XLAMP-XPG" value="XPGWHT" x="14.4011" y="35.8464" locked="yes" rot="R162"/>
+<element name="RSENSE2" library="derek" package="0402" value="1k" x="22.1" y="39.7" rot="R180">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20036/dcrcwpe3.pdf" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-1.0KAVCT-ND" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW04021K00DHEDP" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="1k" x="22.1" y="39.7" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="RSENSE3" library="derek" package="0805" value="0.51" x="22.1" y="41.2" rot="R180">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="22.1" y="41.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="22.1" y="41.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="22.1" y="41.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0.51" x="22.1" y="41.2" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="COUT1" library="derek" package="0805" value="1µF" x="23" y="43.9" rot="R270">
+<attribute name="DATASHEET_URL" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212B7105KG-T&amp;fileName=GMK212B7105KG-T_SS&amp;mode=specSheetDownload" x="23" y="43.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="587-1438-1-ND" x="23" y="43.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="23" y="43.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="1µF" x="23" y="43.9" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D10" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="31" y="45" locked="yes" rot="R90">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="31" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="31" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="31" y="45" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D11" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="44.8349" y="32.0422" locked="yes" rot="R18">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="44.8349" y="32.0422" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="44.8349" y="32.0422" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="44.8349" y="32.0422" size="1.778" layer="27" rot="R18" display="off"/>
+</element>
+<element name="D12" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="36.7865" y="14.8802" locked="yes" rot="R306">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="36.7865" y="14.8802" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="36.7865" y="14.8802" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="36.7865" y="14.8802" size="1.778" layer="27" rot="R306" display="off"/>
+</element>
+<element name="D13" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="17.9774" y="17.2313" locked="yes" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="17.9774" y="17.2313" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="17.9774" y="17.2313" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="17.9774" y="17.2313" size="1.778" layer="27" rot="R234" display="off"/>
+</element>
+<element name="D14" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="14.4011" y="35.8464" locked="yes" rot="R162">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="14.4011" y="35.8464" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="14.4011" y="35.8464" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="14.4011" y="35.8464" size="1.778" layer="27" rot="R162" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$3">
