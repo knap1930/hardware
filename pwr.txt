@@ -1,0 +1,33 @@
+Qty	Value	Device	Package	Parts	Description	CAP	DATASHEETURL	DATASHEET_URL	DIGIKEY_PART_NUMBER	ESR	IRMS	MANUFACTURER	MANUFACTURER_NAME	MANUFACTURER_PART_NUMBER	PART_NUMBER	POWER	PROD_ID	RESISTANCE	TOLERANCE	VALUE	VDC	VENDOR
+1	0.0	CRCW06030000Z0EA	0603	R7				http://www.vishay.com/docs/20035/dcrcwe3.pdf	541-0.0GCT-ND			Vishay Dale			CRCW06030000Z0EA					0.0
+1	0.1µF	06035C104KAT2A	0603	C8				http://datasheets.avx.com/X7RDielectric.pdf	478-5052-1-ND			AVX Corporation			06035C104KAT2A					0.1µF
+1	0.1µF	08053C104KAT2A	0805	C6				http://datasheets.avx.com/X7RDielectric.pdf	478-3755-1-ND						08053C104KAT2A					0.1µF
+2	0.75	CSR1206FKR750	1206	R9, R10				https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf	CSR1206FKR750CT-ND			Stackpole Electronics Inc.			CSR1206FKR750					0.75		
+2	10k	CRCW120610K0JNEA	1206	R1, R101				http://www.vishay.com/docs/20035/dcrcwe3.pdf	541-10KECT-ND			Vishay Dale			CRCW120610K0JNEA					10k
+1	19.6k	CRCW060319K6FKEA	0603	R11				http://www.vishay.com/docs/20035/dcrcwe3.pdf	541-19.6KHCT-ND			Vishay Dale			CRCW060319K6FKEA					19.6k
+1	2.2µF	GRM31CR61H225KA88L	1206	C9				http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx	490-6514-1-ND			Murata Electronics North America			GRM31CR61H225KA88L					2.2µF
+2	220µF	UHE1V221MPD6	CAPPR5-10X16	C2, C3				http://nichicon-us.com/english/products/pdfs/e-uhe.pdf	493-14552-1-ND			Nichicon			UHE1V221MPD6					220µF
+2	3.3M	CRCW08053M30JNEA	0805	R5, R6				http://www.vishay.com/docs/20035/dcrcwe3.pdf	541-3.3MACT-ND			Vishay Dale			CRCW08053M30JNEA					3.3M
+1	37012000410	37012000410	TR5_FUSE_8.5	F1				http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_370_datasheet.pdf.pdf	WK4957BK-ND			Littelfuse Inc.			37012000410
+1	4.7	CRCW12064R70JNEA	1206	R3				http://www.vishay.com/docs/20035/dcrcwe3.pdf	541-4.7ECT-ND			Vishay Dale			CRCW12064R70JNEA					4.7
+2	4.7µF	UMK316AB7475KL-T	1206	C4, C5				http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf	587-2994-1-ND			Taiyo Yuden			UMK316AB7475KL-T					4.7µF
+1	698	CRCW1206698RFKEA	1206	R8				http://www.vishay.com/docs/20035/dcrcwe3.pdf	541-698FCT-ND			Vishay Dale			CRCW1206698RFKEA					698
+1	750811647	750811647	750811647	T1				https://katalog.we-online.com/ctm/datasheet/750811647.pdf				Wurth Electronics Midcom			750811647
+1	75k	CRCW060375K0FKEA	0603	R4				http://www.vishay.com/docs/20035/dcrcwe3.pdf	541-75.0KHCT-ND			Vishay Dale			CRCW060375K0FKEA					75k
+1	BAS20HT1G	BAS20HT1G	SOD-323	D5				http://www.onsemi.com/pub_link/Collateral/BAS20HT1-D.PDF	BAS20HT1GOSCT-ND			ON Semiconductor			BAS20HT1G
+1	C1608X5R1V225K080AC	C1608X5R1V225K080AC	0603	C_1		2.2E6	httpsproduct.tdk.comensearchcapacitorceramicmlccinfo?part%5Fno%3DC1608X5R1V225K080AC			0.007674	1.87823		TDK	C1608X5R1V225K080AC							35.0	TDK
+1	CRCW0402100KFKED	CRCW0402100KFKED	0402	R_1									VishayDale	CRCW0402100KFKED		0.063		100000.0	1.0			VishayDale
+1	CRCW120633R2FKEA	CRCW120633R2FKEA	1206	R2
+1	DE1E3KX222MA4BL01	DE1E3KX222MA4BL01	DE1E3KX222MA4BL01	C1
+1	EEUED2G470	EEUED2G470	CAPPR7.5-16X25	C7
+1	ESP3212	ESP3212	QFN48-0.4MM	U2													IC-13338
+1	GRM21BR60J226ME39L	GRM21BR60J226ME39L	0805	C_2		2.2E5				0.0	0.0		MuRata	GRM21BR60J226ME39L							6.3	MuRata
+1	IPD65R600E6	IPD65R600E6	TO-252	Q1
+1	LPS4018-103MRBLPS4018-103MRB	LPS4018-103MRBLPS4018-103MRB	LPS4018	L_1									Coilcraft	'LPS4018-103MRB'								Gimme a name
+1	RH06-T	RH06-T	MINIDIP	D3				https://www.diodes.com/assets/Datasheets/ds30137.pdf	RH06DICT-ND			Diodes Incorporated			RH06-T
+1	SK4200L-TP	SK4200L-TP	SMC	D1				http://www.mccsemi.com/up_pdf/SK4200L(SMC).pdf	SK4200L-TPMSCT-ND			Micro Commercial Co			SK4200L-TP
+1	SMAJ120A	SMAJ120A	SMA	D2				http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf	SMAJ120ALFCT-ND			Littelfuse Inc.			SMAJ120A
+5	TP-1502	TP-1502	TP-1502	U$2, U$3, U$8, U$9, U$10
+1	TPS62177	TPS62177	P-WSON(10)	U_1
+1	UCC28700	UCC28700	SOT-23(6)	U1				http://www.ti.com/lit/ds/symlink/ucc28700.pdf	296-39536-1-ND			Texas Instruments			UCC28700DBVR
+1	US1M-13-F	US1M-13-F	SMA	D4				https://www.diodes.com/assets/Datasheets/ds16008.pdf	US1M-FDICT-ND			Diodes Incorporated			US1M-13-F

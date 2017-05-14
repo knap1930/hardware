@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -198,36 +198,16 @@
 <text x="-11" y="-15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="0603">
-<smd name="1" x="-0.6985" y="0" dx="0.6604" dy="0.9652" layer="1"/>
-<smd name="2" x="0.6985" y="0" dx="0.6604" dy="0.9652" layer="1"/>
-<wire x1="-0.3556" y1="-0.4826" x2="-0.3556" y2="0.4826" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="0.4826" x2="-0.8636" y2="0.4826" width="0.1524" layer="25"/>
-<wire x1="-0.8636" y1="-0.4826" x2="-0.3556" y2="-0.4826" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.4826" x2="0.3556" y2="-0.4826" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="-0.4826" x2="0.8636" y2="-0.4826" width="0.1524" layer="25"/>
-<wire x1="0.8636" y1="0.4826" x2="0.3556" y2="0.4826" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="-0.4826" x2="0.3556" y2="-0.4826" width="0.1524" layer="25"/>
-<wire x1="0.8636" y1="-0.4826" x2="0.8636" y2="0.4826" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.4826" x2="-0.3556" y2="0.4826" width="0.1524" layer="25"/>
-<wire x1="-0.8636" y1="0.4826" x2="-0.8636" y2="-0.4826" width="0.1524" layer="25"/>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="1" x="-0.725" y="0" dx="0.95" dy="0.95" layer="1"/>
+<smd name="2" x="0.725" y="0" dx="0.95" dy="0.95" layer="1"/>
+<text x="0" y="0.662" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.662" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="0402">
-<smd name="1" x="-0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<smd name="2" x="0.4191" y="0" dx="0.5588" dy="0.6096" layer="1"/>
-<wire x1="-0.1524" y1="-0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="0.3048" x2="-0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="-0.3048" x2="-0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.1524" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="0.3048" x2="0.127" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.1524" y1="-0.3048" x2="0.1524" y2="-0.3048" width="0.1524" layer="25"/>
-<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="0.127" y1="0.3048" x2="-0.1524" y2="0.3048" width="0.1524" layer="25"/>
-<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0.1524" layer="25"/>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="1" x="-0.425" y="0" dx="0.55" dy="0.6" layer="1"/>
+<smd name="2" x="0.425" y="0" dx="0.55" dy="0.6" layer="1"/>
+<text x="0" y="0.462" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.462" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="LPS4018">
 <smd name="1" x="-1.5748" y="0" dx="1.5494" dy="3.9878" layer="1"/>
@@ -254,21 +234,10 @@
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="0805">
-<smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<smd name="2" x="0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
-<wire x1="-0.3556" y1="-0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="0.7112" x2="-1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="-0.7112" x2="-0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="0.3556" y1="-0.7112" x2="1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="1.1176" y2="0.7366" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7366" x2="0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-0.3556" y1="-0.7112" x2="0.3556" y2="-0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="-0.7112" x2="1.1176" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="1.1176" y1="0.7112" x2="-0.3556" y2="0.7112" width="0.1524" layer="25"/>
-<wire x1="-1.1176" y1="0.7112" x2="-1.1176" y2="-0.7112" width="0.1524" layer="25"/>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="1" x="-0.875" y="0" dx="1.1" dy="1.4" layer="1"/>
+<smd name="2" x="0.875" y="0" dx="1.1" dy="1.4" layer="1"/>
+<text x="0" y="0.862" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="TP-1502">
 <pad name="1" x="0" y="0" drill="0.8128" diameter="1.651"/>
@@ -306,6 +275,22 @@
 <text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+</package>
 <package name="1206">
 <description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
@@ -335,27 +320,14 @@
 <text x="-3" y="-7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SOD-323">
-<smd name="1" x="-1.099996875" y="0" dx="0.6" dy="0.6" layer="1" rot="R180"/>
-<smd name="2" x="1.100003125" y="0" dx="0.6" dy="0.6" layer="1" rot="R180"/>
-<wire x1="-1.8034" y1="0.762" x2="1.524" y2="0.762" width="0.1778" layer="21"/>
-<wire x1="-1.8034" y1="-0.762" x2="1.524" y2="-0.762" width="0.1778" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-2.0574" y="-0.8636"/>
-<vertex x="-1.5494" y="-0.8636"/>
-<vertex x="-1.5494" y="0.8636"/>
-<vertex x="-2.0574" y="0.8636"/>
-</polygon>
-<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="25"/>
-<wire x1="-1.8034" y1="-0.762" x2="1.524" y2="-0.762" width="0.1524" layer="25"/>
-<wire x1="-1.8034" y1="0.762" x2="1.524" y2="0.762" width="0.1524" layer="25"/>
-<polygon width="0.0254" layer="25">
-<vertex x="-2.0574" y="-0.8636"/>
-<vertex x="-1.5494" y="-0.8636"/>
-<vertex x="-1.5494" y="0.8636"/>
-<vertex x="-2.0574" y="0.8636"/>
-</polygon>
-<text x="-2.54" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<description>SOD-323 (Small Outline Diode)</description>
+<wire x1="-1.67" y1="0.625" x2="-1.67" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.962" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="0.825" x2="0.9" y2="0.825" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.825" x2="0.9" y2="-0.825" width="0.2032" layer="21"/>
 </package>
 <package name="DE1E3KX222MA4BL01">
 <pad name="1" x="-5" y="0" drill="0.6"/>
@@ -392,6 +364,373 @@
 <circle x="0" y="0" radius="4.25" width="0.127" layer="51"/>
 <text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="QFN48-0.4MM">
+<circle x="-3.302" y="3.302" radius="0.40160625" width="0" layer="21"/>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="51"/>
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="51"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="51"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="51"/>
+<wire x1="-2.461" y1="3.254" x2="-3.254" y2="2.461" width="0.2032" layer="21"/>
+<wire x1="3.127" y1="3.127" x2="2.461" y2="3.127" width="0.2032" layer="21"/>
+<wire x1="3.127" y1="2.461" x2="3.127" y2="3.127" width="0.2032" layer="21"/>
+<wire x1="-3.127" y1="-3.127" x2="-2.461" y2="-3.127" width="0.2032" layer="21"/>
+<wire x1="-3.127" y1="-2.461" x2="-3.127" y2="-3.127" width="0.2032" layer="21"/>
+<wire x1="3.127" y1="-3.127" x2="3.127" y2="-2.461" width="0.2032" layer="21"/>
+<wire x1="2.461" y1="-3.127" x2="3.127" y2="-3.127" width="0.2032" layer="21"/>
+<rectangle x1="0.314859375" y1="0.314859375" x2="1.835140625" y2="1.835140625" layer="31"/>
+<rectangle x1="-1.835140625" y1="0.314859375" x2="-0.314859375" y2="1.835140625" layer="31" rot="R90"/>
+<rectangle x1="-1.835140625" y1="-1.835140625" x2="-0.314859375" y2="-0.314859375" layer="31" rot="R180"/>
+<rectangle x1="0.314859375" y1="-1.835140625" x2="1.835140625" y2="-0.314859375" layer="31" rot="R270"/>
+<smd name="1" x="-2.95" y="2.2" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="2" x="-2.95" y="1.8" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="3" x="-2.95" y="1.4" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="4" x="-2.95" y="1" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="5" x="-2.95" y="0.6" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="6" x="-2.95" y="0.2" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="7" x="-2.95" y="-0.2" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="8" x="-2.95" y="-0.6" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="9" x="-2.95" y="-1" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="10" x="-2.95" y="-1.4" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="11" x="-2.95" y="-1.8" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="12" x="-2.95" y="-2.2" dx="0.23" dy="0.8" layer="1" rot="R270"/>
+<smd name="13" x="-2.2" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="14" x="-1.8" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="15" x="-1.4" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="16" x="-1" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="17" x="-0.6" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="18" x="-0.2" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="19" x="0.2" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="20" x="0.6" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="21" x="1" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="22" x="1.4" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="23" x="1.8" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="24" x="2.2" y="-2.95" dx="0.23" dy="0.8" layer="1"/>
+<smd name="25" x="2.95" y="-2.2" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="26" x="2.95" y="-1.8" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="27" x="2.95" y="-1.4" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="28" x="2.95" y="-1" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="29" x="2.95" y="-0.6" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="30" x="2.95" y="-0.2" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="31" x="2.95" y="0.2" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="32" x="2.95" y="0.6" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="33" x="2.95" y="1" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="34" x="2.95" y="1.4" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="35" x="2.95" y="1.8" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="36" x="2.95" y="2.2" dx="0.23" dy="0.8" layer="1" rot="R90"/>
+<smd name="37" x="2.2" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="38" x="1.8" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="39" x="1.4" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="40" x="1" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="41" x="0.6" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="42" x="0.2" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="43" x="-0.2" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="44" x="-0.6" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="45" x="-1" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="46" x="-1.4" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="47" x="-1.8" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="48" x="-2.2" y="2.95" dx="0.23" dy="0.8" layer="1" rot="R180"/>
+<smd name="EP" x="0" y="0" dx="4.3" dy="4.3" layer="1" cream="no"/>
+<polygon width="0" layer="51">
+<vertex x="0.3" y="-3"/>
+<vertex x="0.3" y="-2.6"/>
+<vertex x="0.1" y="-2.6"/>
+<vertex x="0.1" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.1" y="-3"/>
+<vertex x="-0.1" y="-2.6"/>
+<vertex x="-0.3" y="-2.6"/>
+<vertex x="-0.3" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.5" y="-3"/>
+<vertex x="-0.5" y="-2.6"/>
+<vertex x="-0.7" y="-2.6"/>
+<vertex x="-0.7" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.9" y="-3"/>
+<vertex x="-0.9" y="-2.6"/>
+<vertex x="-1.1" y="-2.6"/>
+<vertex x="-1.1" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.3" y="-3"/>
+<vertex x="-1.3" y="-2.6"/>
+<vertex x="-1.5" y="-2.6"/>
+<vertex x="-1.5" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.7" y="-3"/>
+<vertex x="-1.7" y="-2.6"/>
+<vertex x="-1.9" y="-2.6"/>
+<vertex x="-1.9" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-2.1" y="-3"/>
+<vertex x="-2.1" y="-2.6"/>
+<vertex x="-2.3" y="-2.6"/>
+<vertex x="-2.3" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.7" y="-3"/>
+<vertex x="0.7" y="-2.6"/>
+<vertex x="0.5" y="-2.6"/>
+<vertex x="0.5" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1.1" y="-3"/>
+<vertex x="1.1" y="-2.6"/>
+<vertex x="0.9" y="-2.6"/>
+<vertex x="0.9" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1.5" y="-3"/>
+<vertex x="1.5" y="-2.6"/>
+<vertex x="1.3" y="-2.6"/>
+<vertex x="1.3" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1.9" y="-3"/>
+<vertex x="1.9" y="-2.6"/>
+<vertex x="1.7" y="-2.6"/>
+<vertex x="1.7" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="2.3" y="-3"/>
+<vertex x="2.3" y="-2.6"/>
+<vertex x="2.1" y="-2.6"/>
+<vertex x="2.1" y="-3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="0.3"/>
+<vertex x="2.6" y="0.3"/>
+<vertex x="2.6" y="0.1"/>
+<vertex x="3" y="0.1"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="-0.1"/>
+<vertex x="2.6" y="-0.1"/>
+<vertex x="2.6" y="-0.3"/>
+<vertex x="3" y="-0.3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="-0.5"/>
+<vertex x="2.6" y="-0.5"/>
+<vertex x="2.6" y="-0.7"/>
+<vertex x="3" y="-0.7"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="-0.9"/>
+<vertex x="2.6" y="-0.9"/>
+<vertex x="2.6" y="-1.1"/>
+<vertex x="3" y="-1.1"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="-1.3"/>
+<vertex x="2.6" y="-1.3"/>
+<vertex x="2.6" y="-1.5"/>
+<vertex x="3" y="-1.5"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="-1.7"/>
+<vertex x="2.6" y="-1.7"/>
+<vertex x="2.6" y="-1.9"/>
+<vertex x="3" y="-1.9"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="-2.1"/>
+<vertex x="2.6" y="-2.1"/>
+<vertex x="2.6" y="-2.3"/>
+<vertex x="3" y="-2.3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="0.7"/>
+<vertex x="2.6" y="0.7"/>
+<vertex x="2.6" y="0.5"/>
+<vertex x="3" y="0.5"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="1.1"/>
+<vertex x="2.6" y="1.1"/>
+<vertex x="2.6" y="0.9"/>
+<vertex x="3" y="0.9"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="1.5"/>
+<vertex x="2.6" y="1.5"/>
+<vertex x="2.6" y="1.3"/>
+<vertex x="3" y="1.3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="1.9"/>
+<vertex x="2.6" y="1.9"/>
+<vertex x="2.6" y="1.7"/>
+<vertex x="3" y="1.7"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="3" y="2.3"/>
+<vertex x="2.6" y="2.3"/>
+<vertex x="2.6" y="2.1"/>
+<vertex x="3" y="2.1"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.3" y="3"/>
+<vertex x="-0.3" y="2.6"/>
+<vertex x="-0.1" y="2.6"/>
+<vertex x="-0.1" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.1" y="3"/>
+<vertex x="0.1" y="2.6"/>
+<vertex x="0.3" y="2.6"/>
+<vertex x="0.3" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.5" y="3"/>
+<vertex x="0.5" y="2.6"/>
+<vertex x="0.7" y="2.6"/>
+<vertex x="0.7" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.9" y="3"/>
+<vertex x="0.9" y="2.6"/>
+<vertex x="1.1" y="2.6"/>
+<vertex x="1.1" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1.3" y="3"/>
+<vertex x="1.3" y="2.6"/>
+<vertex x="1.5" y="2.6"/>
+<vertex x="1.5" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1.7" y="3"/>
+<vertex x="1.7" y="2.6"/>
+<vertex x="1.9" y="2.6"/>
+<vertex x="1.9" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="2.1" y="3"/>
+<vertex x="2.1" y="2.6"/>
+<vertex x="2.3" y="2.6"/>
+<vertex x="2.3" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.7" y="3"/>
+<vertex x="-0.7" y="2.6"/>
+<vertex x="-0.5" y="2.6"/>
+<vertex x="-0.5" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.1" y="3"/>
+<vertex x="-1.1" y="2.6"/>
+<vertex x="-0.9" y="2.6"/>
+<vertex x="-0.9" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.5" y="3"/>
+<vertex x="-1.5" y="2.6"/>
+<vertex x="-1.3" y="2.6"/>
+<vertex x="-1.3" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.9" y="3"/>
+<vertex x="-1.9" y="2.6"/>
+<vertex x="-1.7" y="2.6"/>
+<vertex x="-1.7" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-2.3" y="3"/>
+<vertex x="-2.3" y="2.6"/>
+<vertex x="-2.1" y="2.6"/>
+<vertex x="-2.1" y="3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="-0.3"/>
+<vertex x="-2.6" y="-0.3"/>
+<vertex x="-2.6" y="-0.1"/>
+<vertex x="-3" y="-0.1"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="0.1"/>
+<vertex x="-2.6" y="0.1"/>
+<vertex x="-2.6" y="0.3"/>
+<vertex x="-3" y="0.3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="0.5"/>
+<vertex x="-2.6" y="0.5"/>
+<vertex x="-2.6" y="0.7"/>
+<vertex x="-3" y="0.7"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="0.9"/>
+<vertex x="-2.6" y="0.9"/>
+<vertex x="-2.6" y="1.1"/>
+<vertex x="-3" y="1.1"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="1.3"/>
+<vertex x="-2.6" y="1.3"/>
+<vertex x="-2.6" y="1.5"/>
+<vertex x="-3" y="1.5"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="1.7"/>
+<vertex x="-2.6" y="1.7"/>
+<vertex x="-2.6" y="1.9"/>
+<vertex x="-3" y="1.9"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="2.1"/>
+<vertex x="-2.6" y="2.1"/>
+<vertex x="-2.6" y="2.3"/>
+<vertex x="-3" y="2.3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="-0.7"/>
+<vertex x="-2.6" y="-0.7"/>
+<vertex x="-2.6" y="-0.5"/>
+<vertex x="-3" y="-0.5"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="-1.1"/>
+<vertex x="-2.6" y="-1.1"/>
+<vertex x="-2.6" y="-0.9"/>
+<vertex x="-3" y="-0.9"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="-1.5"/>
+<vertex x="-2.6" y="-1.5"/>
+<vertex x="-2.6" y="-1.3"/>
+<vertex x="-3" y="-1.3"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="-1.9"/>
+<vertex x="-2.6" y="-1.9"/>
+<vertex x="-2.6" y="-1.7"/>
+<vertex x="-3" y="-1.7"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-3" y="-2.3"/>
+<vertex x="-2.6" y="-2.3"/>
+<vertex x="-2.6" y="-2.1"/>
+<vertex x="-3" y="-2.1"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="2.15" y="2.15"/>
+<vertex x="-2.15" y="2.15"/>
+<vertex x="-2.15" y="-2.15"/>
+<vertex x="2.15" y="-2.15"/>
+</polygon>
+<text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-2.2098" y1="-0.3048" x2="-2.2098" y2="0.3048" width="0.0254" layer="41"/>
+<wire x1="2.2098" y1="0.3048" x2="2.2098" y2="-0.3048" width="0.0254" layer="41"/>
+<wire x1="-0.3048" y1="2.2098" x2="0.3048" y2="2.2098" width="0.0254" layer="41"/>
+<wire x1="0.3048" y1="-2.2098" x2="-0.3048" y2="-2.2098" width="0.0254" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -481,31 +820,6 @@
 <circle x="2.54" y="6.985" radius="0.127" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="WB_CAPACITOR-1">
-<pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="0.762" y1="-3.048" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-3.048" x2="-0.762" y2="3.048" width="0.1524" layer="94"/>
-<text x="-4.7244" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
-<symbol name="WB_RESISTOR-1">
-<pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="3.81" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="1.524" x2="1.905" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="-1.524" x2="0" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.524" x2="-3.81" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="1.524" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
-<text x="-4.7244" y="4.6736" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 <symbol name="WB_INDUCTOR">
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -743,6 +1057,60 @@ Switches electronic signals</description>
 <wire x1="5.08" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="180"/>
 <wire x1="1.27" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
 </symbol>
+<symbol name="ESP32-2">
+<pin name="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" x="-50.8" y="-20.32" length="short"/>
+<pin name="SENSOR_VP(GPI36/ADC1:0/RTC0)" x="-50.8" y="-17.78" length="short"/>
+<pin name="VDDA3P3" x="-50.8" y="30.48" length="short"/>
+<pin name="LNA_IN" x="-50.8" y="17.78" length="short"/>
+<pin name="SENSOR_CAPN(GPI38/ADC1:2/RTC2)" x="-50.8" y="-22.86" length="short"/>
+<pin name="SENSOR_VN(GPI39/ADC1:3/RTC3)" x="-50.8" y="-25.4" length="short"/>
+<pin name="CHIP_PU" x="-50.8" y="25.4" length="short"/>
+<pin name="VDET_1(GPI34/ADC1:6)" x="-50.8" y="-7.62" length="short"/>
+<pin name="VDET_2(GPI35/ADC1:7)" x="-50.8" y="-10.16" length="short"/>
+<pin name="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" x="-50.8" y="2.54" length="short"/>
+<pin name="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" x="-50.8" y="0" length="short"/>
+<pin name="(DAC2/ADC2:9/RTC7)GPIO26" x="50.8" y="-2.54" length="short" rot="R180"/>
+<pin name="(DAC1/ADC2:8/RTC6)GPIO25" x="50.8" y="0" length="short" rot="R180"/>
+<pin name="(ADC2:7/TOUCH7/RTC17)GPIO27" x="50.8" y="-5.08" length="short" rot="R180"/>
+<pin name="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS" x="50.8" y="-35.56" length="short" rot="R180"/>
+<pin name="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI" x="50.8" y="-30.48" length="short" rot="R180"/>
+<pin name="VDD3P3_RTC" x="-50.8" y="35.56" length="short"/>
+<pin name="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK" x="50.8" y="-33.02" length="short" rot="R180"/>
+<pin name="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO" x="50.8" y="-38.1" length="short" rot="R180"/>
+<pin name="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2" x="50.8" y="27.94" length="short" rot="R180"/>
+<pin name="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0" x="50.8" y="30.48" length="short" rot="R180"/>
+<pin name="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4" x="50.8" y="25.4" length="short" rot="R180"/>
+<pin name="VDD3P3_SDIO" x="50.8" y="-10.16" length="short" rot="R180"/>
+<pin name="(HS1_DATA4)GPIO16" x="50.8" y="20.32" length="short" rot="R180"/>
+<pin name="(HS1_DATA5)GPIO17" x="50.8" y="17.78" length="short" rot="R180"/>
+<pin name="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2" x="50.8" y="-20.32" length="short" rot="R180"/>
+<pin name="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3" x="50.8" y="-22.86" length="short" rot="R180"/>
+<pin name="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD" x="50.8" y="-25.4" length="short" rot="R180"/>
+<pin name="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK" x="50.8" y="-12.7" length="short" rot="R180"/>
+<pin name="(GPIO7/SPI1/HS1_DATA0)SD_DATA0" x="50.8" y="-15.24" length="short" rot="R180"/>
+<pin name="(GPIO8/SPID/HS1_DATA1)SD_DATA1" x="50.8" y="-17.78" length="short" rot="R180"/>
+<pin name="(VSPICS0/HS1_DATA6)GPIO5" x="50.8" y="22.86" length="short" rot="R180"/>
+<pin name="(VSPICLK/HS1_DATA7)GPIO18" x="50.8" y="15.24" length="short" rot="R180"/>
+<pin name="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" x="50.8" y="38.1" length="short" rot="R180"/>
+<pin name="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" x="50.8" y="35.56" length="short" rot="R180"/>
+<pin name="GPIO23" x="50.8" y="2.54" length="short" rot="R180"/>
+<pin name="(VSPIWP/HS2_CLK)GPIO22" x="50.8" y="5.08" length="short" rot="R180"/>
+<pin name="(VSPIQ/HS2_DATA2)GPIO19" x="50.8" y="12.7" length="short" rot="R180"/>
+<pin name="VDD3P3_CPU" x="-50.8" y="38.1" length="short"/>
+<pin name="XTAL_N" x="-50.8" y="7.62" length="short"/>
+<pin name="XTAL_P" x="-50.8" y="10.16" length="short"/>
+<pin name="VDDA" x="-50.8" y="33.02" length="short"/>
+<pin name="CAP2" x="-50.8" y="-33.02" length="short"/>
+<pin name="CAP1" x="-50.8" y="-30.48" length="short"/>
+<pin name="GND" x="-50.8" y="-38.1" length="short"/>
+<pin name="(VSPIHD/HS2_CMD)GPIO21" x="50.8" y="7.62" length="short" rot="R180"/>
+<wire x1="48.26" y1="40.64" x2="-48.26" y2="40.64" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="40.64" x2="-48.26" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="-40.64" x2="48.26" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-40.64" x2="48.26" y2="40.64" width="0.254" layer="94"/>
+<text x="-48.26" y="40.894" size="1.778" layer="95">&gt;Name</text>
+<text x="-48.26" y="-40.894" size="1.778" layer="96" align="top-left">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UCC28700" prefix="U">
@@ -760,7 +1128,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="VS" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/ucc28700.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-39536-1-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="PART_NUMBER" value="UCC28700DBVR"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -784,7 +1157,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="VOS" pad="10"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps62177.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-41856-6-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="PART_NUMBER" value="TPS62177DQCR"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -807,31 +1185,32 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://katalog.we-online.com/ctm/datasheet/750811647.pdf"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Midcom"/>
+<attribute name="PART_NUMBER" value="750811647"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="C1608X5R1V225K080AC">
 <gates>
-<gate name="A" symbol="WB_CAPACITOR-1" x="0" y="0"/>
+<gate name="G$1" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0603">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CAP" value="2.2E6" constant="no"/>
-<attribute name="DATASHEETURL" value="httpsproduct.tdk.comensearchcapacitorceramicmlccinfo?part%5Fno%3DC1608X5R1V225K080AC" constant="no"/>
-<attribute name="ESR" value="0.007674" constant="no"/>
-<attribute name="IRMS" value="1.87823" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X5R1V225K080AC" constant="no"/>
-<attribute name="VDC" value="35.0" constant="no"/>
-<attribute name="VENDOR" value="TDK" constant="no"/>
+<attribute name="DATASHEET_URL" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="445-8025-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="PART_NUMBER" value="C1608X5R1V225K080AC"/>
+<attribute name="VALUE" value="2.2µF"/>
 </technology>
 </technologies>
 </device>
@@ -839,22 +1218,21 @@ Switches electronic signals</description>
 </deviceset>
 <deviceset name="CRCW0402100KFKED">
 <gates>
-<gate name="A" symbol="WB_RESISTOR-1" x="0" y="0"/>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_NAME" value="VishayDale" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402100KFKED" constant="no"/>
-<attribute name="POWER" value="0.063" constant="no"/>
-<attribute name="RESISTANCE" value="100000.0" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="VishayDale" constant="no"/>
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-100KLCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW0402100KFKED"/>
+<attribute name="VALUE" value="100k"/>
 </technology>
 </technologies>
 </device>
@@ -882,23 +1260,21 @@ Switches electronic signals</description>
 </deviceset>
 <deviceset name="GRM21BR60J226ME39L">
 <gates>
-<gate name="A" symbol="WB_CAPACITOR-1" x="0" y="0"/>
+<gate name="G$1" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0805">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CAP" value="2.2E5" constant="no"/>
-<attribute name="ESR" value="0.0" constant="no"/>
-<attribute name="IRMS" value="0.0" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="MuRata" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR60J226ME39L" constant="no"/>
-<attribute name="VDC" value="6.3" constant="no"/>
-<attribute name="VENDOR" value="MuRata" constant="no"/>
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-1719-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="PART_NUMBER" value="GRM21BR60J226ME39L"/>
+<attribute name="VALUE" value="22µF"/>
 </technology>
 </technologies>
 </device>
@@ -932,12 +1308,17 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://www.diodes.com/assets/Datasheets/ds30137.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RH06DICT-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="PART_NUMBER" value="RH06-T"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EEUED2G470">
+<deviceset name="EEU-ED2G470">
 <gates>
 <gate name="G$1" symbol="WB_CAPACITOR-2" x="0" y="0"/>
 </gates>
@@ -948,7 +1329,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1062.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P13545-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="PART_NUMBER" value="EEU-ED2G470" constant="no"/>
+<attribute name="VALUE" value="47µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -964,7 +1351,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SMAJ120ALFCT-ND"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="PART_NUMBER" value="SMAJ120A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -980,28 +1372,39 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="K" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://www.diodes.com/assets/Datasheets/ds16008.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="US1M-FDICT-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="PART_NUMBER" value="US1M-13-F"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW120633R2FKEA">
+<deviceset name="CRCW121033R2FKEA">
 <gates>
 <gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1206">
+<device name="" package="1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20043/crcwhpe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-33.2AACT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW121033R2FKEA"/>
+<attribute name="VALUE" value="33.2"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IPD65R600E6" prefix="Q">
+<deviceset name="IPD65R600C6" prefix="Q">
 <gates>
 <gate name="G$1" symbol="LABELED-NMOS" x="0" y="0"/>
 </gates>
@@ -1013,7 +1416,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.infineon.com/dgdl/Infineon-IPD65R600C6-DS-v02_01-en.pdf?folderId=5546d4694909da4801490a07012f053b&amp;fileId=db3a30433f1b26e8013f2ceafdee37c4" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IPD65R600C6BTMA1CT-ND"/>
+<attribute name="MANUFACTURER" value="Infineon Technologies"/>
+<attribute name="PART_NUMBER" value="IPD65R600C6"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1029,7 +1437,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-0.0GCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW06030000Z0EA"/>
+<attribute name="VALUE" value="0.0"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1045,7 +1459,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-698FCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW1206698RFKEA"/>
+<attribute name="VALUE" value="698"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1061,7 +1481,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-4.7ECT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW12064R70JNEA"/>
+<attribute name="VALUE" value="4.7"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1077,7 +1503,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-75.0KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW060375K0FKEA"/>
+<attribute name="VALUE" value="75k"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1089,11 +1521,16 @@ Switches electronic signals</description>
 <devices>
 <device name="" package="SOD-323">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.onsemi.com/pub_link/Collateral/BAS20HT1-D.PDF"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="BAS20HT1GOSCT-ND"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
+<attribute name="PART_NUMBER" value="BAS20HT1G"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1109,7 +1546,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-19.6KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW060319K6FKEA"/>
+<attribute name="VALUE" value="19.6k"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1125,7 +1568,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://datasheets.avx.com/X7RDielectric.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="478-5052-1-ND"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="PART_NUMBER" value="06035C104KAT2A"/>
+<attribute name="VALUE" value="0.1µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1141,7 +1590,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6514-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="PART_NUMBER" value="GRM31CR61H225KA88L"/>
+<attribute name="VALUE" value="2.2µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1157,7 +1612,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-3.3MACT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW08053M30JNEA"/>
+<attribute name="VALUE" value="3.3M"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1173,12 +1634,18 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="CSR1206FKR750CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
+<attribute name="PART_NUMBER" value="CSR1206FKR750"/>
+<attribute name="VALUE" value="0.75"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DE1E3KX222MA4BL01">
+<deviceset name="DE1E3KX222MA4BN01F">
 <gates>
 <gate name="G$1" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
@@ -1189,7 +1656,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c85e.ashx"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-7047-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="PART_NUMBER" value="DE1E3KX222MA4BN01F" constant="no"/>
+<attribute name="VALUE" value="2200pF" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1205,7 +1678,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.mccsemi.com/up_pdf/SK4200L(SMC).pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SK4200L-TPMSCT-ND"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co"/>
+<attribute name="PART_NUMBER" value="SK4200L-TP" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1221,7 +1699,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="587-2994-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="PART_NUMBER" value="UMK316AB7475KL-T"/>
+<attribute name="VALUE" value="4.7µF" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1237,7 +1721,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://nichicon-us.com/english/products/pdfs/e-uhe.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="493-14552-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Nichicon"/>
+<attribute name="PART_NUMBER" value="UHE1V221MPD6"/>
+<attribute name="VALUE" value="220µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1254,12 +1744,10 @@ Switches electronic signals</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CAP" value="1.0E7" constant="no"/>
-<attribute name="ESR" value="0.28" constant="no"/>
-<attribute name="IRMS" value="0.0" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="08053C104KAT2A" constant="no"/>
-<attribute name="VDC" value="25.0" constant="no"/>
-<attribute name="VENDOR" value="AVX" constant="no"/>
+<attribute name="DATASHEET_URL" value="http://datasheets.avx.com/X7RDielectric.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="478-3755-1-ND"/>
+<attribute name="PART_NUMBER" value="08053C104KAT2A"/>
+<attribute name="VALUE" value="0.1µF"/>
 </technology>
 </technologies>
 </device>
@@ -1276,7 +1764,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-10KECT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW120610K0JNEA"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1348,7 +1842,74 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_370_datasheet.pdf.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="WK4957BK-ND"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="PART_NUMBER" value="37012000410"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP3212" prefix="U">
+<gates>
+<gate name="G$1" symbol="ESP32-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN48-0.4MM">
+<connects>
+<connect gate="G$1" pin="(ADC2:0/TOUCH0/RTC10/SPIHD)GPIO4" pad="24"/>
+<connect gate="G$1" pin="(ADC2:1/TOUCH1/RTC11/CLK_OUT1)GPIO0" pad="23"/>
+<connect gate="G$1" pin="(ADC2:2/TOUCH2/RTC12/SPIWP)GPIO2" pad="22"/>
+<connect gate="G$1" pin="(ADC2:7/TOUCH7/RTC17)GPIO27" pad="16"/>
+<connect gate="G$1" pin="(DAC1/ADC2:8/RTC6)GPIO25" pad="14"/>
+<connect gate="G$1" pin="(DAC2/ADC2:9/RTC7)GPIO26" pad="15"/>
+<connect gate="G$1" pin="(GPIO1/CLK_OUT3/HS2_DATA1)U0TXD" pad="41"/>
+<connect gate="G$1" pin="(GPIO10/SPIWP/HS1_DATA3/U1TX)SD_DATA3" pad="29"/>
+<connect gate="G$1" pin="(GPIO11/SPICSO/HS1_CMD/U1RTS)SD_CMD" pad="30"/>
+<connect gate="G$1" pin="(GPIO12/ADC2:5/TOUCH5/RTC15/SPIQ)MTDI" pad="18"/>
+<connect gate="G$1" pin="(GPIO13/ADC2:4/TOUCH4/RTC14/SPID/U0CTS)MTCK" pad="20"/>
+<connect gate="G$1" pin="(GPIO14/ADC2:6/TOUCH6/RTC16/SPICLK)MTMS" pad="17"/>
+<connect gate="G$1" pin="(GPIO15/ADC2:3/TOUCH3/RTC13/SPICSO/U0RTS)MTDO" pad="21"/>
+<connect gate="G$1" pin="(GPIO3/CLK_OUT2/HS2_DATA0)U0RXD" pad="40"/>
+<connect gate="G$1" pin="(GPIO6/SPICLK/HS1_CLK/U1CTS)SD_CLK" pad="31"/>
+<connect gate="G$1" pin="(GPIO7/SPI1/HS1_DATA0)SD_DATA0" pad="32"/>
+<connect gate="G$1" pin="(GPIO8/SPID/HS1_DATA1)SD_DATA1" pad="33"/>
+<connect gate="G$1" pin="(GPIO9/SPIHD/HS1_DATA2/U1RX)SD_DATA2" pad="28"/>
+<connect gate="G$1" pin="(HS1_DATA4)GPIO16" pad="25"/>
+<connect gate="G$1" pin="(HS1_DATA5)GPIO17" pad="27"/>
+<connect gate="G$1" pin="(VSPICLK/HS1_DATA7)GPIO18" pad="35"/>
+<connect gate="G$1" pin="(VSPICS0/HS1_DATA6)GPIO5" pad="34"/>
+<connect gate="G$1" pin="(VSPIHD/HS2_CMD)GPIO21" pad="42"/>
+<connect gate="G$1" pin="(VSPIQ/HS2_DATA2)GPIO19" pad="38"/>
+<connect gate="G$1" pin="(VSPIWP/HS2_CLK)GPIO22" pad="39"/>
+<connect gate="G$1" pin="32K_XN(GPIO33/ADC1:5/TOUCH8/RTC8)" pad="13"/>
+<connect gate="G$1" pin="32K_XP(GPIO32/ADC1:4/TOUCH9/RTC9)" pad="12"/>
+<connect gate="G$1" pin="CAP1" pad="48"/>
+<connect gate="G$1" pin="CAP2" pad="47"/>
+<connect gate="G$1" pin="CHIP_PU" pad="9"/>
+<connect gate="G$1" pin="GND" pad="EP"/>
+<connect gate="G$1" pin="GPIO23" pad="36"/>
+<connect gate="G$1" pin="LNA_IN" pad="2"/>
+<connect gate="G$1" pin="SENSOR_CAPN(GPI38/ADC1:2/RTC2)" pad="7"/>
+<connect gate="G$1" pin="SENSOR_CAPP(GPI37/ADC1:1/RTC1)" pad="6"/>
+<connect gate="G$1" pin="SENSOR_VN(GPI39/ADC1:3/RTC3)" pad="8"/>
+<connect gate="G$1" pin="SENSOR_VP(GPI36/ADC1:0/RTC0)" pad="5"/>
+<connect gate="G$1" pin="VDD3P3_CPU" pad="37"/>
+<connect gate="G$1" pin="VDD3P3_RTC" pad="19"/>
+<connect gate="G$1" pin="VDD3P3_SDIO" pad="26"/>
+<connect gate="G$1" pin="VDDA" pad="1 43 46"/>
+<connect gate="G$1" pin="VDDA3P3" pad="3 4"/>
+<connect gate="G$1" pin="VDET_1(GPI34/ADC1:6)" pad="10"/>
+<connect gate="G$1" pin="VDET_2(GPI35/ADC1:7)" pad="11"/>
+<connect gate="G$1" pin="XTAL_N" pad="44"/>
+<connect gate="G$1" pin="XTAL_P" pad="45"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13338"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1368,42 +1929,42 @@ Switches electronic signals</description>
 <part name="U1" library="derek" deviceset="UCC28700" device=""/>
 <part name="U_1" library="derek" deviceset="TPS62177" device=""/>
 <part name="T1" library="derek" deviceset="750811647" device=""/>
-<part name="C_1" library="derek" deviceset="C1608X5R1V225K080AC" device=""/>
-<part name="R_1" library="derek" deviceset="CRCW0402100KFKED" device=""/>
+<part name="C_1" library="derek" deviceset="C1608X5R1V225K080AC" device="" value="2.2µF"/>
+<part name="R_1" library="derek" deviceset="CRCW0402100KFKED" device="" value="100k"/>
 <part name="L_1" library="derek" deviceset="LPS4018-103MRB" device="LPS4018-103MRB"/>
-<part name="C_2" library="derek" deviceset="GRM21BR60J226ME39L" device=""/>
+<part name="C_2" library="derek" deviceset="GRM21BR60J226ME39L" device="" value="22µF"/>
 <part name="U$8" library="derek" deviceset="TP-1502" device=""/>
 <part name="D3" library="derek" deviceset="RH06-T" device=""/>
 <part name="U$2" library="derek" deviceset="TP-1502" device=""/>
 <part name="U$3" library="derek" deviceset="TP-1502" device=""/>
-<part name="C7" library="derek" deviceset="EEUED2G470" device=""/>
+<part name="C7" library="derek" deviceset="EEU-ED2G470" device="" value="47µF"/>
 <part name="U$9" library="derek" deviceset="TP-1502" device=""/>
 <part name="U$10" library="derek" deviceset="TP-1502" device=""/>
 <part name="D2" library="derek" deviceset="SMAJ120A" device=""/>
 <part name="D4" library="derek" deviceset="US1M-13-F" device=""/>
-<part name="R2" library="derek" deviceset="CRCW120633R2FKEA" device=""/>
-<part name="Q1" library="derek" deviceset="IPD65R600E6" device=""/>
-<part name="R7" library="derek" deviceset="CRCW06030000Z0EA" device=""/>
-<part name="R8" library="derek" deviceset="CRCW1206698RFKEA" device=""/>
-<part name="R3" library="derek" deviceset="CRCW12064R70JNEA" device=""/>
-<part name="R4" library="derek" deviceset="CRCW060375K0FKEA" device=""/>
+<part name="R2" library="derek" deviceset="CRCW121033R2FKEA" device="" value="33.2"/>
+<part name="Q1" library="derek" deviceset="IPD65R600C6" device=""/>
+<part name="R7" library="derek" deviceset="CRCW06030000Z0EA" device="" value="0.0"/>
+<part name="R8" library="derek" deviceset="CRCW1206698RFKEA" device="" value="698"/>
+<part name="R3" library="derek" deviceset="CRCW12064R70JNEA" device="" value="4.7"/>
+<part name="R4" library="derek" deviceset="CRCW060375K0FKEA" device="" value="75k"/>
 <part name="D5" library="derek" deviceset="BAS20HT1G" device=""/>
-<part name="R11" library="derek" deviceset="CRCW060319K6FKEA" device=""/>
-<part name="C8" library="derek" deviceset="06035C104KAT2A" device=""/>
-<part name="C9" library="derek" deviceset="GRM31CR61H225KA88L" device=""/>
-<part name="R5" library="derek" deviceset="CRCW08053M30JNEA" device=""/>
-<part name="R6" library="derek" deviceset="CRCW08053M30JNEA" device=""/>
-<part name="R9" library="derek" deviceset="CSR1206FKR750" device=""/>
-<part name="R10" library="derek" deviceset="CSR1206FKR750" device=""/>
-<part name="C1" library="derek" deviceset="DE1E3KX222MA4BL01" device=""/>
+<part name="R11" library="derek" deviceset="CRCW060319K6FKEA" device="" value="19.6k"/>
+<part name="C8" library="derek" deviceset="06035C104KAT2A" device="" value="0.1µF"/>
+<part name="C9" library="derek" deviceset="GRM31CR61H225KA88L" device="" value="2.2µF"/>
+<part name="R5" library="derek" deviceset="CRCW08053M30JNEA" device="" value="3.3M"/>
+<part name="R6" library="derek" deviceset="CRCW08053M30JNEA" device="" value="3.3M"/>
+<part name="R9" library="derek" deviceset="CSR1206FKR750" device="" value="0.75"/>
+<part name="R10" library="derek" deviceset="CSR1206FKR750" device="" value="0.75"/>
+<part name="C1" library="derek" deviceset="DE1E3KX222MA4BN01F" device="" value="2200pF"/>
 <part name="D1" library="derek" deviceset="SK4200L-TP" device=""/>
-<part name="C4" library="derek" deviceset="UMK316AB7475KL-T" device=""/>
-<part name="C5" library="derek" deviceset="UMK316AB7475KL-T" device=""/>
-<part name="C2" library="derek" deviceset="UHE1V221MPD6" device=""/>
-<part name="C3" library="derek" deviceset="UHE1V221MPD6" device=""/>
-<part name="C6" library="derek" deviceset="08053C104KAT2A" device=""/>
-<part name="R1" library="derek" deviceset="CRCW120610K0JNEA" device=""/>
-<part name="R101" library="derek" deviceset="CRCW120610K0JNEA" device=""/>
+<part name="C4" library="derek" deviceset="UMK316AB7475KL-T" device="" value="4.7µF"/>
+<part name="C5" library="derek" deviceset="UMK316AB7475KL-T" device="" value="4.7µF"/>
+<part name="C2" library="derek" deviceset="UHE1V221MPD6" device="" value="220µF"/>
+<part name="C3" library="derek" deviceset="UHE1V221MPD6" device="" value="220µF"/>
+<part name="C6" library="derek" deviceset="08053C104KAT2A" device="" value="0.1µF"/>
+<part name="R1" library="derek" deviceset="CRCW120610K0JNEA" device="" value="10k"/>
+<part name="R101" library="derek" deviceset="CRCW120610K0JNEA" device="" value="10k"/>
 <part name="GND-ISO1" library="derek" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO2" library="derek" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO3" library="derek" deviceset="GND-ISO" device=""/>
@@ -1420,6 +1981,7 @@ Switches electronic signals</description>
 <part name="SUPPLY2" library="derek" deviceset="24V" device=""/>
 <part name="SUPPLY3" library="derek" deviceset="24V" device=""/>
 <part name="F1" library="derek" deviceset="37012000410" device=""/>
+<part name="U2" library="derek" deviceset="ESP3212" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1429,10 +1991,10 @@ Switches electronic signals</description>
 <instance part="U1" gate="G$1" x="83.82" y="-114.3" rot="MR0"/>
 <instance part="U_1" gate="G$1" x="416.56" y="38.1"/>
 <instance part="T1" gate="G$1" x="200.66" y="35.56"/>
-<instance part="C_1" gate="A" x="388.62" y="22.86" rot="R90"/>
-<instance part="R_1" gate="A" x="441.96" y="33.02"/>
+<instance part="C_1" gate="G$1" x="388.62" y="22.86" rot="R90"/>
+<instance part="R_1" gate="G$1" x="441.96" y="33.02"/>
 <instance part="L_1" gate="G$1" x="441.96" y="43.18"/>
-<instance part="C_2" gate="A" x="454.66" y="22.86" rot="R90"/>
+<instance part="C_2" gate="G$1" x="454.66" y="22.86" rot="R90"/>
 <instance part="U$8" gate="A" x="469.9" y="33.02" rot="R180"/>
 <instance part="D3" gate="G$1" x="86.36" y="7.62"/>
 <instance part="U$2" gate="A" x="35.56" y="25.4"/>
@@ -1481,6 +2043,7 @@ Switches electronic signals</description>
 <instance part="SUPPLY2" gate="G$1" x="375.92" y="30.48"/>
 <instance part="SUPPLY3" gate="G$1" x="302.26" y="63.5"/>
 <instance part="F1" gate="G$1" x="48.26" y="25.4"/>
+<instance part="U2" gate="G$1" x="332.74" y="-104.14"/>
 </instances>
 <busses>
 </busses>
@@ -1495,14 +2058,14 @@ Switches electronic signals</description>
 <wire x1="454.66" y1="38.1" x2="454.66" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="38.1" x2="454.66" y2="33.02" width="0.1524" layer="91"/>
 <junction x="454.66" y="38.1"/>
-<pinref part="R_1" gate="A" pin="1"/>
+<pinref part="R_1" gate="G$1" pin="1"/>
 <wire x1="454.66" y1="33.02" x2="449.58" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="43.18" x2="454.66" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U_1" gate="G$1" pin="VOS"/>
 <wire x1="431.8" y1="48.26" x2="454.66" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="33.02" x2="454.66" y2="30.48" width="0.1524" layer="91"/>
 <junction x="454.66" y="33.02"/>
-<pinref part="C_2" gate="A" pin="1"/>
+<pinref part="C_2" gate="G$1" pin="1"/>
 <pinref part="U$8" gate="A" pin="TP"/>
 <wire x1="454.66" y1="33.02" x2="467.36" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
@@ -1803,12 +2366,12 @@ Switches electronic signals</description>
 <wire x1="401.32" y1="27.94" x2="398.78" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="27.94" x2="398.78" y2="12.7" width="0.1524" layer="91"/>
 <junction x="398.78" y="12.7"/>
-<pinref part="C_1" gate="A" pin="2"/>
+<pinref part="C_1" gate="G$1" pin="2"/>
 <wire x1="388.62" y1="15.24" x2="388.62" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="454.66" y1="12.7" x2="434.34" y2="12.7" width="0.1524" layer="91"/>
 <junction x="434.34" y="12.7"/>
 <junction x="416.56" y="12.7"/>
-<pinref part="C_2" gate="A" pin="2"/>
+<pinref part="C_2" gate="G$1" pin="2"/>
 <pinref part="GND-ISO3" gate="G$1" pin="GND-ISO"/>
 <wire x1="416.56" y1="10.16" x2="416.56" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -1828,7 +2391,7 @@ Switches electronic signals</description>
 <wire x1="396.24" y1="43.18" x2="396.24" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U_1" gate="G$1" pin="EN"/>
 <wire x1="396.24" y1="38.1" x2="401.32" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C_1" gate="A" pin="1"/>
+<pinref part="C_1" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="30.48" x2="388.62" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="38.1" x2="396.24" y2="38.1" width="0.1524" layer="91"/>
 <junction x="396.24" y="38.1"/>
@@ -1878,7 +2441,7 @@ Switches electronic signals</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U_1" gate="G$1" pin="PG"/>
-<pinref part="R_1" gate="A" pin="2"/>
+<pinref part="R_1" gate="G$1" pin="2"/>
 <wire x1="431.8" y1="33.02" x2="434.34" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>

@@ -2785,7 +2785,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="VS" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/ucc28700.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-39536-1-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="PART_NUMBER" value="UCC28700DBVR"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2809,7 +2814,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="VOS" pad="10"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps62177.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-41856-6-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="PART_NUMBER" value="TPS62177DQCR"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2832,31 +2842,32 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://katalog.we-online.com/ctm/datasheet/750811647.pdf"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Midcom"/>
+<attribute name="PART_NUMBER" value="750811647"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="C1608X5R1V225K080AC">
 <gates>
-<gate name="A" symbol="WB_CAPACITOR-1" x="0" y="0"/>
+<gate name="G$1" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0603">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CAP" value="2.2E6" constant="no"/>
-<attribute name="DATASHEETURL" value="httpsproduct.tdk.comensearchcapacitorceramicmlccinfo?part%5Fno%3DC1608X5R1V225K080AC" constant="no"/>
-<attribute name="ESR" value="0.007674" constant="no"/>
-<attribute name="IRMS" value="1.87823" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X5R1V225K080AC" constant="no"/>
-<attribute name="VDC" value="35.0" constant="no"/>
-<attribute name="VENDOR" value="TDK" constant="no"/>
+<attribute name="DATASHEET_URL" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="445-8025-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="PART_NUMBER" value="C1608X5R1V225K080AC"/>
+<attribute name="VALUE" value="2.2µF"/>
 </technology>
 </technologies>
 </device>
@@ -2864,22 +2875,21 @@ Switches electronic signals</description>
 </deviceset>
 <deviceset name="CRCW0402100KFKED">
 <gates>
-<gate name="A" symbol="WB_RESISTOR-1" x="0" y="0"/>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0402">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_NAME" value="VishayDale" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402100KFKED" constant="no"/>
-<attribute name="POWER" value="0.063" constant="no"/>
-<attribute name="RESISTANCE" value="100000.0" constant="no"/>
-<attribute name="TOLERANCE" value="1.0" constant="no"/>
-<attribute name="VENDOR" value="VishayDale" constant="no"/>
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-100KLCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW0402100KFKED"/>
+<attribute name="VALUE" value="100k"/>
 </technology>
 </technologies>
 </device>
@@ -2887,23 +2897,21 @@ Switches electronic signals</description>
 </deviceset>
 <deviceset name="GRM21BR60J226ME39L">
 <gates>
-<gate name="A" symbol="WB_CAPACITOR-1" x="0" y="0"/>
+<gate name="G$1" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="0805">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CAP" value="2.2E5" constant="no"/>
-<attribute name="ESR" value="0.0" constant="no"/>
-<attribute name="IRMS" value="0.0" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="MuRata" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR60J226ME39L" constant="no"/>
-<attribute name="VDC" value="6.3" constant="no"/>
-<attribute name="VENDOR" value="MuRata" constant="no"/>
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-1719-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="PART_NUMBER" value="GRM21BR60J226ME39L"/>
+<attribute name="VALUE" value="22µF"/>
 </technology>
 </technologies>
 </device>
@@ -2920,11 +2928,7 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MANUFACTURER_NAME" value="Coilcraft" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="'LPS4018-103MRB'" constant="no"/>
-<attribute name="VENDOR" value="Gimme a name" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2956,7 +2960,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://www.diodes.com/assets/Datasheets/ds30137.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RH06DICT-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="PART_NUMBER" value="RH06-T"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2988,7 +2997,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SMAJ120ALFCT-ND"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="PART_NUMBER" value="SMAJ120A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3004,7 +3018,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="K" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://www.diodes.com/assets/Datasheets/ds16008.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="US1M-FDICT-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="PART_NUMBER" value="US1M-13-F"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3036,7 +3055,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-4.7ECT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW12064R70JNEA"/>
+<attribute name="VALUE" value="4.7"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3052,7 +3077,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-75.0KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW060375K0FKEA"/>
+<attribute name="VALUE" value="75k"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3068,7 +3099,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-19.6KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW060319K6FKEA"/>
+<attribute name="VALUE" value="19.6k"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3084,7 +3121,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://datasheets.avx.com/X7RDielectric.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="478-5052-1-ND"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="PART_NUMBER" value="06035C104KAT2A"/>
+<attribute name="VALUE" value="0.1µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3100,7 +3143,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6514-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="PART_NUMBER" value="GRM31CR61H225KA88L"/>
+<attribute name="VALUE" value="2.2µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3116,7 +3165,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-698FCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW1206698RFKEA"/>
+<attribute name="VALUE" value="698"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3149,7 +3204,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-0.0GCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW06030000Z0EA"/>
+<attribute name="VALUE" value="0.0"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3165,7 +3226,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="K" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.onsemi.com/pub_link/Collateral/BAS20HT1-D.PDF"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="BAS20HT1GOSCT-ND"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
+<attribute name="PART_NUMBER" value="BAS20HT1G"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3181,7 +3247,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-3.3MACT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW08053M30JNEA"/>
+<attribute name="VALUE" value="3.3M"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3197,7 +3269,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://www.seielect.com/Catalog/SEI-CSR_CSRN.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="CSR1206FKR750CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
+<attribute name="PART_NUMBER" value="CSR1206FKR750"/>
+<attribute name="VALUE" value="0.75"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3229,7 +3307,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.mccsemi.com/up_pdf/SK4200L(SMC).pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SK4200L-TPMSCT-ND"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co"/>
+<attribute name="PART_NUMBER" value="SK4200L-TP" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3245,7 +3328,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-10KECT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW120610K0JNEA"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3261,7 +3350,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="587-2994-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="PART_NUMBER" value="UMK316AB7475KL-T"/>
+<attribute name="VALUE" value="4.7µF" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3277,7 +3372,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://nichicon-us.com/english/products/pdfs/e-uhe.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="493-14552-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Nichicon"/>
+<attribute name="PART_NUMBER" value="UHE1V221MPD6"/>
+<attribute name="VALUE" value="220µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3349,7 +3450,12 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_370_datasheet.pdf.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="WK4957BK-ND"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="PART_NUMBER" value="37012000410"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3627,6 +3733,94 @@ Switches electronic signals</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND"/>
 <attribute name="PART_NUMBER" value="SRN6045-330M"/>
 <attribute name="VALUE" value="33µH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DE1E3KX222MA4BN01F">
+<gates>
+<gate name="G$1" symbol="WB_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DE1E3KX222MA4BL01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c85e.ashx"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-7047-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="PART_NUMBER" value="DE1E3KX222MA4BN01F" constant="no"/>
+<attribute name="VALUE" value="2200pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEU-ED2G470">
+<gates>
+<gate name="G$1" symbol="WB_CAPACITOR-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPR7.5-16X25">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1062.pdf" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P13545-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="PART_NUMBER" value="EEU-ED2G470" constant="no"/>
+<attribute name="VALUE" value="47µF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPD65R600C6" prefix="Q">
+<gates>
+<gate name="G$1" symbol="LABELED-NMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-252">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.infineon.com/dgdl/Infineon-IPD65R600C6-DS-v02_01-en.pdf?folderId=5546d4694909da4801490a07012f053b&amp;fileId=db3a30433f1b26e8013f2ceafdee37c4" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="IPD65R600C6BTMA1CT-ND"/>
+<attribute name="MANUFACTURER" value="Infineon Technologies"/>
+<attribute name="PART_NUMBER" value="IPD65R600C6"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW121033R2FKEA">
+<gates>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20043/crcwhpe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-33.2AACT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW121033R2FKEA"/>
+<attribute name="VALUE" value="33.2"/>
 </technology>
 </technologies>
 </device>
