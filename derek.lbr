@@ -1538,6 +1538,14 @@ part number 2062-2P from STA</description>
 <wire x1="-0.9" y1="3" x2="0.9" y2="3" width="0.2032" layer="21"/>
 <wire x1="-0.9" y1="-3" x2="0.9" y2="-3" width="0.2032" layer="21"/>
 </package>
+<package name="SDR0503">
+<smd name="1" x="-1.85" y="0" dx="1.8" dy="5" layer="1"/>
+<smd name="2" x="1.85" y="0" dx="1.8" dy="5" layer="1"/>
+<text x="0" y="2.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.962" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="2.5" x2="0.9" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-2.5" x2="0.9" y2="-2.5" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS92513">
@@ -2467,6 +2475,7 @@ Switches electronic signals</description>
 <technology name="">
 <attribute name="DATASHEET_URL" value="http://datasheets.avx.com/X7RDielectric.pdf"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="478-3755-1-ND"/>
+<attribute name="MANUFACTURER" value="AVX Corporation"/>
 <attribute name="PART_NUMBER" value="08053C104KAT2A"/>
 <attribute name="VALUE" value="0.1µF"/>
 </technology>
@@ -2816,7 +2825,7 @@ Switches electronic signals</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps62177.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="296-41856-6-ND"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-41856-1-ND"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="PART_NUMBER" value="TPS62177DQCR"/>
 </technology>
@@ -3751,10 +3760,10 @@ Switches electronic signals</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c85e.ashx"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-7047-ND"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-9384-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="PART_NUMBER" value="DE1E3KX222MA4BN01F" constant="no"/>
-<attribute name="VALUE" value="2200pF" constant="no"/>
+<attribute name="PART_NUMBER" value="DE1E3KX222MA4BN01F"/>
+<attribute name="VALUE" value="2200pF"/>
 </technology>
 </technologies>
 </device>
@@ -3821,6 +3830,28 @@ Switches electronic signals</description>
 <attribute name="MANUFACTURER" value="Vishay Dale"/>
 <attribute name="PART_NUMBER" value="CRCW121033R2FKEA"/>
 <attribute name="VALUE" value="33.2"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SDR0503-100ML">
+<gates>
+<gate name="G$1" symbol="WB_INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SDR0503">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SDR0503.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SDR0503-100MLCT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="PART_NUMBER" value="SDR0503-100ML"/>
+<attribute name="VALUE" value="10µH"/>
 </technology>
 </technologies>
 </device>

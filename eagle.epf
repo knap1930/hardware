@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 01 01"
+Version="08 02 00"
 Platform="Mac OS X"
 Globals="Globals"
 Desktop="Desktop"
@@ -8,5 +8,12 @@ Desktop="Desktop"
 AutoSaveProject=1
 UsedLibrary="derek.lbr"
 
+[Win_1]
+Type="Control Panel"
+Loc="240 198 1439 797"
+State=2
+Number=0
+
 [Desktop]
 Screen="1440 900"
+Window="Win_1"
