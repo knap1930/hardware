@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -279,7 +279,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="LaenPCBOrder *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für
@@ -343,7 +343,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="100mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -982,8 +982,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="20.8" y="44.3"/>
 <vertex x="20.1" y="44.3"/>
 </polygon>
-<via x="20.5" y="44.7" extent="1-16" drill="0.6" shape="square"/>
-<via x="21.4" y="44.7" extent="1-16" drill="0.6" shape="square"/>
+<via x="20.5" y="44.7" extent="1-16" drill="0.6"/>
+<via x="21.4" y="44.7" extent="1-16" drill="0.6"/>
 <contactref element="CIN2" pad="2"/>
 <contactref element="CIN3" pad="2"/>
 <wire x1="33.2236125" y1="52.73325625" x2="31" y2="55.6" width="0" layer="19" extent="1-1"/>
