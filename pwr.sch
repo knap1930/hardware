@@ -241,8 +241,8 @@
 <text x="-3" y="-5" size="1.27" layer="26">&gt;VALUE</text>
 </package>
 <package name="CAPPR7.5-16X25">
-<pad name="P$1" x="-3.75" y="0" drill="0.6"/>
-<pad name="P$2" x="3.75" y="0" drill="0.6"/>
+<pad name="P$1" x="-3.75" y="0" drill="1"/>
+<pad name="P$2" x="3.75" y="0" drill="1"/>
 <circle x="0" y="0" radius="8" width="0.127" layer="51"/>
 <text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
@@ -334,8 +334,8 @@
 <text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="CAPPR5-10X16">
-<pad name="P$1" x="-2.5" y="0" drill="0.6"/>
-<pad name="P$2" x="2.5" y="0" drill="0.6"/>
+<pad name="P$1" x="-2.5" y="0" drill="0.8"/>
+<pad name="P$2" x="2.5" y="0" drill="0.8"/>
 <circle x="0" y="0" radius="5" width="0.127" layer="51"/>
 <text x="-5" y="6" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
@@ -343,8 +343,8 @@
 <wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="51"/>
 </package>
 <package name="TR5_FUSE_8.5">
-<pad name="1" x="-1.27" y="0" drill="0.6"/>
-<pad name="2" x="1.27" y="0" drill="0.6"/>
+<pad name="1" x="-2.54" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.8"/>
 <circle x="0" y="0" radius="4.25" width="0.127" layer="51"/>
 <text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
@@ -819,7 +819,7 @@ Switches electronic signals</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps62177.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="296-41856-6-ND"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-41856-1-ND"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="PART_NUMBER" value="TPS62177DQCR"/>
 </technology>
@@ -1320,10 +1320,10 @@ Switches electronic signals</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c85e.ashx"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-7047-ND"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-9384-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="PART_NUMBER" value="DE1E3KX222MA4BN01F" constant="no"/>
-<attribute name="VALUE" value="2200pF" constant="no"/>
+<attribute name="PART_NUMBER" value="DE1E3KX222MA4BN01F"/>
+<attribute name="VALUE" value="2200pF"/>
 </technology>
 </technologies>
 </device>
@@ -1408,6 +1408,7 @@ Switches electronic signals</description>
 <technology name="">
 <attribute name="DATASHEET_URL" value="http://datasheets.avx.com/X7RDielectric.pdf"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="478-3755-1-ND"/>
+<attribute name="MANUFACTURER" value="AVX Corporation"/>
 <attribute name="PART_NUMBER" value="08053C104KAT2A"/>
 <attribute name="VALUE" value="0.1µF"/>
 </technology>
