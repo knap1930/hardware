@@ -250,14 +250,13 @@
 <wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="51"/>
 </package>
 <package name="SMA">
-<smd name="1" x="-2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
-<smd name="2" x="2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
-<wire x1="-2.3" y1="1.395" x2="-2.3" y2="-1.395" width="0.127" layer="51"/>
-<wire x1="-2.3" y1="-1.395" x2="2.3" y2="-1.395" width="0.127" layer="51"/>
-<wire x1="2.3" y1="-1.395" x2="2.3" y2="1.395" width="0.127" layer="51"/>
-<wire x1="2.3" y1="1.395" x2="-2.3" y2="1.395" width="0.127" layer="51"/>
-<text x="-3" y="2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="C" x="-2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
+<smd name="A" x="2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
+<wire x1="-3.57" y1="0.625" x2="-3.57" y2="-0.625" width="0.2032" layer="21"/>
+<text x="0" y="1.6532" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6532" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="1.45" x2="0.9" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-1.45" x2="0.9" y2="-1.45" width="0.2032" layer="21"/>
 </package>
 <package name="1210">
 <description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
@@ -324,14 +323,13 @@
 <text x="-4" y="-5" size="1.27" layer="28">&gt;VALUE</text>
 </package>
 <package name="SMC">
-<smd name="A" x="-2.413" y="0" dx="1.778" dy="3.175" layer="1"/>
-<smd name="C" x="2.413" y="0" dx="1.778" dy="3.175" layer="1"/>
-<wire x1="-3.556" y1="3.1115" x2="-3.556" y2="-3.1115" width="0.127" layer="51"/>
-<wire x1="-3.556" y1="-3.1115" x2="3.556" y2="-3.1115" width="0.127" layer="51"/>
-<wire x1="3.556" y1="-3.1115" x2="3.556" y2="3.1115" width="0.127" layer="51"/>
-<wire x1="3.556" y1="3.1115" x2="-3.556" y2="3.1115" width="0.127" layer="51"/>
-<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="C" x="-2.413" y="0" dx="1.778" dy="3.175" layer="1"/>
+<smd name="A" x="2.413" y="0" dx="1.778" dy="3.175" layer="1"/>
+<wire x1="-3.77" y1="0.625" x2="-3.77" y2="-0.625" width="0.2032" layer="21"/>
+<text x="0" y="3.3532" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.3532" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="3.15" x2="0.9" y2="3.15" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-3.15" x2="0.9" y2="-3.15" width="0.2032" layer="21"/>
 </package>
 <package name="CAPPR5-10X16">
 <pad name="P$1" x="-2.5" y="0" drill="0.8"/>
@@ -601,7 +599,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </symbol>
 <symbol name="WB_DIODE">
 <pin name="A" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="K" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="C" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
 <wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="2.54" x2="-2.032" y2="-2.54" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
@@ -1009,8 +1007,8 @@ Switches electronic signals</description>
 <devices>
 <device name="" package="SMA">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1030,8 +1028,8 @@ Switches electronic signals</description>
 <devices>
 <device name="" package="SMA">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1184,7 +1182,7 @@ Switches electronic signals</description>
 <device name="" package="SOD-323">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="K" pad="C"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1851,7 +1849,7 @@ Switches electronic signals</description>
 <net name="N$8" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="D4" gate="G$1" pin="K"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="25.4" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1946,7 +1944,7 @@ Switches electronic signals</description>
 <wire x1="99.06" y1="-114.3" x2="99.06" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="-96.52" x2="101.6" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="K"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="-96.52" x2="38.1" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-96.52" x2="38.1" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="99.06" y="-96.52"/>
