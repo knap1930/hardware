@@ -12,7 +12,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -449,54 +449,54 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="derek" package="1206" value="1µF" x="70.996146875" y="66.125246875">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="70.996146875" y="66.125246875" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="70.996146875" y="66.125246875" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="70.996146875" y="66.125246875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="1µF" x="70.996146875" y="66.125246875" size="1.778" layer="27" display="off"/>
+<element name="C2" library="derek" package="1206" value="1µF" x="70.559525" y="57.630715625" rot="R54">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="70.559525" y="57.630715625" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="70.559525" y="57.630715625" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="70.559525" y="57.630715625" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="VALUE" value="1µF" x="70.559525" y="57.630715625" size="1.778" layer="27" rot="R54" display="off"/>
 </element>
-<element name="C3" library="derek" package="0402" value="10000pF" x="71.70475" y="61.94614375" rot="R90">
-<attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="71.70475" y="61.94614375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-4762-1-ND " x="71.70475" y="61.94614375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="71.70475" y="61.94614375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="10000pF" x="71.70475" y="61.94614375" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C3" library="derek" package="0402" value="10000pF" x="74.356996875" y="55.747571875" rot="R144">
+<attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="74.356996875" y="55.747571875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-4762-1-ND " x="74.356996875" y="55.747571875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="74.356996875" y="55.747571875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="VALUE" value="10000pF" x="74.356996875" y="55.747571875" size="1.778" layer="27" rot="R144" display="off"/>
 </element>
-<element name="C5" library="derek" package="0805" value="0.01μF" x="76.63385625" y="57.604753125" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="76.63385625" y="57.604753125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="311-1136-1-ND" x="76.63385625" y="57.604753125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="76.63385625" y="57.604753125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="0.01μF" x="76.63385625" y="57.604753125" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C5" library="derek" package="0805" value="0.01μF" x="80.7665125" y="57.1835" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="80.7665125" y="57.1835" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1136-1-ND" x="80.7665125" y="57.1835" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="80.7665125" y="57.1835" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" value="0.01μF" x="80.7665125" y="57.1835" size="1.778" layer="27" rot="R234" display="off"/>
 </element>
-<element name="C7" library="derek" package="0805" value="0.1µF" x="80.366140625" y="60.925246875" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="80.366140625" y="60.925246875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="311-1141-1-ND" x="80.366140625" y="60.925246875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="80.366140625" y="60.925246875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.1µF" x="80.366140625" y="60.925246875" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C7" library="derek" package="0805" value="0.1µF" x="80.27395625" y="62.15471875" rot="R144">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="80.27395625" y="62.15471875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1141-1-ND" x="80.27395625" y="62.15471875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="80.27395625" y="62.15471875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="80.27395625" y="62.15471875" size="1.778" layer="27" rot="R144" display="off"/>
 </element>
-<element name="C6" library="derek" package="0603" value="0.1µF" x="75.02524375" y="62.93385625" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="75.02524375" y="62.93385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-1524-1-ND" x="75.02524375" y="62.93385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America" x="75.02524375" y="62.93385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="75.02524375" y="64.17185625" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="GRM188R71E104KA01D" x="75.02524375" y="62.93385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="0.1µF" x="75.02524375" y="62.93385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="75.02524375" y="63.59585625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="C6" library="derek" package="0603" value="0.1µF" x="75.50965625" y="59.014471875" smashed="yes" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="75.50965625" y="59.014471875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-1524-1-ND" x="75.50965625" y="59.014471875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="75.50965625" y="59.014471875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="NAME" x="74.50809375" y="59.74215" size="0.6096" layer="25" font="vector" ratio="20" rot="R234" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="GRM188R71E104KA01D" x="75.50965625" y="59.014471875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="75.50965625" y="59.014471875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" x="74.9740875" y="59.403584375" size="0.6096" layer="27" font="vector" ratio="20" rot="R234" align="top-center"/>
 </element>
-<element name="C8" library="derek" package="0805" value="1µF" x="83.64525" y="69.04385625" rot="R270">
-<attribute name="DATASHEET_URL" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212B7105KG-T&amp;fileName=GMK212B7105KG-T_SS&amp;mode=specSheetDownload" x="83.64525" y="69.04385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="587-1438-1-ND" x="83.64525" y="69.04385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="83.64525" y="69.04385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="1µF" x="83.64525" y="69.04385625" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C8" library="derek" package="0805" value="1µF" x="75.633275" y="69.579571875" rot="R324">
+<attribute name="DATASHEET_URL" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212B7105KG-T&amp;fileName=GMK212B7105KG-T_SS&amp;mode=specSheetDownload" x="75.633275" y="69.579571875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="587-1438-1-ND" x="75.633275" y="69.579571875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="75.633275" y="69.579571875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" value="1µF" x="75.633275" y="69.579571875" size="1.778" layer="27" rot="R324" display="off"/>
 </element>
-<element name="D2" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="78.95" y="63.65">
-<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="78.95" y="63.65" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="78.95" y="63.65" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="78.95" y="63.65" size="1.778" layer="27" display="off"/>
+<element name="D2" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="77.2372" y="62.61060625" rot="R54">
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="77.2372" y="62.61060625" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="77.2372" y="62.61060625" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="77.2372" y="62.61060625" size="1.778" layer="27" rot="R54" display="off"/>
 </element>
-<element name="D1" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="71.245246875" y="69.803853125">
-<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="71.245246875" y="69.803853125" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="71.245246875" y="69.803853125" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="71.245246875" y="69.803853125" size="1.778" layer="27" display="off"/>
+<element name="D1" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="67.7298875" y="59.994471875" rot="R54">
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="67.7298875" y="59.994471875" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="67.7298875" y="59.994471875" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="67.7298875" y="59.994471875" size="1.778" layer="27" rot="R54" display="off"/>
 </element>
 <element name="D7" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="27" y="42" locked="yes" rot="R90">
 <attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="27" y="42" size="1.778" layer="27" rot="R90" display="off"/>
@@ -523,72 +523,222 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="16.0182" y="31.1151" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="16.0182" y="31.1151" size="1.778" layer="27" rot="R162" display="off"/>
 </element>
-<element name="L1" library="derek" package="SRN6045" value="33µH" x="78.0661375" y="68.32525" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" x="78.0661375" y="68.32525" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND" x="78.0661375" y="68.32525" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="SRN6045-330M" x="78.0661375" y="68.32525" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="33µH" x="78.0661375" y="68.32525" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="L1" library="derek" package="SRN6045" value="33µH" x="72.935321875" y="64.6435875" rot="R144">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" x="72.935321875" y="64.6435875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND" x="72.935321875" y="64.6435875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="PART_NUMBER" value="SRN6045-330M" x="72.935321875" y="64.6435875" size="1.778" layer="27" rot="R144" display="off"/>
+<attribute name="VALUE" value="33µH" x="72.935321875" y="64.6435875" size="1.778" layer="27" rot="R144" display="off"/>
 </element>
-<element name="R1" library="derek" package="0402" value="97.6k" x="70.12524375" y="61.13385625" smashed="yes" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="70.12524375" y="61.13385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND" x="70.12524375" y="61.13385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="68.98724375" y="61.13385625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW040297K6FKED" x="70.12524375" y="61.13385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="97.6k" x="70.12524375" y="61.13385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="69.66324375" y="61.13385625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R1" library="derek" package="0402" value="97.6k" x="74.085740625" y="53.992275" smashed="yes" rot="R324">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="74.085740625" y="53.992275" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND" x="74.085740625" y="53.992275" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="NAME" x="73.416840625" y="53.0716125" size="0.6096" layer="25" font="vector" ratio="20" rot="R324" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="CRCW040297K6FKED" x="74.085740625" y="53.992275" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" value="97.6k" x="74.085740625" y="53.992275" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" x="73.814184375" y="53.618509375" size="0.6096" layer="27" font="vector" ratio="20" rot="R324" align="top-center"/>
 </element>
-<element name="R2" library="derek" package="0402" value="5.49k" x="70.12524375" y="59.53385625" smashed="yes" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="70.12524375" y="59.53385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND" x="70.12524375" y="59.53385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="68.98724375" y="59.53385625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW04025K49FKED" x="70.12524375" y="59.53385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="5.49k" x="70.12524375" y="59.53385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="69.66324375" y="59.53385625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R2" library="derek" package="0402" value="5.49k" x="75.38016875" y="53.05181875" smashed="yes" rot="R324">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="75.38016875" y="53.05181875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND" x="75.38016875" y="53.05181875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="NAME" x="74.71126875" y="52.13115625" size="0.6096" layer="25" font="vector" ratio="20" rot="R324" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="CRCW04025K49FKED" x="75.38016875" y="53.05181875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" value="5.49k" x="75.38016875" y="53.05181875" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" x="75.108609375" y="52.678053125" size="0.6096" layer="27" font="vector" ratio="20" rot="R324" align="top-center"/>
 </element>
-<element name="R3" library="derek" package="0402" value="162k" x="72.875246875" y="56.23385625" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="72.875246875" y="56.23385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="72.875246875" y="56.23385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="72.875246875" y="56.23385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="162k" x="72.875246875" y="56.23385625" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R3" library="derek" package="0402" value="162k" x="79.666334375" y="53.336928125" rot="R324">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="79.666334375" y="53.336928125" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="79.666334375" y="53.336928125" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="79.666334375" y="53.336928125" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" value="162k" x="79.666334375" y="53.336928125" size="1.778" layer="27" rot="R324" display="off"/>
 </element>
-<element name="R5" library="derek" package="0402" value="976" x="82.225246875" y="59.733853125" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="82.225246875" y="59.733853125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="82.225246875" y="59.733853125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="82.225246875" y="59.733853125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="976" x="82.225246875" y="59.733853125" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R5" library="derek" package="0402" value="976" x="82.33056875" y="62.95848125" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="82.33056875" y="62.95848125" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="82.33056875" y="62.95848125" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="82.33056875" y="62.95848125" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" value="976" x="82.33056875" y="62.95848125" size="1.778" layer="27" rot="R234" display="off"/>
 </element>
-<element name="R6" library="derek" package="0805" value="0.51" x="82.82524375" y="63.63385625" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="82.82524375" y="63.63385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="82.82524375" y="63.63385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="82.82524375" y="63.63385625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="0.51" x="82.82524375" y="63.63385625" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R6" library="derek" package="0805" value="0.51" x="79.528071875" y="65.736253125" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="79.528071875" y="65.736253125" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="79.528071875" y="65.736253125" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="79.528071875" y="65.736253125" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" value="0.51" x="79.528071875" y="65.736253125" size="1.778" layer="27" rot="R234" display="off"/>
 </element>
-<element name="U1" library="derek" package="TPS92513" value="TPS92513" x="75.325246875" y="60.33385625" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="75.325246875" y="60.33385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND" x="75.325246875" y="60.33385625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="TPS92513DGQT" x="75.325246875" y="60.33385625" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U1" library="derek" package="TPS92513" value="TPS92513" x="77.7894375" y="57.7289375" rot="R324">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="77.7894375" y="57.7289375" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND" x="77.7894375" y="57.7289375" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="PART_NUMBER" value="TPS92513DGQT" x="77.7894375" y="57.7289375" size="1.778" layer="27" rot="R324" display="off"/>
 </element>
-<element name="C1" library="derek" package="1206" value="1µF" x="71" y="64">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="71" y="64" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="71" y="64" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="71" y="64" size="1.778" layer="27" display="off"/>
+<element name="C1" library="derek" package="1206" value="1µF" x="72.28115" y="56.38464375" rot="R54">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="72.28115" y="56.38464375" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="72.28115" y="56.38464375" size="1.778" layer="27" rot="R54" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="72.28115" y="56.38464375" size="1.778" layer="27" rot="R54" display="off"/>
 </element>
 <element name="J45" library="derek" package="1X07_NO_SILK" value="" x="36.6" y="33" rot="R180"/>
-<element name="R4" library="derek" package="0603" value="4.02k" x="73.6" y="57.8" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="73.6" y="57.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-4.02KHCT-ND" x="73.6" y="57.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" x="73.6" y="57.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="74.2" y="57.138" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW06034K02FKEA" x="73.6" y="57.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="73.6" y="58.462" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="R4" library="derek" package="0603" value="4.02k" x="78.825296875" y="54.843821875" smashed="yes" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="78.825296875" y="54.843821875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-4.02KHCT-ND" x="78.825296875" y="54.843821875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="78.825296875" y="54.843821875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="NAME" x="79.7135375" y="54.940115625" size="0.6096" layer="25" font="vector" ratio="20" rot="R234" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="CRCW06034K02FKEA" x="78.825296875" y="54.843821875" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" x="78.289728125" y="55.232934375" size="0.6096" layer="27" font="vector" ratio="20" rot="R234" align="top-center"/>
 </element>
-<element name="C4" library="derek" package="0603" value="470pF" x="74.31" y="55.73" smashed="yes" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.kemet.com/docfinder?Partnumber=C0603X471K5RACTU" x="74.31" y="55.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="399-5338-1-ND" x="74.31" y="55.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="KEMET" x="74.31" y="55.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="72.972" y="55.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="C0603X471K5RACTU" x="74.31" y="55.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="73.648" y="55.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="C4" library="derek" package="0603" value="470pF" x="80.917290625" y="54.20150625" smashed="yes" rot="R324">
+<attribute name="DATASHEET_URL" value="http://www.kemet.com/docfinder?Partnumber=C0603X471K5RACTU" x="80.917290625" y="54.20150625" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="399-5338-1-ND" x="80.917290625" y="54.20150625" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="MANUFACTURER" value="KEMET" x="80.917290625" y="54.20150625" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="NAME" x="80.130834375" y="53.11904375" size="0.6096" layer="25" font="vector" ratio="20" rot="R324" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="C0603X471K5RACTU" x="80.917290625" y="54.20150625" size="1.778" layer="27" rot="R324" display="off"/>
+<attribute name="VALUE" x="80.528175" y="53.6659375" size="0.6096" layer="27" font="vector" ratio="20" rot="R324" align="top-center"/>
+</element>
+<element name="C9" library="derek" package="1206" value="1µF" x="102.778134375" y="56.7402875" rot="R306">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="102.778134375" y="56.7402875" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="102.778134375" y="56.7402875" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="102.778134375" y="56.7402875" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="VALUE" value="1µF" x="102.778134375" y="56.7402875" size="1.778" layer="27" rot="R306" display="off"/>
+</element>
+<element name="C10" library="derek" package="0402" value="10000pF" x="99.813675" y="53.7106" rot="R36">
+<attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="99.813675" y="53.7106" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-4762-1-ND " x="99.813675" y="53.7106" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="99.813675" y="53.7106" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="VALUE" value="10000pF" x="99.813675" y="53.7106" size="1.778" layer="27" rot="R36" display="off"/>
+</element>
+<element name="C11" library="derek" package="0805" value="0.01μF" x="99.198671875" y="47.171065625" rot="R126">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="99.198671875" y="47.171065625" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1136-1-ND" x="99.198671875" y="47.171065625" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="99.198671875" y="47.171065625" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="VALUE" value="0.01μF" x="99.198671875" y="47.171065625" size="1.778" layer="27" rot="R126" display="off"/>
+</element>
+<element name="C12" library="derek" package="0805" value="0.1µF" x="104.078790625" y="46.103321875" rot="R36">
+<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="104.078790625" y="46.103321875" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1141-1-ND" x="104.078790625" y="46.103321875" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="104.078790625" y="46.103321875" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="104.078790625" y="46.103321875" size="1.778" layer="27" rot="R36" display="off"/>
+</element>
+<element name="C13" library="derek" package="0603" value="0.1µF" x="102.564490625" y="51.604828125" smashed="yes" rot="R126">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="102.564490625" y="51.604828125" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-1524-1-ND" x="102.564490625" y="51.604828125" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America" x="102.564490625" y="51.604828125" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="NAME" x="103.566053125" y="52.33250625" size="0.6096" layer="25" font="vector" ratio="20" rot="R126" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="GRM188R71E104KA01D" x="102.564490625" y="51.604828125" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="VALUE" value="0.1µF" x="102.564490625" y="51.604828125" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="VALUE" x="103.100059375" y="51.993940625" size="0.6096" layer="27" font="vector" ratio="20" rot="R126" align="top-center"/>
+</element>
+<element name="C14" library="derek" package="0805" value="1µF" x="112.574296875" y="48.222465625" rot="R216">
+<attribute name="DATASHEET_URL" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212B7105KG-T&amp;fileName=GMK212B7105KG-T_SS&amp;mode=specSheetDownload" x="112.574296875" y="48.222465625" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="587-1438-1-ND" x="112.574296875" y="48.222465625" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="112.574296875" y="48.222465625" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" value="1µF" x="112.574296875" y="48.222465625" size="1.778" layer="27" rot="R216" display="off"/>
+</element>
+<element name="D9" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="105.450775" y="48.850571875" rot="R306">
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="105.450775" y="48.850571875" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="105.450775" y="48.850571875" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="105.450775" y="48.850571875" size="1.778" layer="27" rot="R306" display="off"/>
+</element>
+<element name="D8" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="105.90060625" y="58.70099375" rot="R306">
+<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="105.90060625" y="58.70099375" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="105.90060625" y="58.70099375" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="105.90060625" y="58.70099375" size="1.778" layer="27" rot="R306" display="off"/>
+</element>
+<element name="D10" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="31" y="42" locked="yes" smashed="yes" rot="R90">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="31" y="42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="31" y="42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="33.538" y="42" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="31" y="42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.862" y="42" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+</element>
+<element name="D11" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="41.9818" y="31.1151" locked="yes" smashed="yes" rot="R18">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="41.9818" y="31.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="41.9818" y="31.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="NAME" x="42.806409375" y="28.785965625" size="0.6096" layer="25" font="vector" ratio="20" rot="R18" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="41.9818" y="31.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="VALUE" x="42.5571875" y="29.34423125" size="0.6096" layer="27" font="vector" ratio="20" rot="R18" align="top-center"/>
+</element>
+<element name="D12" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="35.0232" y="17.3072" locked="yes" smashed="yes" rot="R306">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="35.0232" y="17.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="35.0232" y="17.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="NAME" x="33.0295875" y="15.801653125" size="0.6096" layer="25" font="vector" ratio="20" rot="R306" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="35.0232" y="17.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="VALUE" x="33.516809375" y="16.21274375" size="0.6096" layer="27" font="vector" ratio="20" rot="R306" align="top-center"/>
+</element>
+<element name="D13" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="19.7408" y="19.6583" locked="yes" smashed="yes" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="19.7408" y="19.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="19.7408" y="19.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="NAME" x="17.7471875" y="21.16384375" size="0.6096" layer="25" font="vector" ratio="20" rot="R234" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="19.7408" y="19.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" x="18.234409375" y="20.752753125" size="0.6096" layer="27" font="vector" ratio="20" rot="R234" align="top-center"/>
+</element>
+<element name="D14" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="17.3182" y="35.0151" smashed="yes" rot="R162">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="17.3182" y="35.0151" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="17.3182" y="35.0151" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="NAME" x="18.142809375" y="37.34423125" size="0.6096" layer="25" font="vector" ratio="20" rot="R162" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="17.3182" y="35.0151" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="VALUE" x="17.8935875" y="36.785965625" size="0.6096" layer="27" font="vector" ratio="20" rot="R162" align="top-center"/>
+</element>
+<element name="L2" library="derek" package="SRN6045" value="33µH" x="108.7136125" y="52.313675" rot="R36">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" x="108.7136125" y="52.313675" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND" x="108.7136125" y="52.313675" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="PART_NUMBER" value="SRN6045-330M" x="108.7136125" y="52.313675" size="1.778" layer="27" rot="R36" display="off"/>
+<attribute name="VALUE" value="33µH" x="108.7136125" y="52.313675" size="1.778" layer="27" rot="R36" display="off"/>
+</element>
+<element name="R7" library="derek" package="0402" value="97.6k" x="98.2281125" y="54.510996875" smashed="yes" rot="R216">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="98.2281125" y="54.510996875" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND" x="98.2281125" y="54.510996875" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="NAME" x="97.5592125" y="55.431659375" size="0.6096" layer="25" font="vector" ratio="20" rot="R216" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="CRCW040297K6FKED" x="98.2281125" y="54.510996875" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" value="97.6k" x="98.2281125" y="54.510996875" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" x="97.956553125" y="54.8847625" size="0.6096" layer="27" font="vector" ratio="20" rot="R216" align="top-center"/>
+</element>
+<element name="R8" library="derek" package="0402" value="5.49k" x="96.933684375" y="53.570540625" smashed="yes" rot="R216">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="96.933684375" y="53.570540625" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND" x="96.933684375" y="53.570540625" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="NAME" x="96.264784375" y="54.491203125" size="0.6096" layer="25" font="vector" ratio="20" rot="R216" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="CRCW04025K49FKED" x="96.933684375" y="53.570540625" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" value="5.49k" x="96.933684375" y="53.570540625" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" x="96.662128125" y="53.94430625" size="0.6096" layer="27" font="vector" ratio="20" rot="R216" align="top-center"/>
+</element>
+<element name="R9" library="derek" package="0402" value="162k" x="95.8803375" y="49.40605" rot="R216">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="95.8803375" y="49.40605" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="95.8803375" y="49.40605" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="95.8803375" y="49.40605" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" value="162k" x="95.8803375" y="49.40605" size="1.778" layer="27" rot="R216" display="off"/>
+</element>
+<element name="R10" library="derek" package="0402" value="976" x="104.2076875" y="43.8989875" rot="R126">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="104.2076875" y="43.8989875" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="104.2076875" y="43.8989875" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="104.2076875" y="43.8989875" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="VALUE" value="976" x="104.2076875" y="43.8989875" size="1.778" layer="27" rot="R126" display="off"/>
+</element>
+<element name="R11" library="derek" package="0805" value="0.51" x="107.715525" y="45.70594375" rot="R126">
+<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="107.715525" y="45.70594375" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="107.715525" y="45.70594375" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="107.715525" y="45.70594375" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="VALUE" value="0.51" x="107.715525" y="45.70594375" size="1.778" layer="27" rot="R126" display="off"/>
+</element>
+<element name="U2" library="derek" package="TPS92513" value="TPS92513" x="100.63738125" y="49.833878125" rot="R216">
+<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="100.63738125" y="49.833878125" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND" x="100.63738125" y="49.833878125" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="PART_NUMBER" value="TPS92513DGQT" x="100.63738125" y="49.833878125" size="1.778" layer="27" rot="R216" display="off"/>
+</element>
+<element name="C15" library="derek" package="1206" value="1µF" x="101.0610375" y="55.48798125" rot="R306">
+<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="101.0610375" y="55.48798125" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="101.0610375" y="55.48798125" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="101.0610375" y="55.48798125" size="1.778" layer="27" rot="R306" display="off"/>
+</element>
+<element name="R12" library="derek" package="0603" value="4.02k" x="97.573375" y="49.74026875" smashed="yes" rot="R126">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="97.573375" y="49.74026875" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-4.02KHCT-ND" x="97.573375" y="49.74026875" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="97.573375" y="49.74026875" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="NAME" x="97.390478125" y="48.865746875" size="0.6096" layer="25" font="vector" ratio="20" rot="R126" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="CRCW06034K02FKEA" x="97.573375" y="49.74026875" size="1.778" layer="27" rot="R126" display="off"/>
+<attribute name="VALUE" x="98.10894375" y="50.129384375" size="0.6096" layer="27" font="vector" ratio="20" rot="R126" align="top-center"/>
+</element>
+<element name="C16" library="derek" package="0603" value="470pF" x="96.3160375" y="47.949153125" smashed="yes" rot="R216">
+<attribute name="DATASHEET_URL" value="http://www.kemet.com/docfinder?Partnumber=C0603X471K5RACTU" x="96.3160375" y="47.949153125" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="399-5338-1-ND" x="96.3160375" y="47.949153125" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="MANUFACTURER" value="KEMET" x="96.3160375" y="47.949153125" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="NAME" x="95.52958125" y="49.031615625" size="0.6096" layer="25" font="vector" ratio="20" rot="R216" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="C0603X471K5RACTU" x="96.3160375" y="47.949153125" size="1.778" layer="27" rot="R216" display="off"/>
+<attribute name="VALUE" x="95.926925" y="48.484721875" size="0.6096" layer="27" font="vector" ratio="20" rot="R216" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -596,10 +746,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R2" pad="1"/>
 <contactref element="R1" pad="2"/>
 <contactref element="U1" pad="3"/>
-<wire x1="70.12524375" y1="60.70885625" x2="70.50024375" y2="60.33385625" width="0.3048" layer="1"/>
-<wire x1="70.50024375" y1="60.33385625" x2="73.125246875" y2="60.33385625" width="0.3048" layer="1"/>
-<wire x1="70.50024375" y1="60.33385625" x2="70.12524375" y2="59.95885625" width="0.3048" layer="1"/>
-<wire x1="70.12524375" y1="59.95885625" x2="70.12524375" y2="60.70885625" width="0.3048" layer="1"/>
+<wire x1="74.429571875" y1="53.742465625" x2="74.953371875" y2="53.825428125" width="0.3048" layer="1"/>
+<wire x1="74.953371875" y1="53.825428125" x2="76.496309375" y2="55.9491" width="0.3048" layer="1"/>
+<wire x1="74.953371875" y1="53.825428125" x2="75.036334375" y2="53.301625" width="0.3048" layer="1"/>
+<wire x1="75.036334375" y1="53.301625" x2="74.429571875" y2="53.742465625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="L1" pad="1"/>
@@ -607,15 +757,15 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C6" pad="1"/>
 <contactref element="U1" pad="10"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="76.8" y="61.25"/>
-<vertex x="78.6" y="61.25"/>
-<vertex x="78.6" y="63.5"/>
-<vertex x="80.2" y="65.1"/>
-<vertex x="81.1" y="65.1"/>
-<vertex x="81.1" y="67.2"/>
-<vertex x="75.1" y="67.2"/>
-<vertex x="75.1" y="62.4"/>
-<vertex x="76.8" y="62.4"/>
+<vertex x="77.9151" y="59.460534375"/>
+<vertex x="78.973115625" y="60.916765625"/>
+<vertex x="77.152825" y="62.23928125"/>
+<vertex x="76.79885625" y="64.474165625"/>
+<vertex x="77.3278625" y="65.20228125"/>
+<vertex x="75.628928125" y="66.436628125"/>
+<vertex x="72.102215625" y="61.582528125"/>
+<vertex x="75.985496875" y="58.761159375"/>
+<vertex x="76.98473125" y="60.1364875"/>
 </polygon>
 </signal>
 <signal name="N$6">
@@ -624,14 +774,14 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C8" pad="2"/>
 <contactref element="D7" pad="C"/>
 <polygon width="0.1524" layer="1" thermals="no" rank="2">
-<vertex x="82.4" y="60"/>
-<vertex x="82.4" y="59.5"/>
-<vertex x="84.3" y="59.5"/>
-<vertex x="84.3" y="68.9"/>
-<vertex x="83" y="69"/>
-<vertex x="83" y="60"/>
+<vertex x="82.21796875" y="63.256296875"/>
+<vertex x="82.622478125" y="62.96240625"/>
+<vertex x="83.739271875" y="64.4995375"/>
+<vertex x="76.134509375" y="70.02471875"/>
+<vertex x="75.2894875" y="69.031775"/>
+<vertex x="82.570640625" y="63.741709375"/>
 </polygon>
-<wire x1="82.650246875" y1="59.733853125" x2="27" y2="40.6" width="0" layer="19" extent="1-1"/>
+<wire x1="76.3411625" y1="69.065259375" x2="27" y2="40.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="L1" pad="2"/>
@@ -639,43 +789,42 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D1" pad="A"/>
 <contactref element="D3" pad="A"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="72.1" y="71.5"/>
-<vertex x="84.3" y="71.5"/>
-<vertex x="84.3" y="69.2"/>
-<vertex x="72.1" y="69.2"/>
+<vertex x="66.8600875" y="61.682953125"/>
+<vertex x="74.031065625" y="71.552959375"/>
+<vertex x="75.89180625" y="70.201053125"/>
+<vertex x="68.720825" y="60.331046875"/>
 </polygon>
-<wire x1="72.695246875" y1="69.803853125" x2="42.077178125" y2="35.351921875" width="0" layer="19" extent="1-1"/>
+<wire x1="68.582175" y1="61.16754375" x2="42.077178125" y2="35.351921875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R3" pad="1"/>
 <contactref element="U1" pad="5"/>
 <contactref element="R4" pad="2"/>
-<wire x1="73.125246875" y1="59.33385625" x2="72.875" y2="59.083609375" width="0.3048" layer="1"/>
-<wire x1="72.875" y1="59.083609375" x2="72.875" y2="57.8" width="0.3048" layer="1"/>
-<wire x1="72.875" y1="57.8" x2="72.875246875" y2="57.799753125" width="0.3048" layer="1"/>
-<wire x1="72.875246875" y1="57.799753125" x2="72.875246875" y2="56.65885625" width="0.3048" layer="1"/>
+<wire x1="77.305325" y1="55.3613125" x2="77.360690625" y2="55.01176875" width="0.3048" layer="1"/>
+<wire x1="77.360690625" y1="55.01176875" x2="78.39915" y2="54.257284375" width="0.3048" layer="1"/>
+<wire x1="78.39915" y1="54.257284375" x2="79.3225" y2="53.586734375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="C7" pad="1"/>
 <contactref element="U1" pad="8"/>
-<wire x1="77.525246875" y1="60.33385625" x2="80.34975" y2="60.33385625" width="0.3048" layer="1"/>
-<wire x1="80.34975" y1="60.33385625" x2="80.366140625" y2="60.050246875" width="0.3048" layer="1"/>
+<wire x1="79.0825625" y1="59.508771875" x2="80.74276875" y2="61.793846875" width="0.3048" layer="1"/>
+<wire x1="80.74276875" y1="61.793846875" x2="80.98184375" y2="61.64040625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="C6" pad="2"/>
 <contactref element="U1" pad="1"/>
-<wire x1="74.30024375" y1="62.93385625" x2="73.73385625" y2="62.93385625" width="0.3048" layer="1"/>
-<wire x1="73.125246875" y1="62.325246875" x2="73.125246875" y2="61.33385625" width="0.3048" layer="1"/>
-<wire x1="73.73385625" y1="62.93385625" x2="73.125246875" y2="62.325246875" width="0.3048" layer="1"/>
+<wire x1="75.083509375" y1="58.427934375" x2="74.7506" y2="57.96971875" width="0.3048" layer="1"/>
+<wire x1="74.88524375" y1="57.119609375" x2="75.687290625" y2="56.536884375" width="0.3048" layer="1"/>
+<wire x1="74.7506" y1="57.96971875" x2="74.88524375" y2="57.119609375" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U1" pad="7"/>
 <contactref element="R5" pad="2"/>
-<wire x1="81.800246875" y1="59.733853125" x2="81.600246875" y2="59.500246875" width="0.3048" layer="1"/>
-<wire x1="81.600246875" y1="59.500246875" x2="81.1" y2="59" width="0.3048" layer="1"/>
-<wire x1="81.1" y1="59" x2="79.6" y2="59" width="0.3048" layer="1"/>
-<wire x1="78.76614375" y1="59.83385625" x2="77.525246875" y2="59.83385625" width="0.3048" layer="1"/>
-<wire x1="79.6" y1="59" x2="78.76614375" y2="59.83385625" width="0.3048" layer="1"/>
+<wire x1="82.080759375" y1="62.614646875" x2="82.152196875" y2="62.3155375" width="0.3048" layer="1"/>
+<wire x1="82.152196875" y1="62.3155375" x2="82.262865625" y2="61.616790625" width="0.3048" layer="1"/>
+<wire x1="82.262865625" y1="61.616790625" x2="81.3811875" y2="60.403265625" width="0.3048" layer="1"/>
+<wire x1="80.21645625" y1="60.218790625" x2="79.487071875" y2="59.21488125" width="0.3048" layer="1"/>
+<wire x1="81.3811875" y1="60.403265625" x2="80.21645625" y2="60.218790625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="D3" pad="C"/>
@@ -755,47 +904,137 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="86.2" y="50.6"/>
 <vertex x="64.6" y="50.6"/>
 </polygon>
-<via x="81.75" y="68.2" extent="1-16" drill="0.35"/>
-<via x="82.35" y="68.2" extent="1-16" drill="0.35"/>
-<via x="81.75" y="67.6" extent="1-16" drill="0.35"/>
-<via x="82.35" y="67.6" extent="1-16" drill="0.35"/>
-<via x="82.35" y="67" extent="1-16" drill="0.35"/>
-<via x="81.75" y="67" extent="1-16" drill="0.35"/>
-<via x="81.75" y="66.4" extent="1-16" drill="0.35"/>
-<via x="82.35" y="66.4" extent="1-16" drill="0.35"/>
-<via x="82.35" y="65.8" extent="1-16" drill="0.35"/>
-<via x="81.75" y="65.8" extent="1-16" drill="0.35"/>
-<via x="72" y="68.2" extent="1-16" drill="0.35"/>
-<via x="72" y="67.6" extent="1-16" drill="0.35"/>
-<via x="72.6" y="67.6" extent="1-16" drill="0.35"/>
-<via x="72.6" y="68.2" extent="1-16" drill="0.35"/>
-<via x="73.2" y="68.2" extent="1-16" drill="0.35"/>
-<via x="73.2" y="67.6" extent="1-16" drill="0.35"/>
-<via x="73.8" y="67.6" extent="1-16" drill="0.35"/>
-<via x="73.8" y="68.2" extent="1-16" drill="0.35"/>
-<via x="74.4" y="67.6" extent="1-16" drill="0.35"/>
-<via x="74.4" y="68.2" extent="1-16" drill="0.35"/>
-<via x="73.8" y="67" extent="1-16" drill="0.35"/>
-<via x="74.4" y="67" extent="1-16" drill="0.35"/>
-<via x="74.4" y="66.4" extent="1-16" drill="0.35"/>
-<via x="73.8" y="66.4" extent="1-16" drill="0.35"/>
-<via x="73.8" y="65.8" extent="1-16" drill="0.35"/>
-<via x="74.4" y="65.8" extent="1-16" drill="0.35"/>
-<via x="73.8" y="65.2" extent="1-16" drill="0.35"/>
-<via x="74.4" y="65.2" extent="1-16" drill="0.35"/>
-<via x="74.4" y="64.6" extent="1-16" drill="0.35"/>
-<via x="73.8" y="64.6" extent="1-16" drill="0.35"/>
+<via x="75.20196875" y="67.550275" extent="1-16" drill="0.35"/>
+<via x="75.554640625" y="68.0356875" extent="1-16" drill="0.35"/>
+<via x="75.68738125" y="67.197603125" extent="1-16" drill="0.35"/>
+<via x="76.04005" y="67.683015625" extent="1-16" drill="0.35"/>
+<via x="76.5254625" y="67.33034375" extent="1-16" drill="0.35"/>
+<via x="76.172790625" y="66.844934375" extent="1-16" drill="0.35"/>
+<via x="76.6582" y="66.4922625" extent="1-16" drill="0.35"/>
+<via x="77.010871875" y="66.977671875" extent="1-16" drill="0.35"/>
+<via x="77.49628125" y="66.625" extent="1-16" drill="0.35"/>
+<via x="77.1436125" y="66.139590625" extent="1-16" drill="0.35"/>
+<via x="69.4710625" y="59.662359375" extent="1-16" drill="0.35"/>
+<via x="69.956475" y="59.3096875" extent="1-16" drill="0.35"/>
+<via x="70.309146875" y="59.7951" extent="1-16" drill="0.35"/>
+<via x="69.823734375" y="60.14776875" extent="1-16" drill="0.35"/>
+<via x="70.17640625" y="60.63318125" extent="1-16" drill="0.35"/>
+<via x="70.661815625" y="60.280509375" extent="1-16" drill="0.35"/>
+<via x="71.0144875" y="60.76591875" extent="1-16" drill="0.35"/>
+<via x="70.529078125" y="61.118590625" extent="1-16" drill="0.35"/>
+<via x="71.367159375" y="61.25133125" extent="1-16" drill="0.35"/>
+<via x="70.88175" y="61.604" extent="1-16" drill="0.35"/>
+<via x="71.499896875" y="60.413246875" extent="1-16" drill="0.35"/>
+<via x="71.85256875" y="60.898659375" extent="1-16" drill="0.35"/>
+<via x="72.337978125" y="60.5459875" extent="1-16" drill="0.35"/>
+<via x="71.985309375" y="60.060578125" extent="1-16" drill="0.35"/>
+<via x="72.47071875" y="59.70790625" extent="1-16" drill="0.35"/>
+<via x="72.823390625" y="60.193315625" extent="1-16" drill="0.35"/>
+<via x="72.956128125" y="59.355234375" extent="1-16" drill="0.35"/>
+<via x="73.3088" y="59.84064375" extent="1-16" drill="0.35"/>
+<via x="73.794209375" y="59.487975" extent="1-16" drill="0.35"/>
+<via x="73.4415375" y="59.0025625" extent="1-16" drill="0.35"/>
 <polygon width="0.3048" layer="16" thermals="no">
 <vertex x="63.7" y="75.5"/>
 <vertex x="87" y="75.5"/>
 <vertex x="87" y="49.4"/>
 <vertex x="63.7" y="49.4"/>
 </polygon>
-<via x="71.4" y="68.2" extent="1-16" drill="0.35"/>
-<via x="71.4" y="67.6" extent="1-16" drill="0.35"/>
-<via x="74.4" y="64" extent="1-16" drill="0.35"/>
-<via x="73.8" y="64" extent="1-16" drill="0.35"/>
-<wire x1="40.43668125" y1="35.87035625" x2="70.12524375" y2="59.10885625" width="0" layer="19" extent="1-1"/>
+<via x="69.11839375" y="59.17695" extent="1-16" drill="0.35"/>
+<via x="69.603803125" y="58.824278125" extent="1-16" drill="0.35"/>
+<via x="74.27961875" y="59.135303125" extent="1-16" drill="0.35"/>
+<via x="73.92695" y="58.64989375" extent="1-16" drill="0.35"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C10" pad="2"/>
+<contactref element="R8" pad="2"/>
+<contactref element="R9" pad="2"/>
+<contactref element="R11" pad="2"/>
+<contactref element="C12" pad="2"/>
+<contactref element="U2" pad="9"/>
+<contactref element="U2" pad="GND-ISO"/>
+<contactref element="C11" pad="2"/>
+<contactref element="D9" pad="A"/>
+<contactref element="U2" pad="P$1"/>
+<contactref element="U2" pad="P$2"/>
+<contactref element="U2" pad="P$3"/>
+<contactref element="U2" pad="P$4"/>
+<contactref element="U2" pad="P$5"/>
+<contactref element="U2" pad="P$6"/>
+<contactref element="U2" pad="P$7"/>
+<contactref element="U2" pad="P$8"/>
+<contactref element="U2" pad="P$9"/>
+<contactref element="U2" pad="P$10"/>
+<contactref element="U2" pad="P$11"/>
+<contactref element="U2" pad="P$12"/>
+<contactref element="C15" pad="2"/>
+<polygon width="0.3048" layer="1" thermals="no" rank="3">
+<vertex x="90.1" y="62.3"/>
+<vertex x="118" y="62.3"/>
+<vertex x="118" y="22"/>
+<vertex x="90.1" y="22"/>
+</polygon>
+<via x="110.777603125" y="49.259746875" extent="1-16" drill="0.35"/>
+<via x="111.130271875" y="48.7743375" extent="1-16" drill="0.35"/>
+<via x="110.292190625" y="48.907075" extent="1-16" drill="0.35"/>
+<via x="110.6448625" y="48.421665625" extent="1-16" drill="0.35"/>
+<via x="110.159453125" y="48.06899375" extent="1-16" drill="0.35"/>
+<via x="109.80678125" y="48.55440625" extent="1-16" drill="0.35"/>
+<via x="109.321371875" y="48.201734375" extent="1-16" drill="0.35"/>
+<via x="109.67404375" y="47.716325" extent="1-16" drill="0.35"/>
+<via x="109.18863125" y="47.363653125" extent="1-16" drill="0.35"/>
+<via x="108.835959375" y="47.8490625" extent="1-16" drill="0.35"/>
+<via x="105.046696875" y="57.1476625" extent="1-16" drill="0.35"/>
+<via x="104.561284375" y="56.794990625" extent="1-16" drill="0.35"/>
+<via x="104.91395625" y="56.30958125" extent="1-16" drill="0.35"/>
+<via x="105.399365625" y="56.662253125" extent="1-16" drill="0.35"/>
+<via x="105.7520375" y="56.17684375" extent="1-16" drill="0.35"/>
+<via x="105.266628125" y="55.824171875" extent="1-16" drill="0.35"/>
+<via x="105.6193" y="55.3387625" extent="1-16" drill="0.35"/>
+<via x="106.104709375" y="55.69143125" extent="1-16" drill="0.35"/>
+<via x="105.97196875" y="54.85335" extent="1-16" drill="0.35"/>
+<via x="106.45738125" y="55.206021875" extent="1-16" drill="0.35"/>
+<via x="105.1338875" y="54.986090625" extent="1-16" drill="0.35"/>
+<via x="105.486559375" y="54.50068125" extent="1-16" drill="0.35"/>
+<via x="105.00115" y="54.148009375" extent="1-16" drill="0.35"/>
+<via x="104.648478125" y="54.63341875" extent="1-16" drill="0.35"/>
+<via x="104.16306875" y="54.280746875" extent="1-16" drill="0.35"/>
+<via x="104.515740625" y="53.7953375" extent="1-16" drill="0.35"/>
+<via x="103.677659375" y="53.928078125" extent="1-16" drill="0.35"/>
+<via x="104.030328125" y="53.442665625" extent="1-16" drill="0.35"/>
+<via x="103.54491875" y="53.089996875" extent="1-16" drill="0.35"/>
+<via x="103.192246875" y="53.57540625" extent="1-16" drill="0.35"/>
+<polygon width="0.3048" layer="16" thermals="no">
+<vertex x="89.2" y="63.1"/>
+<vertex x="120" y="63.1"/>
+<vertex x="120" y="20"/>
+<vertex x="89.2" y="20"/>
+</polygon>
+<via x="104.694025" y="57.633071875" extent="1-16" drill="0.35"/>
+<via x="104.208615625" y="57.280403125" extent="1-16" drill="0.35"/>
+<via x="103.059509375" y="52.737325" extent="1-16" drill="0.35"/>
+<via x="102.7068375" y="53.222734375" extent="1-16" drill="0.35"/>
+<contactref element="D11" pad="P$3"/>
+<contactref element="D11" pad="P$1"/>
+<contactref element="D11" pad="P$2"/>
+<contactref element="D11" pad="GND"/>
+<contactref element="D12" pad="P$3"/>
+<contactref element="D12" pad="P$1"/>
+<contactref element="D12" pad="P$2"/>
+<contactref element="D12" pad="GND"/>
+<contactref element="D13" pad="P$3"/>
+<contactref element="D13" pad="P$1"/>
+<contactref element="D13" pad="P$2"/>
+<contactref element="D13" pad="GND"/>
+<contactref element="D14" pad="P$3"/>
+<contactref element="D14" pad="P$1"/>
+<contactref element="D14" pad="P$2"/>
+<contactref element="D14" pad="GND"/>
+<contactref element="D10" pad="P$3"/>
+<contactref element="D10" pad="P$1"/>
+<contactref element="D10" pad="P$2"/>
+<contactref element="D10" pad="GND"/>
+<wire x1="80.010165625" y1="53.08711875" x2="95.536503125" y2="49.156240625" width="0" layer="19" extent="1-1"/>
+<wire x1="40.43668125" y1="35.87035625" x2="69.11839375" y2="59.17695" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="24V">
 <contactref element="C2" pad="1"/>
@@ -806,25 +1045,45 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="J45" pad="7"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="72" y="61.25"/>
-<vertex x="68.8" y="61.25"/>
-<vertex x="68.8" y="70.4"/>
-<vertex x="70.4" y="70.4"/>
-<vertex x="70.4" y="61.8"/>
-<vertex x="72" y="61.8"/>
+<vertex x="75.09373125" y="55.577253125"/>
+<vertex x="73.21281875" y="52.988396875"/>
+<vertex x="65.8103125" y="58.366634375"/>
+<vertex x="66.75076875" y="59.661059375"/>
+<vertex x="73.708315625" y="54.60610625"/>
+<vertex x="74.648771875" y="55.900534375"/>
 </polygon>
-<wire x1="71.77475" y1="61.22525" x2="71.70475" y2="61.52114375" width="0.3048" layer="1"/>
-<wire x1="72.16614375" y1="60.83385625" x2="73.125246875" y2="60.83385625" width="0.3048" layer="1"/>
-<wire x1="71.77475" y1="61.22525" x2="72.16614375" y2="60.83385625" width="0.3048" layer="1"/>
-<wire x1="70.12524375" y1="61.55885625" x2="21.36" y2="33" width="0" layer="19" extent="1-1"/>
+<wire x1="74.98135625" y1="55.380475" x2="74.700828125" y2="55.4977625" width="0.3048" layer="1"/>
+<wire x1="75.52805625" y1="55.4670625" x2="76.0918" y2="56.242990625" width="0.3048" layer="1"/>
+<wire x1="74.98135625" y1="55.380475" x2="75.52805625" y2="55.4670625" width="0.3048" layer="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="R7" pad="1"/>
+<contactref element="D8" pad="C"/>
+<contactref element="U2" pad="2"/>
+<contactref element="C15" pad="1"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="99.424028125" y="53.06255625"/>
+<vertex x="97.543115625" y="55.651409375"/>
+<vertex x="104.94561875" y="61.02964375"/>
+<vertex x="105.886075" y="59.73521875"/>
+<vertex x="98.92853125" y="54.680265625"/>
+<vertex x="99.8689875" y="53.3858375"/>
+</polygon>
+<wire x1="99.27160625" y1="53.230240625" x2="99.469840625" y2="53.460790625" width="0.3048" layer="1"/>
+<wire x1="99.185015625" y1="52.683540625" x2="99.748759375" y2="51.90760625" width="0.3048" layer="1"/>
+<wire x1="99.27160625" y1="53.230240625" x2="99.185015625" y2="52.683540625" width="0.3048" layer="1"/>
+<wire x1="66.877596875" y1="58.821396875" x2="21.36" y2="33" width="0" layer="19" extent="1-1"/>
+<wire x1="98.57194375" y1="54.760803125" x2="76.0918" y2="56.242990625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PDIM1">
 <contactref element="U1" pad="4"/>
 <contactref element="J45" pad="3"/>
-<wire x1="31.52" y1="33" x2="73.125246875" y2="59.83385625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.52" y1="33" x2="76.900815625" y2="55.65520625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PDIM2">
 <contactref element="J45" pad="5"/>
+<contactref element="U2" pad="4"/>
+<wire x1="26.44" y1="33" x2="98.93974375" y2="51.319821875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D6" pad="C"/>
@@ -835,23 +1094,135 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C5" pad="1"/>
 <contactref element="U1" pad="6"/>
 <contactref element="J45" pad="2"/>
-<wire x1="77.525246875" y1="59.33385625" x2="77.50885625" y2="59.317465625" width="0.1524" layer="1"/>
-<wire x1="77.50885625" y1="59.317465625" x2="77.50885625" y2="57.604753125" width="0.3048" layer="1"/>
-<wire x1="34.06" y1="33" x2="77.50885625" y2="57.604753125" width="0" layer="19" extent="1-1"/>
+<wire x1="79.89158125" y1="58.9209875" x2="79.895209375" y2="58.898096875" width="0.1524" layer="1"/>
+<wire x1="79.895209375" y1="58.898096875" x2="81.280821875" y2="57.8913875" width="0.3048" layer="1"/>
+<wire x1="34.06" y1="33" x2="79.89158125" y2="58.9209875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IADJ2">
 <contactref element="J45" pad="4"/>
+<contactref element="C11" pad="1"/>
+<contactref element="U2" pad="6"/>
+<wire x1="101.121490625" y1="47.466253125" x2="101.0986" y2="47.46988125" width="0.1524" layer="1"/>
+<wire x1="101.0986" y1="47.46988125" x2="99.71298125" y2="46.463175" width="0.3048" layer="1"/>
+<wire x1="28.98" y1="33" x2="99.71298125" y2="46.463175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="R4" pad="1"/>
 <contactref element="C4" pad="1"/>
-<wire x1="74.325" y1="57.8" x2="74.31" y2="57.785" width="0.3048" layer="1"/>
-<wire x1="74.31" y1="57.785" x2="74.31" y2="56.455" width="0.3048" layer="1"/>
+<wire x1="79.251440625" y1="55.43035625" x2="79.254759375" y2="55.40940625" width="0.3048" layer="1"/>
+<wire x1="79.254759375" y1="55.40940625" x2="80.330753125" y2="54.62765" width="0.3048" layer="1"/>
 </signal>
 <signal name="CLK">
 <contactref element="C4" pad="2"/>
 <contactref element="J45" pad="1"/>
-<wire x1="36.6" y1="33" x2="74.31" y2="55.005" width="0" layer="19" extent="1-1"/>
+<contactref element="C16" pad="2"/>
+<wire x1="81.503825" y1="53.775359375" x2="95.7295" y2="47.52300625" width="0" layer="19" extent="1-1"/>
+<wire x1="36.6" y1="33" x2="81.503825" y2="53.775359375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R8" pad="1"/>
+<contactref element="R7" pad="2"/>
+<contactref element="U2" pad="3"/>
+<wire x1="97.884278125" y1="54.2611875" x2="97.801315625" y2="53.7373875" width="0.3048" layer="1"/>
+<wire x1="97.801315625" y1="53.7373875" x2="99.344253125" y2="51.6137125" width="0.3048" layer="1"/>
+<wire x1="97.801315625" y1="53.7373875" x2="97.277515625" y2="53.820346875" width="0.3048" layer="1"/>
+<wire x1="97.277515625" y1="53.820346875" x2="97.884278125" y2="54.2611875" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="R10" pad="1"/>
+<contactref element="R11" pad="1"/>
+<contactref element="C14" pad="2"/>
+<polygon width="0.1524" layer="1" thermals="no" rank="2">
+<vertex x="104.525721875" y="43.914046875"/>
+<vertex x="104.121215625" y="43.62015625"/>
+<vertex x="105.23800625" y="42.083021875"/>
+<vertex x="112.842765625" y="47.608203125"/>
+<vertex x="112.159546875" y="48.718703125"/>
+<vertex x="104.87839375" y="43.4286375"/>
+</polygon>
+<contactref element="D10" pad="C"/>
+<wire x1="104.45749375" y1="43.555153125" x2="31" y2="40.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="102.245396875" y="49.179275"/>
+<vertex x="103.303409375" y="47.72304375"/>
+<vertex x="105.123696875" y="49.045559375"/>
+<vertex x="107.35858125" y="48.691590625"/>
+<vertex x="107.8875875" y="47.963475"/>
+<vertex x="109.586525" y="49.197821875"/>
+<vertex x="106.0598125" y="54.051925"/>
+<vertex x="102.17653125" y="51.23055625"/>
+<vertex x="103.175765625" y="49.855228125"/>
+</polygon>
+<contactref element="L2" pad="1"/>
+<contactref element="D9" pad="C"/>
+<contactref element="U2" pad="10"/>
+<contactref element="C13" pad="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="R9" pad="1"/>
+<contactref element="U2" pad="5"/>
+<contactref element="R12" pad="2"/>
+<wire x1="98.535234375" y1="51.025928125" x2="98.18569375" y2="51.08129375" width="0.3048" layer="1"/>
+<wire x1="98.18569375" y1="51.08129375" x2="97.147228125" y2="50.326803125" width="0.3048" layer="1"/>
+<wire x1="97.147228125" y1="50.326803125" x2="96.22416875" y2="49.65585625" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="C12" pad="1"/>
+<contactref element="U2" pad="8"/>
+<wire x1="101.93050625" y1="48.054040625" x2="103.5907125" y2="45.76896875" width="0.3048" layer="1"/>
+<wire x1="103.5907125" y1="45.76896875" x2="103.3709" y2="45.589009375" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$19">
+<contactref element="C13" pad="2"/>
+<contactref element="U2" pad="1"/>
+<wire x1="102.13834375" y1="52.1913625" x2="101.80543125" y2="52.64958125" width="0.3048" layer="1"/>
+<wire x1="100.955325" y1="52.784225" x2="100.15326875" y2="52.2015" width="0.3048" layer="1"/>
+<wire x1="101.80543125" y1="52.64958125" x2="100.955325" y2="52.784225" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="U2" pad="7"/>
+<contactref element="R10" pad="2"/>
+<wire x1="103.957878125" y1="44.24281875" x2="103.65133125" y2="44.2673125" width="0.3048" layer="1"/>
+<wire x1="103.65133125" y1="44.2673125" x2="102.952584375" y2="44.377984375" width="0.3048" layer="1"/>
+<wire x1="102.952584375" y1="44.377984375" x2="102.07090625" y2="45.591509375" width="0.3048" layer="1"/>
+<wire x1="102.25538125" y1="46.756240625" x2="101.526" y2="47.760146875" width="0.3048" layer="1"/>
+<wire x1="102.07090625" y1="45.591509375" x2="102.25538125" y2="46.756240625" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="R12" pad="1"/>
+<contactref element="C16" pad="1"/>
+<wire x1="97.99951875" y1="49.15373125" x2="97.97856875" y2="49.15705" width="0.3048" layer="1"/>
+<wire x1="97.97856875" y1="49.15705" x2="96.902571875" y2="48.375296875" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="D12" pad="A"/>
+<contactref element="D11" pad="C"/>
+<wire x1="35.846096875" y1="16.174575" x2="40.65031875" y2="30.682475" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="D12" pad="C"/>
+<contactref element="D13" pad="A"/>
+<wire x1="18.9179" y1="18.525675" x2="34.2003" y2="18.439821875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="D13" pad="C"/>
+<contactref element="D14" pad="A"/>
+<wire x1="20.563696875" y1="20.790921875" x2="15.98671875" y2="35.447721875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="D11" pad="A"/>
+<contactref element="C14" pad="1"/>
+<contactref element="D8" pad="A"/>
+<contactref element="L2" pad="2"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="107.77523125" y="59.006453125"/>
+<vertex x="114.946209375" y="49.136446875"/>
+<vertex x="113.085471875" y="47.784540625"/>
+<vertex x="105.914490625" y="57.654546875"/>
+</polygon>
+<wire x1="106.75289375" y1="57.52791875" x2="43.313278125" y2="31.547721875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
