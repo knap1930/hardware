@@ -180,6 +180,7 @@
 <wire x1="1.525" y1="0.875" x2="-1.525" y2="0.875" width="0.127" layer="51"/>
 <text x="-3.5" y="2.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.76" y1="0.625" x2="-1.76" y2="-0.625" width="0.2032" layer="21"/>
 </package>
 <package name="P-WSON(10)">
 <smd name="1" x="-1" y="-0.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
@@ -272,8 +273,8 @@
 <circle x="0" y="0" radius="8" width="0.127" layer="51"/>
 <text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="51"/>
+<wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
 </package>
 <package name="SMA">
 <smd name="C" x="-2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
@@ -826,11 +827,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="CRCW120610K0JNEA" x="61" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" value="10k" x="61" y="30" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="F1" library="derek" package="TR5_FUSE_8.5" value="37012000410" x="13.5" y="51.5" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_370_datasheet.pdf.pdf" x="13.5" y="51.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="WK4957BK-ND" x="13.5" y="51.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="13.5" y="51.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="37012000410" x="13.5" y="51.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="F1" library="derek" package="TR5_FUSE_8.5" value="37012000410" x="13.5" y="51.5" rot="MR180">
+<attribute name="DATASHEET_URL" value="http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_370_datasheet.pdf.pdf" x="13.5" y="51.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="WK4957BK-ND" x="13.5" y="51.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." x="13.5" y="51.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PART_NUMBER" value="37012000410" x="13.5" y="51.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U3" library="derek" package="ESP-WROOM-32" value="ESP-WROOM-32" x="68" y="44.5"/>
 <element name="U$1" library="derek" package="TP-1502" value="TP-1502" x="74" y="60.5"/>
@@ -904,7 +905,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D3" pad="4"/>
 <contactref element="F1" pad="2"/>
 <wire x1="18.55" y1="53.35" x2="15.1" y2="50.27" width="0.4064" layer="16"/>
-<wire x1="15.1" y1="50.27" x2="10.96" y2="51.5" width="0.4064" layer="1"/>
+<wire x1="15.1" y1="50.27" x2="16.04" y2="51.5" width="0.4064" layer="16"/>
 <via x="15.1" y="50.27" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$3">
@@ -1139,7 +1140,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$11">
 <contactref element="U$2" pad="1"/>
 <contactref element="F1" pad="1"/>
-<wire x1="16.04" y1="51.5" x2="11.23" y2="53.23" width="0.4064" layer="1"/>
+<wire x1="10.96" y1="51.5" x2="11.23" y2="53.23" width="0.4064" layer="16"/>
 <wire x1="11.23" y1="53.23" x2="7" y2="53.5" width="0.4064" layer="16"/>
 <via x="11.23" y="53.23" extent="1-16" drill="0.35"/>
 </signal>

@@ -155,6 +155,7 @@
 <wire x1="1.525" y1="0.875" x2="-1.525" y2="0.875" width="0.127" layer="51"/>
 <text x="-3.5" y="2.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.76" y1="0.625" x2="-1.76" y2="-0.625" width="0.2032" layer="21"/>
 </package>
 <package name="P-WSON(10)">
 <smd name="1" x="-1" y="-0.95" dx="0.5" dy="0.25" layer="1" rot="R90"/>
@@ -247,8 +248,8 @@
 <circle x="0" y="0" radius="8" width="0.127" layer="51"/>
 <text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="51"/>
+<wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
 </package>
 <package name="SMA">
 <smd name="C" x="-2.2" y="0" dx="2.1" dy="1.8" layer="1"/>
