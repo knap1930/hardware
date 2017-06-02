@@ -229,16 +229,17 @@
 <text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="MINIDIP">
-<smd name="1" x="-1.35" y="-2.4" dx="1.1" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="1.35" y="-2.4" dx="1.1" dy="0.8" layer="1" rot="R90"/>
-<smd name="3" x="1.35" y="2.4" dx="1.1" dy="0.8" layer="1" rot="R90"/>
-<smd name="4" x="-1.35" y="2.4" dx="1.1" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.35" y="-2.95" dx="1.1" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="1.35" y="-2.95" dx="1.1" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="1.35" y="2.95" dx="1.1" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="-1.35" y="2.95" dx="1.1" dy="0.8" layer="1" rot="R90"/>
 <wire x1="-2.45" y1="2" x2="-2.45" y2="-2" width="0.127" layer="51"/>
 <wire x1="-2.45" y1="-2" x2="2.45" y2="-2" width="0.127" layer="51"/>
 <wire x1="2.45" y1="-2" x2="2.45" y2="2" width="0.127" layer="51"/>
 <wire x1="2.45" y1="2" x2="-2.45" y2="2" width="0.127" layer="51"/>
 <text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-5" size="1.27" layer="26">&gt;VALUE</text>
+<wire x1="-0.625" y1="-2.57" x2="0.625" y2="-2.57" width="0.2032" layer="21"/>
 </package>
 <package name="CAPPR7.5-16X25">
 <pad name="P$1" x="-3.75" y="0" drill="1"/>
@@ -261,35 +262,18 @@
 <package name="1210">
 <description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.1" dy="2.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.1" dy="2.8" layer="1"/>
+<text x="0" y="1.597" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.597" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="1206">
 <description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="TO-252">
 <smd name="1" x="-2.3" y="-4.2" dx="2.3" dy="1.3" layer="1" rot="R90"/>
@@ -313,8 +297,8 @@
 <wire x1="-0.9" y1="-0.825" x2="0.9" y2="-0.825" width="0.2032" layer="21"/>
 </package>
 <package name="DE1E3KX222MA4BL01">
-<pad name="1" x="-5" y="0" drill="0.6"/>
-<pad name="2" x="5" y="0" drill="0.6"/>
+<pad name="1" x="-5" y="0" drill="0.8"/>
+<pad name="2" x="5" y="0" drill="0.8"/>
 <wire x1="-4.5" y1="3.5" x2="-4.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="-4.5" y1="-3.5" x2="4.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="4.5" y1="-3.5" x2="4.5" y2="3.5" width="0.127" layer="51"/>
