@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -860,9 +860,10 @@ part number 2062-2P from STA</description>
 <wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="51"/>
 <text x="-1.5" y="1.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.36" y1="-0.7" x2="-1.36" y2="-1.2" width="0.2032" layer="21"/>
 </package>
 <package name="750811647">
-<pad name="1" x="-7.48" y="-10" drill="1.32"/>
+<pad name="1" x="-7.48" y="-10" drill="1.32" shape="square"/>
 <pad name="2" x="-4.99" y="-10" drill="1.32"/>
 <pad name="3" x="-2.5" y="-10" drill="1.32"/>
 <pad name="4" x="2.5" y="-10" drill="1.32"/>
@@ -923,11 +924,11 @@ part number 2062-2P from STA</description>
 <wire x1="2.45" y1="-2" x2="2.45" y2="2" width="0.127" layer="51"/>
 <wire x1="2.45" y1="2" x2="-2.45" y2="2" width="0.127" layer="51"/>
 <text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-5" size="1.27" layer="26">&gt;VALUE</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-0.625" y1="-2.57" x2="0.625" y2="-2.57" width="0.2032" layer="21"/>
 </package>
 <package name="CAPPR7.5-16X25">
-<pad name="P$1" x="-3.75" y="0" drill="1"/>
+<pad name="P$1" x="-3.75" y="0" drill="1" shape="square"/>
 <pad name="P$2" x="3.75" y="0" drill="1"/>
 <circle x="0" y="0" radius="8" width="0.127" layer="51"/>
 <text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
@@ -983,7 +984,7 @@ part number 2062-2P from STA</description>
 <wire x1="-0.9" y1="-3.15" x2="0.9" y2="-3.15" width="0.2032" layer="21"/>
 </package>
 <package name="CAPPR5-10X16">
-<pad name="P$1" x="-2.5" y="0" drill="0.8"/>
+<pad name="P$1" x="-2.5" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="2.5" y="0" drill="0.8"/>
 <circle x="0" y="0" radius="5" width="0.127" layer="51"/>
 <text x="-5" y="6" size="1.27" layer="25">&gt;NAME</text>
@@ -4667,6 +4668,28 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <attribute name="MANUFACTURER" value="Murata Electronics North America"/>
 <attribute name="PART_NUMBER" value="GRM188R71E104KA01D"/>
 <attribute name="VALUE" value="0.1µF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060310K0FKEA">
+<gates>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-10.0KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW060310K0FKEA"/>
+<attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
 </device>

@@ -175,9 +175,10 @@
 <wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="51"/>
 <text x="-1.5" y="1.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.36" y1="-0.7" x2="-1.36" y2="-1.2" width="0.2032" layer="21"/>
 </package>
 <package name="750811647">
-<pad name="1" x="-7.48" y="-10" drill="1.32"/>
+<pad name="1" x="-7.48" y="-10" drill="1.32" shape="square"/>
 <pad name="2" x="-4.99" y="-10" drill="1.32"/>
 <pad name="3" x="-2.5" y="-10" drill="1.32"/>
 <pad name="4" x="2.5" y="-10" drill="1.32"/>
@@ -239,11 +240,11 @@
 <wire x1="2.45" y1="-2" x2="2.45" y2="2" width="0.127" layer="51"/>
 <wire x1="2.45" y1="2" x2="-2.45" y2="2" width="0.127" layer="51"/>
 <text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-5" size="1.27" layer="26">&gt;VALUE</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-0.625" y1="-2.57" x2="0.625" y2="-2.57" width="0.2032" layer="21"/>
 </package>
 <package name="CAPPR7.5-16X25">
-<pad name="P$1" x="-3.75" y="0" drill="1"/>
+<pad name="P$1" x="-3.75" y="0" drill="1" shape="square"/>
 <pad name="P$2" x="3.75" y="0" drill="1"/>
 <circle x="0" y="0" radius="8" width="0.127" layer="51"/>
 <text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
@@ -317,7 +318,7 @@
 <wire x1="-0.9" y1="-3.15" x2="0.9" y2="-3.15" width="0.2032" layer="21"/>
 </package>
 <package name="CAPPR5-10X16">
-<pad name="P$1" x="-2.5" y="0" drill="0.8"/>
+<pad name="P$1" x="-2.5" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="2.5" y="0" drill="0.8"/>
 <circle x="0" y="0" radius="5" width="0.127" layer="51"/>
 <text x="-5" y="6" size="1.27" layer="25">&gt;NAME</text>
@@ -1551,6 +1552,28 @@ Switches electronic signals</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CRCW060310K0FKEA">
+<gates>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-10.0KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW060310K0FKEA"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1628,6 +1651,7 @@ Switches electronic signals</description>
 <part name="GND-ISO7" library="derek" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO8" library="derek" deviceset="GND-ISO" device=""/>
 <part name="U$5" library="derek" deviceset="TP-1502" device=""/>
+<part name="U$6" library="derek" deviceset="CRCW060310K0FKEA" device="" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -1699,6 +1723,7 @@ Switches electronic signals</description>
 <instance part="GND-ISO7" gate="G$1" x="508" y="-45.72"/>
 <instance part="GND-ISO8" gate="G$1" x="472.44" y="-68.58"/>
 <instance part="U$5" gate="A" x="429.26" y="-96.52"/>
+<instance part="U$6" gate="G$1" x="436.88" y="-45.72"/>
 </instances>
 <busses>
 </busses>
@@ -1733,6 +1758,10 @@ Switches electronic signals</description>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <wire x1="447.04" y1="-43.18" x2="426.72" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="-43.18" x2="426.72" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="2"/>
+<wire x1="429.26" y1="-45.72" x2="426.72" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="-45.72" x2="426.72" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="426.72" y="-43.18"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2175,6 +2204,13 @@ Switches electronic signals</description>
 <wire x1="434.34" y1="-63.5" x2="434.34" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="A" pin="TP"/>
 <wire x1="434.34" y1="-53.34" x2="429.26" y2="-53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="1"/>
+<pinref part="U3" gate="G$1" pin="EN"/>
+<wire x1="444.5" y1="-45.72" x2="447.04" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
