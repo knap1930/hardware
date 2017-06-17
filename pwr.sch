@@ -176,6 +176,9 @@
 <text x="-1.5" y="1.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-1.36" y1="-0.7" x2="-1.36" y2="-1.2" width="0.2032" layer="21"/>
+<pad name="P$10" x="0" y="0" drill="0.35" stop="no" thermals="no"/>
+<pad name="P$1" x="0.8" y="0" drill="0.35" stop="no" thermals="no"/>
+<pad name="P$2" x="-0.8" y="0" drill="0.35" stop="no" thermals="no"/>
 </package>
 <package name="750811647">
 <pad name="1" x="-7.48" y="-10" drill="1.32" shape="square"/>
@@ -794,7 +797,7 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="FB" pad="5"/>
 <connect gate="G$1" pin="NC" pad="4"/>
 <connect gate="G$1" pin="PG" pad="7"/>
-<connect gate="G$1" pin="PGND" pad="1 GND"/>
+<connect gate="G$1" pin="PGND" pad="1 GND P$1 P$2 P$10"/>
 <connect gate="G$1" pin="SLEEP" pad="8"/>
 <connect gate="G$1" pin="SW" pad="9"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
