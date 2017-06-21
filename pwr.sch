@@ -446,18 +446,11 @@
 <wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.1524" layer="94" curve="-180"/>
 <wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.1524" layer="94" curve="-180"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-6.35" x2="2.54" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-0.635" y1="10.16" x2="-0.635" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="0.635" y1="-10.16" x2="0.635" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="6.35" x2="3.175" y2="6.35" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="3.175" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="3.81" x2="3.175" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-6.35" x2="3.175" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="3.175" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-3.81" x2="3.175" y2="-3.81" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-8.89" x2="-3.175" y2="-8.89" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-7.62" x2="-3.175" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-6.35" x2="-3.175" y2="-6.35" width="0.1524" layer="94"/>
@@ -470,10 +463,9 @@
 <circle x="-2.54" y="9.525" radius="0.127" width="0.254" layer="94"/>
 <circle x="-2.54" y="4.445" radius="0.127" width="0.254" layer="94"/>
 <circle x="-2.54" y="-5.715" radius="0.1397" width="0.254" layer="94"/>
-<circle x="2.54" y="-3.175" radius="0.127" width="0.254" layer="94"/>
 <circle x="2.54" y="6.985" radius="0.127" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+<text x="0" y="11.43" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="WB_INDUCTOR">
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -814,7 +806,7 @@ Switches electronic signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="750811647">
+<deviceset name="750811647" prefix="T">
 <gates>
 <gate name="G$1" symbol="750811647" x="0" y="0"/>
 </gates>
@@ -1070,28 +1062,6 @@ Switches electronic signals</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="IPD65R600C6BTMA1CT-ND"/>
 <attribute name="MANUFACTURER" value="Infineon Technologies"/>
 <attribute name="PART_NUMBER" value="IPD65R600C6"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRCW06030000Z0EA">
-<gates>
-<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-0.0GCT-ND"/>
-<attribute name="MANUFACTURER" value="Vishay Dale"/>
-<attribute name="PART_NUMBER" value="CRCW06030000Z0EA"/>
-<attribute name="VALUE" value="0.0"/>
 </technology>
 </technologies>
 </device>
@@ -1607,7 +1577,6 @@ Switches electronic signals</description>
 <part name="D4" library="derek" deviceset="US1M-13-F" device=""/>
 <part name="R2" library="derek" deviceset="CRCW121033R2FKEA" device="" value="33.2"/>
 <part name="Q1" library="derek" deviceset="IPD65R600C6" device=""/>
-<part name="R7" library="derek" deviceset="CRCW06030000Z0EA" device="" value="0.0"/>
 <part name="R8" library="derek" deviceset="CRCW1206698RFKEA" device="" value="698"/>
 <part name="R3" library="derek" deviceset="CRCW12064R70JNEA" device="" value="4.7"/>
 <part name="R4" library="derek" deviceset="CRCW060375K0FKEA" device="" value="75k"/>
@@ -1679,7 +1648,6 @@ Switches electronic signals</description>
 <instance part="D4" gate="G$1" x="142.24" y="12.7" rot="R270"/>
 <instance part="R2" gate="G$1" x="142.24" y="-7.62" rot="R270"/>
 <instance part="Q1" gate="G$1" x="139.7" y="-116.84"/>
-<instance part="R7" gate="G$1" x="121.92" y="-119.38"/>
 <instance part="R8" gate="G$1" x="78.74" y="-134.62"/>
 <instance part="R3" gate="G$1" x="38.1" y="-63.5" rot="R90"/>
 <instance part="R4" gate="G$1" x="15.24" y="-78.74" rot="R90"/>
@@ -1896,9 +1864,9 @@ Switches electronic signals</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="129.54" y1="-119.38" x2="134.62" y2="-119.38" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="DRV"/>
+<wire x1="134.62" y1="-119.38" x2="96.52" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -1945,13 +1913,6 @@ Switches electronic signals</description>
 <wire x1="63.5" y1="-134.62" x2="63.5" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CS"/>
 <wire x1="63.5" y1="-119.38" x2="71.12" y2="-119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="DRV"/>
-<wire x1="114.3" y1="-119.38" x2="96.52" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
