@@ -2010,6 +2010,15 @@ No plating, no silk outline.
 <text x="0" y="9" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-9" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="CAPPR5-10X20">
+<pad name="P$1" x="-2.5" y="0" drill="0.8" shape="square"/>
+<pad name="P$2" x="2.5" y="0" drill="0.8"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="51"/>
+<text x="-5" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS92513">
@@ -4767,6 +4776,28 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEU-EB1V471">
+<gates>
+<gate name="G$1" symbol="WB_CAPACITOR-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPR5-10X20">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/EB_Series_Rev2013.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P13130-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="PART_NUMBER" value="EEU-EB1V471"/>
+<attribute name="VALUE" value="470µF"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -320,7 +320,7 @@
 <wire x1="-0.9" y1="3.15" x2="0.9" y2="3.15" width="0.2032" layer="21"/>
 <wire x1="-0.9" y1="-3.15" x2="0.9" y2="-3.15" width="0.2032" layer="21"/>
 </package>
-<package name="CAPPR5-10X16">
+<package name="CAPPR5-10X20">
 <pad name="P$1" x="-2.5" y="0" drill="0.8" shape="square"/>
 <pad name="P$2" x="2.5" y="0" drill="0.8"/>
 <circle x="0" y="0" radius="5" width="0.127" layer="51"/>
@@ -335,56 +335,6 @@
 <circle x="0" y="0" radius="4.25" width="0.127" layer="51"/>
 <text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="ESP-WROOM-32">
-<smd name="1" x="7.7" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="2" x="6.43" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="3" x="5.16" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="4" x="3.89" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="5" x="2.62" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="6" x="1.35" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="7" x="0.08" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="8" x="-1.19" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="9" x="-2.46" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="10" x="-3.73" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="11" x="-5" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="12" x="-6.27" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="13" x="-7.54" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="14" x="-8.81" y="9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="15" x="-10.3" y="5.715" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="16" x="-10.3" y="4.445" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="17" x="-10.3" y="3.175" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="18" x="-10.3" y="1.905" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="19" x="-10.3" y="0.635" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="20" x="-10.3" y="-0.635" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="21" x="-10.3" y="-1.905" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="22" x="-10.3" y="-3.175" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="23" x="-10.3" y="-4.445" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="24" x="-10.3" y="-5.715" dx="0.9" dy="1.5" layer="1" rot="R90"/>
-<smd name="25" x="-8.81" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="26" x="-7.54" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="27" x="-6.27" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="28" x="-5" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="29" x="-3.73" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="30" x="-2.46" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="31" x="-1.19" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="32" x="0.08" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="33" x="1.35" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="34" x="2.62" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="35" x="3.89" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="36" x="5.16" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="37" x="6.43" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="38" x="7.7" y="-9" dx="0.9" dy="1.5" layer="1"/>
-<smd name="GND" x="0" y="0" dx="6" dy="6" layer="1"/>
-<wire x1="-10.427" y1="6.35" x2="-10.427" y2="9.127" width="0.2032" layer="21"/>
-<wire x1="-10.427" y1="9.127" x2="-9.4" y2="9.127" width="0.2032" layer="21"/>
-<wire x1="-10.427" y1="-6.35" x2="-10.427" y2="-9.127" width="0.2032" layer="21"/>
-<wire x1="-10.427" y1="-9.127" x2="-9.4" y2="-9.127" width="0.2032" layer="21"/>
-<text x="-7.76" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;Name</text>
-<text x="-6.49" y="0" size="0.8128" layer="27" rot="R90" align="center">&gt;Value</text>
-<wire x1="8.311" y1="9.127" x2="15.327" y2="9.127" width="0.2032" layer="21"/>
-<wire x1="8.311" y1="-9.127" x2="15.327" y2="-9.127" width="0.2032" layer="21"/>
-<wire x1="15.327" y1="9.127" x2="15.327" y2="-9.127" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -702,53 +652,6 @@ Switches electronic signals</description>
 <pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 <wire x1="5.08" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="180"/>
 <wire x1="1.27" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
-</symbol>
-<symbol name="ESP-WROOM-32">
-<pin name="GND@1" x="-17.78" y="2.54" length="short"/>
-<pin name="3V3" x="-17.78" y="0" length="short"/>
-<pin name="EN" x="-17.78" y="-2.54" length="short"/>
-<pin name="SENSOR_VP" x="-17.78" y="-5.08" length="short"/>
-<pin name="SENSOR_VN" x="-17.78" y="-7.62" length="short"/>
-<pin name="IO34" x="-17.78" y="-10.16" length="short"/>
-<pin name="IO35" x="-17.78" y="-12.7" length="short"/>
-<pin name="IO32" x="-17.78" y="-15.24" length="short"/>
-<pin name="IO33" x="-17.78" y="-17.78" length="short"/>
-<pin name="IO25" x="-17.78" y="-20.32" length="short"/>
-<pin name="IO26" x="-17.78" y="-22.86" length="short"/>
-<pin name="IO27" x="-17.78" y="-25.4" length="short"/>
-<pin name="IO14" x="-17.78" y="-27.94" length="short"/>
-<pin name="IO12" x="-17.78" y="-30.48" length="short"/>
-<pin name="GND@15" x="-5.08" y="-40.64" length="short" rot="R90"/>
-<pin name="IO13" x="-2.54" y="-40.64" length="short" rot="R90"/>
-<pin name="SD2" x="0" y="-40.64" length="short" rot="R90"/>
-<pin name="SD3" x="2.54" y="-40.64" length="short" rot="R90"/>
-<pin name="CMD" x="5.08" y="-40.64" length="short" rot="R90"/>
-<pin name="GND@38" x="30.48" y="2.54" length="short" rot="R180"/>
-<pin name="IO23" x="30.48" y="0" length="short" rot="R180"/>
-<pin name="IO22" x="30.48" y="-2.54" length="short" rot="R180"/>
-<pin name="TXD0" x="30.48" y="-5.08" length="short" rot="R180"/>
-<pin name="RXD0" x="30.48" y="-7.62" length="short" rot="R180"/>
-<pin name="IO21" x="30.48" y="-10.16" length="short" rot="R180"/>
-<pin name="NC" x="30.48" y="-12.7" length="short" rot="R180"/>
-<pin name="IO19" x="30.48" y="-15.24" length="short" rot="R180"/>
-<pin name="IO18" x="30.48" y="-17.78" length="short" rot="R180"/>
-<pin name="IO5" x="30.48" y="-20.32" length="short" rot="R180"/>
-<pin name="IO17" x="30.48" y="-22.86" length="short" rot="R180"/>
-<pin name="IO16" x="30.48" y="-25.4" length="short" rot="R180"/>
-<pin name="IO4" x="30.48" y="-27.94" length="short" rot="R180"/>
-<pin name="IO0" x="30.48" y="-30.48" length="short" rot="R180"/>
-<pin name="IO2" x="17.78" y="-40.64" length="short" rot="R90"/>
-<pin name="IO15" x="15.24" y="-40.64" length="short" rot="R90"/>
-<pin name="SD1" x="12.7" y="-40.64" length="short" rot="R90"/>
-<pin name="SDO" x="10.16" y="-40.64" length="short" rot="R90"/>
-<pin name="CLK" x="7.62" y="-40.64" length="short" rot="R90"/>
-<pin name="GND" x="7.62" y="-17.78" length="short" rot="R90"/>
-<wire x1="-15.24" y1="-38.1" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="15.24" x2="27.94" y2="15.24" width="0.254" layer="94"/>
-<wire x1="27.94" y1="15.24" x2="27.94" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-38.1" x2="-15.24" y2="-38.1" width="0.254" layer="94"/>
-<text x="-12.7" y="18.034" size="1.778" layer="95">&gt;Name</text>
-<text x="-12.7" y="12.446" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1329,23 +1232,23 @@ Switches electronic signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="UHE1V221MPD6">
+<deviceset name="EEU-EB1V471">
 <gates>
 <gate name="G$1" symbol="WB_CAPACITOR-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAPPR5-10X16">
+<device name="" package="CAPPR5-10X20">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET_URL" value="http://nichicon-us.com/english/products/pdfs/e-uhe.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="493-14552-1-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Nichicon"/>
-<attribute name="PART_NUMBER" value="UHE1V221MPD6"/>
-<attribute name="VALUE" value="220µF"/>
+<attribute name="DATASHEET_URL" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/EB_Series_Rev2013.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P13130-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="PART_NUMBER" value="EEU-EB1V471"/>
+<attribute name="VALUE" value="470µF"/>
 </technology>
 </technologies>
 </device>
@@ -1472,81 +1375,6 @@ Switches electronic signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP-WROOM-32" prefix="U">
-<gates>
-<gate name="G$1" symbol="ESP-WROOM-32" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ESP-WROOM-32">
-<connects>
-<connect gate="G$1" pin="3V3" pad="2"/>
-<connect gate="G$1" pin="CLK" pad="20"/>
-<connect gate="G$1" pin="CMD" pad="19"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND@1" pad="1"/>
-<connect gate="G$1" pin="GND@15" pad="15"/>
-<connect gate="G$1" pin="GND@38" pad="38"/>
-<connect gate="G$1" pin="IO0" pad="25"/>
-<connect gate="G$1" pin="IO12" pad="14"/>
-<connect gate="G$1" pin="IO13" pad="16"/>
-<connect gate="G$1" pin="IO14" pad="13"/>
-<connect gate="G$1" pin="IO15" pad="23"/>
-<connect gate="G$1" pin="IO16" pad="27"/>
-<connect gate="G$1" pin="IO17" pad="28"/>
-<connect gate="G$1" pin="IO18" pad="30"/>
-<connect gate="G$1" pin="IO19" pad="31"/>
-<connect gate="G$1" pin="IO2" pad="24"/>
-<connect gate="G$1" pin="IO21" pad="33"/>
-<connect gate="G$1" pin="IO22" pad="36"/>
-<connect gate="G$1" pin="IO23" pad="37"/>
-<connect gate="G$1" pin="IO25" pad="10"/>
-<connect gate="G$1" pin="IO26" pad="11"/>
-<connect gate="G$1" pin="IO27" pad="12"/>
-<connect gate="G$1" pin="IO32" pad="8"/>
-<connect gate="G$1" pin="IO33" pad="9"/>
-<connect gate="G$1" pin="IO34" pad="6"/>
-<connect gate="G$1" pin="IO35" pad="7"/>
-<connect gate="G$1" pin="IO4" pad="26"/>
-<connect gate="G$1" pin="IO5" pad="29"/>
-<connect gate="G$1" pin="NC" pad="32"/>
-<connect gate="G$1" pin="RXD0" pad="34"/>
-<connect gate="G$1" pin="SD1" pad="22"/>
-<connect gate="G$1" pin="SD2" pad="17"/>
-<connect gate="G$1" pin="SD3" pad="18"/>
-<connect gate="G$1" pin="SDO" pad="21"/>
-<connect gate="G$1" pin="SENSOR_VN" pad="5"/>
-<connect gate="G$1" pin="SENSOR_VP" pad="4"/>
-<connect gate="G$1" pin="TXD0" pad="35"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRCW060310K0FKEA">
-<gates>
-<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-10.0KHCT-ND"/>
-<attribute name="MANUFACTURER" value="Vishay Dale"/>
-<attribute name="PART_NUMBER" value="CRCW060310K0FKEA"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1592,8 +1420,7 @@ Switches electronic signals</description>
 <part name="D1" library="derek" deviceset="SK4200L-TP" device=""/>
 <part name="C4" library="derek" deviceset="UMK316AB7475KL-T" device="" value="4.7µF"/>
 <part name="C5" library="derek" deviceset="UMK316AB7475KL-T" device="" value="4.7µF"/>
-<part name="C2" library="derek" deviceset="UHE1V221MPD6" device="" value="220µF"/>
-<part name="C3" library="derek" deviceset="UHE1V221MPD6" device="" value="220µF"/>
+<part name="C2" library="derek" deviceset="EEU-EB1V471" device="" value="470µF"/>
 <part name="C6" library="derek" deviceset="08053C104KAT2A" device="" value="0.1µF"/>
 <part name="R1" library="derek" deviceset="CRCW120610K0JNEA" device="" value="10k"/>
 <part name="R101" library="derek" deviceset="CRCW120610K0JNEA" device="" value="10k"/>
@@ -1614,16 +1441,6 @@ Switches electronic signals</description>
 <part name="SUPPLY3" library="derek" deviceset="24V" device=""/>
 <part name="F1" library="derek" deviceset="37012000410" device=""/>
 <part name="GND25" library="derek" deviceset="GND" device=""/>
-<part name="U3" library="derek" deviceset="ESP-WROOM-32" device=""/>
-<part name="U$1" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$4" library="derek" deviceset="TP-1502" device=""/>
-<part name="SUPPLY7" library="derek" deviceset="3.3V" device=""/>
-<part name="GND-ISO5" library="derek" deviceset="GND-ISO" device=""/>
-<part name="GND-ISO6" library="derek" deviceset="GND-ISO" device=""/>
-<part name="GND-ISO7" library="derek" deviceset="GND-ISO" device=""/>
-<part name="GND-ISO8" library="derek" deviceset="GND-ISO" device=""/>
-<part name="U$5" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$6" library="derek" deviceset="CRCW060310K0FKEA" device="" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -1664,7 +1481,6 @@ Switches electronic signals</description>
 <instance part="C4" gate="G$1" x="231.14" y="35.56" rot="R90"/>
 <instance part="C5" gate="G$1" x="241.3" y="35.56" rot="R90"/>
 <instance part="C2" gate="G$1" x="251.46" y="35.56" rot="R90"/>
-<instance part="C3" gate="G$1" x="264.16" y="35.56" rot="R90"/>
 <instance part="C6" gate="A" x="276.86" y="35.56" rot="R90"/>
 <instance part="R1" gate="G$1" x="287.02" y="35.56" rot="R90"/>
 <instance part="R101" gate="G$1" x="297.18" y="35.56" rot="R90"/>
@@ -1685,16 +1501,6 @@ Switches electronic signals</description>
 <instance part="SUPPLY3" gate="G$1" x="302.26" y="63.5"/>
 <instance part="F1" gate="G$1" x="48.26" y="25.4"/>
 <instance part="GND25" gate="G$1" x="55.88" y="-119.38"/>
-<instance part="U3" gate="G$1" x="464.82" y="-43.18"/>
-<instance part="U$1" gate="A" x="429.26" y="-53.34"/>
-<instance part="U$4" gate="A" x="429.26" y="-76.2"/>
-<instance part="SUPPLY7" gate="G$1" x="426.72" y="-40.64"/>
-<instance part="GND-ISO5" gate="G$1" x="434.34" y="-38.1"/>
-<instance part="GND-ISO6" gate="G$1" x="459.74" y="-93.98"/>
-<instance part="GND-ISO7" gate="G$1" x="508" y="-45.72"/>
-<instance part="GND-ISO8" gate="G$1" x="472.44" y="-68.58"/>
-<instance part="U$5" gate="A" x="429.26" y="-96.52"/>
-<instance part="U$6" gate="G$1" x="436.88" y="-45.72"/>
 </instances>
 <busses>
 </busses>
@@ -1723,16 +1529,6 @@ Switches electronic signals</description>
 <wire x1="467.36" y1="33.02" x2="469.9" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="48.26" x2="467.36" y2="33.02" width="0.1524" layer="91"/>
 <junction x="467.36" y="33.02"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="3V3"/>
-<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="447.04" y1="-43.18" x2="426.72" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="-43.18" x2="426.72" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="2"/>
-<wire x1="429.26" y1="-45.72" x2="426.72" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="426.72" y1="-45.72" x2="426.72" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="426.72" y="-43.18"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1980,8 +1776,7 @@ Switches electronic signals</description>
 <wire x1="220.98" y1="25.4" x2="231.14" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="25.4" x2="251.46" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="25.4" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="25.4" x2="276.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="25.4" x2="276.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="25.4" x2="287.02" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="25.4" x2="297.18" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="25.4" x2="304.8" y2="25.4" width="0.1524" layer="91"/>
@@ -1993,9 +1788,6 @@ Switches electronic signals</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="27.94" x2="251.46" y2="25.4" width="0.1524" layer="91"/>
 <junction x="251.46" y="25.4"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="27.94" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
-<junction x="264.16" y="25.4"/>
 <pinref part="C6" gate="A" pin="2"/>
 <wire x1="276.86" y1="27.94" x2="276.86" y2="25.4" width="0.1524" layer="91"/>
 <junction x="276.86" y="25.4"/>
@@ -2041,30 +1833,6 @@ Switches electronic signals</description>
 <pinref part="GND-ISO4" gate="G$1" pin="GND-ISO"/>
 <wire x1="381" y1="45.72" x2="381" y2="48.26" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND@1"/>
-<pinref part="GND-ISO5" gate="G$1" pin="GND-ISO"/>
-<wire x1="447.04" y1="-40.64" x2="444.5" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="444.5" y1="-40.64" x2="444.5" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="444.5" y1="-33.02" x2="434.34" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="-33.02" x2="434.34" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND@15"/>
-<pinref part="GND-ISO6" gate="G$1" pin="GND-ISO"/>
-<wire x1="459.74" y1="-83.82" x2="459.74" y2="-91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND@38"/>
-<pinref part="GND-ISO7" gate="G$1" pin="GND-ISO"/>
-<wire x1="495.3" y1="-40.64" x2="508" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="508" y1="-40.64" x2="508" y2="-43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<pinref part="GND-ISO8" gate="G$1" pin="GND-ISO"/>
-<wire x1="472.44" y1="-60.96" x2="472.44" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="24V" class="0">
 <segment>
@@ -2091,8 +1859,7 @@ Switches electronic signals</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="45.72" x2="241.3" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="45.72" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="45.72" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="45.72" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="45.72" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="45.72" x2="287.02" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="45.72" x2="297.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="45.72" x2="302.26" y2="45.72" width="0.1524" layer="91"/>
@@ -2105,9 +1872,6 @@ Switches electronic signals</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="43.18" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
 <junction x="251.46" y="45.72"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="43.18" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
-<junction x="264.16" y="45.72"/>
 <pinref part="C6" gate="A" pin="1"/>
 <wire x1="276.86" y1="43.18" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
 <junction x="276.86" y="45.72"/>
@@ -2141,40 +1905,6 @@ Switches electronic signals</description>
 <pinref part="U$2" gate="A" pin="TP"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U$5" gate="A" pin="TP"/>
-<wire x1="436.88" y1="-96.52" x2="429.26" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="IO27"/>
-<wire x1="447.04" y1="-68.58" x2="436.88" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="436.88" y1="-68.58" x2="436.88" y2="-96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="U$4" gate="A" pin="TP"/>
-<wire x1="434.34" y1="-76.2" x2="429.26" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="IO26"/>
-<wire x1="447.04" y1="-66.04" x2="434.34" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="-66.04" x2="434.34" y2="-76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="IO25"/>
-<wire x1="447.04" y1="-63.5" x2="434.34" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="-63.5" x2="434.34" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="A" pin="TP"/>
-<wire x1="434.34" y1="-53.34" x2="429.26" y2="-53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="1"/>
-<pinref part="U3" gate="G$1" pin="EN"/>
-<wire x1="444.5" y1="-45.72" x2="447.04" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
