@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -184,8 +184,8 @@
 </package>
 <package name="TP-1502">
 <pad name="1" x="0" y="0" drill="0.8128" diameter="1.651"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<text x="0" y="1.2" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.2" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SOD-123F">
 <smd name="C" x="-1.45" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
@@ -2018,6 +2018,15 @@ No plating, no silk outline.
 <text x="-5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="51"/>
 <wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="51"/>
+</package>
+<package name="CAPPR7.5-18X20">
+<pad name="P$1" x="-3.75" y="0" drill="1" shape="square"/>
+<pad name="P$2" x="3.75" y="0" drill="1"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="51"/>
+<text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.1" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4798,6 +4807,44 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <attribute name="PART_NUMBER" value="EEU-EB1V471"/>
 <attribute name="VALUE" value="470µF"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW040210M0JNED">
+<gates>
+<gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-10MJCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="PART_NUMBER" value="CRCW040210M0JNED"/>
+<attribute name="VALUE" value="10M"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEU-ED2G470S">
+<gates>
+<gate name="G$1" symbol="WB_CAPACITOR-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPR7.5-18X20">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

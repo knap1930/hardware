@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -140,45 +140,12 @@
 </layers>
 <board>
 <plain>
-<circle x="29" y="29" radius="29" width="0.001" layer="20"/>
-<circle x="29" y="29" radius="22" width="0.001" layer="51"/>
-<wire x1="20" y1="30" x2="38" y2="30" width="0.001" layer="20"/>
-<wire x1="38" y1="30" x2="38" y2="28" width="0.001" layer="20"/>
-<wire x1="38" y1="28" x2="20" y2="28" width="0.001" layer="20"/>
-<wire x1="20" y1="28" x2="20" y2="30" width="0.001" layer="20"/>
+<circle x="19" y="19" radius="19" width="0.0001" layer="20"/>
+<circle x="19" y="19" radius="13" width="0.0001" layer="37"/>
 </plain>
 <libraries>
 <library name="derek">
 <packages>
-<package name="1206">
-<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="0402">
-<smd name="1" x="-0.425" y="0" dx="0.55" dy="0.6" layer="1"/>
-<smd name="2" x="0.425" y="0" dx="0.55" dy="0.6" layer="1"/>
-<text x="0" y="0.462" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.462" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="0805">
-<smd name="1" x="-0.875" y="0" dx="1.1" dy="1.4" layer="1"/>
-<smd name="2" x="0.875" y="0" dx="1.1" dy="1.4" layer="1"/>
-<text x="0" y="0.862" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD-123F">
-<smd name="C" x="-1.45" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
-<smd name="A" x="1.45" y="0" dx="1.2" dy="1.2" layer="1" rot="R180"/>
-<wire x1="-2.37" y1="0.625" x2="-2.37" y2="-0.625" width="0.2032" layer="21"/>
-<text x="0" y="1.2532" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.2532" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.9" y1="1.05" x2="0.9" y2="1.05" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-1.05" x2="0.9" y2="-1.05" width="0.2032" layer="21"/>
-</package>
 <package name="XLAMP-XPG">
 <smd name="A" x="1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
 <smd name="C" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
@@ -190,77 +157,10 @@
 <text x="0" y="1.862" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SRN6045">
-<smd name="1" x="-2.15" y="0" dx="2" dy="6" layer="1"/>
-<smd name="2" x="2.15" y="0" dx="2" dy="6" layer="1"/>
-<text x="0" y="3.162" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="-0.1" y="-3.162" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.9" y1="3" x2="0.9" y2="3" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-3" x2="0.9" y2="-3" width="0.2032" layer="21"/>
-</package>
-<package name="TPS92513">
-<smd name="1" x="-1" y="-2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-0.5" y="-2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="0" y="-2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="0.5" y="-2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="1" y="-2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="1" y="2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="0.5" y="2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0" y="2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.5" y="2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="-1" y="2.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
-<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
-<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="51"/>
-<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
-<smd name="GND-ISO" x="0" y="0" dx="3.1" dy="2.2" layer="1"/>
-<pad name="P$1" x="-1.2" y="0.7" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$2" x="-0.4" y="0.7" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$3" x="0.4" y="0.7" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$4" x="1.2" y="0.7" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$5" x="-1.2" y="0" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$6" x="-0.4" y="0" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$7" x="0.4" y="0" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$8" x="1.2" y="0" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$9" x="-1.2" y="-0.7" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$10" x="-0.4" y="-0.7" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$11" x="0.4" y="-0.7" drill="0.35" stop="no" thermals="no"/>
-<pad name="P$12" x="1.2" y="-0.7" drill="0.35" stop="no" thermals="no"/>
-<text x="-1.732" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.732" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-<wire x1="-1.4" y1="-1.8" x2="-1.4" y2="-2.8" width="0.127" layer="21"/>
-</package>
-<package name="1X07_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole -7 Pin  No Silk&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:7&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_07&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
-<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
-<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="0603">
-<smd name="1" x="-0.725" y="0" dx="0.95" dy="0.95" layer="1"/>
-<smd name="2" x="0.725" y="0" dx="0.95" dy="0.95" layer="1"/>
-<text x="0" y="0.662" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.662" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<package name="TP-1502">
+<pad name="1" x="0" y="0" drill="0.8128" diameter="1.651"/>
+<text x="0" y="1.2" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.2" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -354,12 +254,12 @@ Please make sure your boards conform to these design rules.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="50mil"/>
+<param name="RoutingGrid" value="0.125mm"/>
 <param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
+<param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="\"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -374,7 +274,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="0"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -449,842 +349,214 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="derek" package="1206" value="1µF" x="37.033796875" y="45.51893125" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="37.033796875" y="45.51893125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="37.033796875" y="45.51893125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="37.033796875" y="45.51893125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="1µF" x="37.033796875" y="45.51893125" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="W5" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="17" y="32" locked="yes" rot="R90">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="17" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="17" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="17" y="32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C3" library="derek" package="0402" value="10000pF" x="32.8547" y="44.810328125">
-<attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="32.8547" y="44.810328125" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-4762-1-ND " x="32.8547" y="44.810328125" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="32.8547" y="44.810328125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10000pF" x="32.8547" y="44.810328125" size="1.778" layer="27" display="off"/>
+<element name="W1" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="30.7457" y="24.9193" locked="yes" rot="R18">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="30.7457" y="24.9193" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="30.7457" y="24.9193" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="30.7457" y="24.9193" size="1.778" layer="27" rot="R18" display="off"/>
 </element>
-<element name="C5" library="derek" package="0805" value="0.01μF" x="28.51330625" y="39.88121875" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="28.51330625" y="39.88121875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="311-1136-1-ND" x="28.51330625" y="39.88121875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="28.51330625" y="39.88121875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.01μF" x="28.51330625" y="39.88121875" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="W2" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="28.2592" y="9.6583" locked="yes" rot="R306">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="28.2592" y="9.6583" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="28.2592" y="9.6583" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="28.2592" y="9.6583" size="1.778" layer="27" rot="R306" display="off"/>
 </element>
-<element name="C7" library="derek" package="0805" value="0.1µF" x="31.833803125" y="36.148934375">
-<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="31.833803125" y="36.148934375" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="311-1141-1-ND" x="31.833803125" y="36.148934375" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="31.833803125" y="36.148934375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0.1µF" x="31.833803125" y="36.148934375" size="1.778" layer="27" display="off"/>
+<element name="W3" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="12.9768" y="7.3072" locked="yes" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="12.9768" y="7.3072" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="12.9768" y="7.3072" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="12.9768" y="7.3072" size="1.778" layer="27" rot="R234" display="off"/>
 </element>
-<element name="C6" library="derek" package="0603" value="0.1µF" x="33.8424125" y="41.48983125" smashed="yes" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="33.8424125" y="41.48983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-1524-1-ND" x="33.8424125" y="41.48983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America" x="33.8424125" y="41.48983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="35.080409375" y="41.48983125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="GRM188R71E104KA01D" x="33.8424125" y="41.48983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.1µF" x="33.8424125" y="41.48983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="34.504409375" y="41.489834375" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="W4" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="6.0182" y="21.1151" locked="yes" rot="R162">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="6.0182" y="21.1151" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="6.0182" y="21.1151" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="6.0182" y="21.1151" size="1.778" layer="27" rot="R162" display="off"/>
 </element>
-<element name="C8" library="derek" package="0805" value="1µF" x="39.952409375" y="32.869828125" rot="R180">
-<attribute name="DATASHEET_URL" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212B7105KG-T&amp;fileName=GMK212B7105KG-T_SS&amp;mode=specSheetDownload" x="39.952409375" y="32.869828125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="587-1438-1-ND" x="39.952409375" y="32.869828125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="39.952409375" y="32.869828125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="1µF" x="39.952409375" y="32.869828125" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C5" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="21" y="32" locked="yes" smashed="yes" rot="R90">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="23.538" y="32" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="22.862" y="32" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D2" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="34.558553125" y="37.565075" rot="R270">
-<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="34.558553125" y="37.565075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="34.558553125" y="37.565075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="34.558553125" y="37.565075" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C1" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="31.9818" y="21.1151" locked="yes" smashed="yes" rot="R18">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="NAME" x="32.806409375" y="18.785965625" size="0.6096" layer="25" font="vector" ratio="20" rot="R18" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="VALUE" x="32.5571875" y="19.34423125" size="0.6096" layer="27" font="vector" ratio="20" rot="R18" align="top-center"/>
 </element>
-<element name="D1" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="40.71240625" y="45.269828125" rot="R270">
-<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="40.71240625" y="45.269828125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="40.71240625" y="45.269828125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="40.71240625" y="45.269828125" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C2" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="25.0232" y="7.3072" locked="yes" smashed="yes" rot="R306">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="NAME" x="23.0295875" y="5.801653125" size="0.6096" layer="25" font="vector" ratio="20" rot="R306" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="VALUE" x="23.516809375" y="6.21274375" size="0.6096" layer="27" font="vector" ratio="20" rot="R306" align="top-center"/>
 </element>
-<element name="D7" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="27" y="51" locked="yes" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="27" y="51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="27" y="51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="27" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C3" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="9.7408" y="9.6583" locked="yes" smashed="yes" rot="R234">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="NAME" x="7.7471875" y="11.16384375" size="0.6096" layer="25" font="vector" ratio="20" rot="R234" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="VALUE" x="8.234409375" y="10.752753125" size="0.6096" layer="27" font="vector" ratio="20" rot="R234" align="top-center"/>
 </element>
-<element name="D3" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="49.3052" y="37.7005" locked="yes" rot="R18">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="49.3052" y="37.7005" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="49.3052" y="37.7005" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="49.3052" y="37.7005" size="1.778" layer="27" rot="R18" display="off"/>
+<element name="C4" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="7.2543" y="24.9193" locked="yes" smashed="yes" rot="R162">
+<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="NAME" x="8.078909375" y="27.24843125" size="0.6096" layer="25" font="vector" ratio="20" rot="R162" align="bottom-center"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="VALUE" x="7.8296875" y="26.690165625" size="0.6096" layer="27" font="vector" ratio="20" rot="R162" align="top-center"/>
 </element>
-<element name="D4" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="43.5493" y="12.3772" locked="yes" rot="R306">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="43.5493" y="12.3772" size="1.778" layer="27" rot="R306" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="43.5493" y="12.3772" size="1.778" layer="27" rot="R306" display="off"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="43.5493" y="12.3772" size="1.778" layer="27" rot="R306" display="off"/>
-</element>
-<element name="D5" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="17.6868" y="10.0261" locked="yes" rot="R234">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="17.6868" y="10.0261" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="17.6868" y="10.0261" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="17.6868" y="10.0261" size="1.778" layer="27" rot="R234" display="off"/>
-</element>
-<element name="D6" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="7.4587" y="33.8963" locked="yes" rot="R162">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="7.4587" y="33.8963" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="7.4587" y="33.8963" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="7.4587" y="33.8963" size="1.778" layer="27" rot="R162" display="off"/>
-</element>
-<element name="L1" library="derek" package="SRN6045" value="33µH" x="39.233803125" y="38.448940625">
-<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" x="39.233803125" y="38.448940625" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND" x="39.233803125" y="38.448940625" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="SRN6045-330M" x="39.233803125" y="38.448940625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="33µH" x="39.233803125" y="38.448940625" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R1" library="derek" package="0402" value="97.6k" x="32.0424125" y="46.38983125" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="32.0424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND" x="32.0424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.042415625" y="47.52783125" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW040297K6FKED" x="32.0424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="97.6k" x="32.0424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="32.042409375" y="46.851834375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="R2" library="derek" package="0402" value="5.49k" x="30.4424125" y="46.38983125" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="30.4424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND" x="30.4424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="30.442409375" y="47.527834375" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW04025K49FKED" x="30.4424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="5.49k" x="30.4424125" y="46.38983125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="30.442415625" y="46.8518375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="R3" library="derek" package="0402" value="162k" x="27.142415625" y="43.639834375" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="27.142415625" y="43.639834375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="27.142415625" y="43.639834375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="27.142415625" y="43.639834375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="162k" x="27.142415625" y="43.639834375" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="R5" library="derek" package="0402" value="976" x="30.642409375" y="34.28983125" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="30.642409375" y="34.28983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="30.642409375" y="34.28983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="30.642409375" y="34.28983125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="976" x="30.642409375" y="34.28983125" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R6" library="derek" package="0805" value="0.51" x="34.542409375" y="33.6898375" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="34.542409375" y="33.6898375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="34.542409375" y="33.6898375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="34.542409375" y="33.6898375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.51" x="34.542409375" y="33.6898375" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U1" library="derek" package="TPS92513" value="TPS92513" x="31.2424125" y="41.189834375" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="31.2424125" y="41.189834375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND" x="31.2424125" y="41.189834375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="TPS92513DGQT" x="31.2424125" y="41.189834375" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="C1" library="derek" package="1206" value="1µF" x="34.90855625" y="45.515075" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="34.90855625" y="45.515075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="34.90855625" y="45.515075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="34.90855625" y="45.515075" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="J45" library="derek" package="1X07_NO_SILK" value="" x="12.5" y="32.1" rot="MR180"/>
-<element name="R4" library="derek" package="0603" value="4.02k" x="28.708559375" y="42.915078125" smashed="yes" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="28.708559375" y="42.915078125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-4.02KHCT-ND" x="28.708559375" y="42.915078125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" x="28.708559375" y="42.915078125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.04655625" y="42.315075" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW06034K02FKEA" x="28.708559375" y="42.915078125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.37055625" y="42.915078125" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="C4" library="derek" package="0603" value="470pF" x="26.638553125" y="42.205075" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.kemet.com/docfinder?Partnumber=C0603X471K5RACTU" x="26.638553125" y="42.205075" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="399-5338-1-ND" x="26.638553125" y="42.205075" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="KEMET" x="26.638553125" y="42.205075" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="26.63855625" y="43.543071875" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="C0603X471K5RACTU" x="26.638553125" y="42.205075" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="26.638559375" y="42.867075" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="C9" library="derek" package="1206" value="1µF" x="29.744215625" y="24.526303125" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="29.744215625" y="24.526303125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="29.744215625" y="24.526303125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="29.744215625" y="24.526303125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="1µF" x="29.744215625" y="24.526303125" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C10" library="derek" package="0402" value="10000pF" x="25.5651125" y="23.8177">
-<attribute name="DATASHEET_URL" value="http://psearch.en.murata.com/capacitor/product/GCM155R71H103KA55%23.pdf" x="25.5651125" y="23.8177" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-4762-1-ND " x="25.5651125" y="23.8177" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="GCM155R71H103KA55D" x="25.5651125" y="23.8177" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10000pF" x="25.5651125" y="23.8177" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C11" library="derek" package="0805" value="0.01μF" x="21.223721875" y="18.88859375" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="21.223721875" y="18.88859375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="311-1136-1-ND" x="21.223721875" y="18.88859375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="CC0805KRX7R9BB103" x="21.223721875" y="18.88859375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.01μF" x="21.223721875" y="18.88859375" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C12" library="derek" package="0805" value="0.1µF" x="24.54421875" y="15.156309375">
-<attribute name="DATASHEET_URL" value="http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_17.pdf" x="24.54421875" y="15.156309375" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="311-1141-1-ND" x="24.54421875" y="15.156309375" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="CC0805KRX7R8BB104" x="24.54421875" y="15.156309375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0.1µF" x="24.54421875" y="15.156309375" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C13" library="derek" package="0603" value="0.1µF" x="26.552825" y="20.49720625" smashed="yes" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="26.552825" y="20.49720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-1524-1-ND" x="26.552825" y="20.49720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America" x="26.552825" y="20.49720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="27.790828125" y="20.49720625" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="GRM188R71E104KA01D" x="26.552825" y="20.49720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.1µF" x="26.552825" y="20.49720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="27.214825" y="20.497203125" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="C14" library="derek" package="0805" value="1µF" x="32.662825" y="11.8772" rot="R180">
-<attribute name="DATASHEET_URL" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212B7105KG-T&amp;fileName=GMK212B7105KG-T_SS&amp;mode=specSheetDownload" x="32.662825" y="11.8772" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="587-1438-1-ND" x="32.662825" y="11.8772" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="GMK212B7105KG-T" x="32.662825" y="11.8772" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="1µF" x="32.662825" y="11.8772" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="D9" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="27.26896875" y="16.57245" rot="R270">
-<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="27.26896875" y="16.57245" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="27.26896875" y="16.57245" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="27.26896875" y="16.57245" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="D8" library="derek" package="SOD-123F" value="PMEG6010CEH,115" x="33.422821875" y="24.27720625" rot="R270">
-<attribute name="DATASHEET_URL" value="http://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" x="33.422821875" y="24.27720625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1727-3848-1-ND" x="33.422821875" y="24.27720625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="PMEG6010CEH,115" x="33.422821875" y="24.27720625" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="D10" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="31" y="51" locked="yes" smashed="yes" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="31" y="51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="31" y="51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.538" y="51" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="31" y="51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="32.862" y="51" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="D11" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="50.5413" y="33.8963" locked="yes" smashed="yes" rot="R18">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="50.5413" y="33.8963" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="50.5413" y="33.8963" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="NAME" x="51.365909375" y="31.567165625" size="0.6096" layer="25" font="vector" ratio="20" rot="R18" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="50.5413" y="33.8963" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="VALUE" x="51.1166875" y="32.12543125" size="0.6096" layer="27" font="vector" ratio="20" rot="R18" align="top-center"/>
-</element>
-<element name="D12" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="40.3132" y="10.0261" locked="yes" smashed="yes" rot="R306">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="40.3132" y="10.0261" size="1.778" layer="27" rot="R306" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="40.3132" y="10.0261" size="1.778" layer="27" rot="R306" display="off"/>
-<attribute name="NAME" x="38.3195875" y="8.520553125" size="0.6096" layer="25" font="vector" ratio="20" rot="R306" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="40.3132" y="10.0261" size="1.778" layer="27" rot="R306" display="off"/>
-<attribute name="VALUE" x="38.806809375" y="8.93164375" size="0.6096" layer="27" font="vector" ratio="20" rot="R306" align="top-center"/>
-</element>
-<element name="D13" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="14.4507" y="12.3772" locked="yes" smashed="yes" rot="R234">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="14.4507" y="12.3772" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="14.4507" y="12.3772" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="NAME" x="12.4570875" y="13.88274375" size="0.6096" layer="25" font="vector" ratio="20" rot="R234" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="14.4507" y="12.3772" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="VALUE" x="12.944309375" y="13.471653125" size="0.6096" layer="27" font="vector" ratio="20" rot="R234" align="top-center"/>
-</element>
-<element name="D14" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="8.6948" y="37.7005" locked="yes" smashed="yes" rot="R162">
-<attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="8.6948" y="37.7005" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="8.6948" y="37.7005" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="NAME" x="9.519409375" y="40.02963125" size="0.6096" layer="25" font="vector" ratio="20" rot="R162" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="8.6948" y="37.7005" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="VALUE" x="9.2701875" y="39.471365625" size="0.6096" layer="27" font="vector" ratio="20" rot="R162" align="top-center"/>
-</element>
-<element name="L2" library="derek" package="SRN6045" value="33µH" x="31.94421875" y="17.4563125">
-<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf" x="31.94421875" y="17.4563125" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="SRN6045-330MCT-ND" x="31.94421875" y="17.4563125" size="1.778" layer="27" display="off"/>
-<attribute name="PART_NUMBER" value="SRN6045-330M" x="31.94421875" y="17.4563125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="33µH" x="31.94421875" y="17.4563125" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R7" library="derek" package="0402" value="97.6k" x="24.752828125" y="25.39720625" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="24.752828125" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-97.6KLCT-ND" x="24.752828125" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="24.752825" y="26.53520625" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW040297K6FKED" x="24.752828125" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="97.6k" x="24.752828125" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="24.752821875" y="25.85920625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="R8" library="derek" package="0402" value="5.49k" x="23.152825" y="25.39720625" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="23.152825" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KLCT-ND" x="23.152825" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="23.152821875" y="26.53520625" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW04025K49FKED" x="23.152825" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="5.49k" x="23.152825" y="25.39720625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="23.152825" y="25.85920625" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
-<element name="R9" library="derek" package="0402" value="162k" x="19.852825" y="22.647203125" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="19.852825" y="22.647203125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-162KLCT-ND" x="19.852825" y="22.647203125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402162KFKED" x="19.852825" y="22.647203125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="162k" x="19.852825" y="22.647203125" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="R10" library="derek" package="0402" value="976" x="23.352821875" y="13.297203125" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="23.352821875" y="13.297203125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-976LCT-ND" x="23.352821875" y="13.297203125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="CRCW0402976RFKED" x="23.352821875" y="13.297203125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="976" x="23.352821875" y="13.297203125" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R11" library="derek" package="0805" value="0.51" x="27.252821875" y="12.69720625" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.bourns.com/docs/Product-Datasheets/CRM0805_1206_2010.pdf" x="27.252821875" y="12.69720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="CRM0805-FX-R510ELFCT-ND" x="27.252821875" y="12.69720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_NUMBER" value="CRM0805-FX-R510ELF" x="27.252821875" y="12.69720625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.51" x="27.252821875" y="12.69720625" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="U2" library="derek" package="TPS92513" value="TPS92513" x="23.952825" y="20.197203125" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.ti.com/lit/ds/symlink/tps92513.pdf" x="23.952825" y="20.197203125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="296-42113-1-ND" x="23.952825" y="20.197203125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_NUMBER" value="TPS92513DGQT" x="23.952825" y="20.197203125" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="C15" library="derek" package="1206" value="1µF" x="27.61896875" y="24.52245" rot="R270">
-<attribute name="DATASHEET_URL" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" x="27.61896875" y="24.52245" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="490-6527-1-ND" x="27.61896875" y="24.52245" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_NUMBER" value="GRM31MR71H105KA88L" x="27.61896875" y="24.52245" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="R12" library="derek" package="0603" value="4.02k" x="21.41896875" y="21.92245" smashed="yes" rot="R90">
-<attribute name="DATASHEET_URL" value="http://www.vishay.com/docs/20035/dcrcwe3.pdf" x="21.41896875" y="21.92245" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="541-4.02KHCT-ND" x="21.41896875" y="21.92245" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" x="21.41896875" y="21.92245" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="20.75696875" y="21.32245" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="CRCW06034K02FKEA" x="21.41896875" y="21.92245" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="22.08096875" y="21.922453125" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="C16" library="derek" package="0603" value="470pF" x="19.34896875" y="21.212453125" smashed="yes" rot="R180">
-<attribute name="DATASHEET_URL" value="http://www.kemet.com/docfinder?Partnumber=C0603X471K5RACTU" x="19.34896875" y="21.212453125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="399-5338-1-ND" x="19.34896875" y="21.212453125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="KEMET" x="19.34896875" y="21.212453125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="19.34896875" y="22.550446875" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="C0603X471K5RACTU" x="19.34896875" y="21.212453125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="19.34896875" y="21.87445" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
+<element name="W+" library="derek" package="TP-1502" value="TP-1502" x="18" y="19" rot="MR0"/>
+<element name="W-" library="derek" package="TP-1502" value="TP-1502" x="16" y="19" rot="MR0"/>
+<element name="C+" library="derek" package="TP-1502" value="TP-1502" x="22" y="19" rot="MR0"/>
+<element name="C-" library="derek" package="TP-1502" value="TP-1502" x="20" y="19" rot="MR0"/>
 </elements>
 <signals>
-<signal name="N$3">
-<contactref element="R2" pad="1"/>
-<contactref element="R1" pad="2"/>
-<contactref element="U1" pad="3"/>
-<wire x1="31.6174125" y1="46.38983125" x2="31.2424125" y2="46.014834375" width="0.3048" layer="1"/>
-<wire x1="31.2424125" y1="46.014834375" x2="31.2424125" y2="43.389834375" width="0.3048" layer="1"/>
-<wire x1="31.2424125" y1="46.014834375" x2="30.8674125" y2="46.38983125" width="0.3048" layer="1"/>
-<wire x1="30.8674125" y1="46.38983125" x2="31.6174125" y2="46.38983125" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$5">
-<contactref element="L1" pad="1"/>
-<contactref element="D2" pad="C"/>
-<contactref element="C6" pad="1"/>
-<contactref element="U1" pad="10"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="32.158553125" y="39.715075"/>
-<vertex x="32.158553125" y="37.915075"/>
-<vertex x="34.40855625" y="37.915078125"/>
-<vertex x="36.008553125" y="36.315075"/>
-<vertex x="36.00855625" y="35.415078125"/>
-<vertex x="38.10855625" y="35.415075"/>
-<vertex x="38.10855625" y="41.415071875"/>
-<vertex x="33.308553125" y="41.415075"/>
-<vertex x="33.308553125" y="39.715071875"/>
-</polygon>
-</signal>
-<signal name="N$6">
-<contactref element="R5" pad="1"/>
-<contactref element="R6" pad="1"/>
-<contactref element="C8" pad="2"/>
-<polygon width="0.1524" layer="1" thermals="no" rank="2">
-<vertex x="30.908553125" y="34.115075"/>
-<vertex x="30.40855625" y="34.115078125"/>
-<vertex x="30.40855625" y="32.215075"/>
-<vertex x="39.80855625" y="32.215078125"/>
-<vertex x="39.908553125" y="33.515071875"/>
-<vertex x="30.908559375" y="33.51508125"/>
-</polygon>
-<contactref element="D3" pad="A"/>
-<wire x1="39.077409375" y1="32.869828125" x2="39.2" y2="32.7472375" width="0.3048" layer="1"/>
-<wire x1="39.2" y1="32.7472375" x2="39.2" y2="31.8" width="0.3048" layer="1"/>
-<wire x1="39.2" y1="31.8" x2="39.3" y2="31.7" width="0.3048" layer="1"/>
-<wire x1="39.3" y1="31.7" x2="44.5" y2="31.7" width="0.3048" layer="1"/>
-<wire x1="44.5" y1="31.7" x2="45.5" y2="32.7" width="0.3048" layer="1"/>
-<wire x1="45.5" y1="32.7" x2="45.5" y2="42.6" width="0.3048" layer="1"/>
-<wire x1="45.5" y1="42.6" x2="46.4" y2="43.5" width="0.3048" layer="1"/>
-<wire x1="46.4" y1="43.5" x2="50.4" y2="43.5" width="0.3048" layer="1"/>
-<wire x1="50.4" y1="43.5" x2="52.5" y2="41.4" width="0.3048" layer="1"/>
-<wire x1="52.5" y1="39.99644375" x2="50.636678125" y2="38.133121875" width="0.3048" layer="1"/>
-<wire x1="52.5" y1="41.4" x2="52.5" y2="39.99644375" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$7">
-<contactref element="L1" pad="2"/>
-<contactref element="C8" pad="1"/>
-<contactref element="D1" pad="A"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="42.408553125" y="44.415078125"/>
-<vertex x="42.40855625" y="32.215078125"/>
-<vertex x="40.108553125" y="32.215078125"/>
-<vertex x="40.108553125" y="44.415075"/>
-</polygon>
-<contactref element="D7" pad="C"/>
-<wire x1="27" y1="49.6" x2="27.8" y2="48.8" width="0.3048" layer="1"/>
-<wire x1="27.8" y1="48.8" x2="42.9" y2="48.8" width="0.3048" layer="1"/>
-<wire x1="42.9" y1="48.8" x2="43.7" y2="48" width="0.3048" layer="1"/>
-<wire x1="43.7" y1="48" x2="43.7" y2="35.1" width="0.3048" layer="1"/>
-<wire x1="43.7" y1="35.1" x2="41.469828125" y2="32.869828125" width="0.3048" layer="1"/>
-<wire x1="41.469828125" y1="32.869828125" x2="40.827409375" y2="32.869828125" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$8">
-<contactref element="R3" pad="1"/>
-<contactref element="U1" pad="5"/>
-<contactref element="R4" pad="2"/>
-<wire x1="30.2424125" y1="43.389834375" x2="29.992165625" y2="43.640078125" width="0.3048" layer="1"/>
-<wire x1="29.992165625" y1="43.640078125" x2="28.708559375" y2="43.640078125" width="0.3048" layer="1"/>
-<wire x1="28.708559375" y1="43.640078125" x2="27.567415625" y2="43.639834375" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$9">
-<contactref element="C7" pad="1"/>
-<contactref element="U1" pad="8"/>
-<wire x1="31.2424125" y1="38.989834375" x2="31.242409375" y2="36.165328125" width="0.3048" layer="1"/>
-<wire x1="31.242409375" y1="36.165328125" x2="30.958803125" y2="36.148934375" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$10">
-<contactref element="C6" pad="2"/>
-<contactref element="U1" pad="1"/>
-<wire x1="33.8424125" y1="42.21483125" x2="33.8424125" y2="42.781221875" width="0.3048" layer="1"/>
-<wire x1="33.2338" y1="43.38983125" x2="32.2424125" y2="43.389834375" width="0.3048" layer="1"/>
-<wire x1="33.8424125" y1="42.781221875" x2="33.2338" y2="43.38983125" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$11">
-<contactref element="U1" pad="7"/>
-<contactref element="R5" pad="2"/>
-<wire x1="30.642409375" y1="34.71483125" x2="30.408803125" y2="34.914828125" width="0.3048" layer="1"/>
-<wire x1="30.408803125" y1="34.914828125" x2="29.90855625" y2="35.415075" width="0.3048" layer="1"/>
-<wire x1="29.90855625" y1="35.415075" x2="29.90855625" y2="36.915078125" width="0.3048" layer="1"/>
-<wire x1="30.742409375" y1="37.748934375" x2="30.7424125" y2="38.989834375" width="0.3048" layer="1"/>
-<wire x1="29.90855625" y1="36.915078125" x2="30.742409375" y2="37.748934375" width="0.3048" layer="1"/>
-</signal>
 <signal name="N$13">
-<contactref element="D3" pad="C"/>
-<contactref element="D4" pad="A"/>
-<wire x1="44.372196875" y1="11.244575" x2="46.144575" y2="11.244575" width="0.3048" layer="1"/>
-<wire x1="46.144575" y1="11.244575" x2="47.7" y2="12.8" width="0.3048" layer="1"/>
-<wire x1="47.7" y1="12.8" x2="47.7" y2="36.99415625" width="0.3048" layer="1"/>
-<wire x1="47.7" y1="36.99415625" x2="47.97371875" y2="37.267875" width="0.3048" layer="1"/>
+<contactref element="W1" pad="C"/>
+<contactref element="W2" pad="A"/>
+<wire x1="29.082096875" y1="8.525675" x2="29.41421875" y2="24.486675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
-<contactref element="D4" pad="C"/>
-<contactref element="D5" pad="A"/>
-<wire x1="42.7264" y1="13.509821875" x2="39.209821875" y2="13.509821875" width="0.3048" layer="1"/>
-<wire x1="39.209821875" y1="13.509821875" x2="38.7" y2="13" width="0.3048" layer="1"/>
-<via x="38.7" y="13" extent="1-16" drill="0.35"/>
-<wire x1="38.7" y1="13" x2="38.7" y2="12.9" width="0.3048" layer="16"/>
-<wire x1="38.7" y1="12.9" x2="32.7" y2="6.9" width="0.3048" layer="16"/>
-<wire x1="32.7" y1="6.9" x2="19.8" y2="6.9" width="0.3048" layer="16"/>
-<via x="19.8" y="6.9" extent="1-16" drill="0.35"/>
-<wire x1="19.8" y1="6.9" x2="18.857375" y2="6.9" width="0.3048" layer="1"/>
-<wire x1="18.857375" y1="6.9" x2="16.8639" y2="8.893475" width="0.3048" layer="1"/>
+<contactref element="W2" pad="C"/>
+<contactref element="W3" pad="A"/>
+<wire x1="12.1539" y1="6.174575" x2="27.4363" y2="10.790921875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
-<contactref element="D5" pad="C"/>
-<contactref element="D6" pad="A"/>
-<wire x1="18.509696875" y1="11.158721875" x2="18.509696875" y2="16.090303125" width="0.3048" layer="1"/>
-<wire x1="18.509696875" y1="16.090303125" x2="4.7" y2="29.9" width="0.3048" layer="1"/>
-<wire x1="4.7" y1="29.9" x2="4.7" y2="32.901703125" width="0.3048" layer="1"/>
-<wire x1="4.7" y1="32.901703125" x2="6.12721875" y2="34.328921875" width="0.3048" layer="1"/>
+<contactref element="W3" pad="C"/>
+<contactref element="W4" pad="A"/>
+<wire x1="13.799696875" y1="8.439821875" x2="4.68671875" y2="21.547721875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND-ISO">
-<contactref element="C2" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="R2" pad="2"/>
-<contactref element="R3" pad="2"/>
-<contactref element="R6" pad="2"/>
-<contactref element="C7" pad="2"/>
-<contactref element="U1" pad="9"/>
-<contactref element="U1" pad="GND-ISO"/>
-<contactref element="C5" pad="2"/>
-<contactref element="D2" pad="A"/>
 <polygon width="0.3048" layer="16" thermals="no">
-<vertex x="0" y="58"/>
-<vertex x="58" y="58"/>
-<vertex x="58" y="0"/>
+<vertex x="0" y="38"/>
+<vertex x="38" y="38"/>
+<vertex x="38" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<contactref element="D7" pad="P$3"/>
-<contactref element="D7" pad="P$1"/>
-<contactref element="D7" pad="P$2"/>
-<contactref element="D7" pad="GND"/>
-<contactref element="D3" pad="P$3"/>
-<contactref element="D3" pad="P$1"/>
-<contactref element="D3" pad="P$2"/>
-<contactref element="D3" pad="GND"/>
-<contactref element="D4" pad="P$3"/>
-<contactref element="D4" pad="P$1"/>
-<contactref element="D4" pad="P$2"/>
-<contactref element="D4" pad="GND"/>
-<contactref element="D5" pad="P$3"/>
-<contactref element="D5" pad="P$1"/>
-<contactref element="D5" pad="P$2"/>
-<contactref element="D5" pad="GND"/>
-<contactref element="D6" pad="P$3"/>
-<contactref element="D6" pad="P$1"/>
-<contactref element="D6" pad="P$2"/>
-<contactref element="D6" pad="GND"/>
-<contactref element="U1" pad="P$1"/>
-<contactref element="U1" pad="P$2"/>
-<contactref element="U1" pad="P$3"/>
-<contactref element="U1" pad="P$4"/>
-<contactref element="U1" pad="P$5"/>
-<contactref element="U1" pad="P$6"/>
-<contactref element="U1" pad="P$7"/>
-<contactref element="U1" pad="P$8"/>
-<contactref element="U1" pad="P$9"/>
-<contactref element="U1" pad="P$10"/>
-<contactref element="U1" pad="P$11"/>
-<contactref element="U1" pad="P$12"/>
-<contactref element="C1" pad="2"/>
+<contactref element="W5" pad="P$3"/>
+<contactref element="W5" pad="P$1"/>
+<contactref element="W5" pad="P$2"/>
+<contactref element="W5" pad="GND"/>
+<contactref element="W1" pad="P$3"/>
+<contactref element="W1" pad="P$1"/>
+<contactref element="W1" pad="P$2"/>
+<contactref element="W1" pad="GND"/>
+<contactref element="W2" pad="P$3"/>
+<contactref element="W2" pad="P$1"/>
+<contactref element="W2" pad="P$2"/>
+<contactref element="W2" pad="GND"/>
+<contactref element="W3" pad="P$3"/>
+<contactref element="W3" pad="P$1"/>
+<contactref element="W3" pad="P$2"/>
+<contactref element="W3" pad="GND"/>
+<contactref element="W4" pad="P$3"/>
+<contactref element="W4" pad="P$1"/>
+<contactref element="W4" pad="P$2"/>
+<contactref element="W4" pad="GND"/>
 <polygon width="0.3048" layer="1" thermals="no" rank="3">
-<vertex x="0" y="58"/>
-<vertex x="58" y="58"/>
-<vertex x="58" y="0"/>
+<vertex x="0" y="38"/>
+<vertex x="38" y="38"/>
+<vertex x="38" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<contactref element="J45" pad="6"/>
-<via x="39.10855625" y="34.765078125" extent="1-16" drill="0.35"/>
-<via x="39.10855625" y="34.165078125" extent="1-16" drill="0.35"/>
-<via x="38.50855625" y="34.765075" extent="1-16" drill="0.35"/>
-<via x="38.508559375" y="34.165078125" extent="1-16" drill="0.35"/>
-<via x="37.908553125" y="34.165078125" extent="1-16" drill="0.35"/>
-<via x="37.908553125" y="34.765078125" extent="1-16" drill="0.35"/>
-<via x="37.308553125" y="34.765078125" extent="1-16" drill="0.35"/>
-<via x="37.30855625" y="34.165078125" extent="1-16" drill="0.35"/>
-<via x="36.70855625" y="34.165078125" extent="1-16" drill="0.35"/>
-<via x="36.70855625" y="34.765078125" extent="1-16" drill="0.35"/>
-<via x="39.108553125" y="44.515078125" extent="1-16" drill="0.35"/>
-<via x="38.508553125" y="44.515075" extent="1-16" drill="0.35"/>
-<via x="38.50855625" y="43.915075" extent="1-16" drill="0.35"/>
-<via x="39.10855625" y="43.915075" extent="1-16" drill="0.35"/>
-<via x="39.108559375" y="43.315078125" extent="1-16" drill="0.35"/>
-<via x="38.508553125" y="43.315078125" extent="1-16" drill="0.35"/>
-<via x="38.508553125" y="42.715075" extent="1-16" drill="0.35"/>
-<via x="39.10855625" y="42.715071875" extent="1-16" drill="0.35"/>
-<via x="38.50855625" y="42.115075" extent="1-16" drill="0.35"/>
-<via x="39.108553125" y="42.115071875" extent="1-16" drill="0.35"/>
-<via x="37.90855625" y="42.715075" extent="1-16" drill="0.35"/>
-<via x="37.908559375" y="42.115075" extent="1-16" drill="0.35"/>
-<via x="37.308553125" y="42.115078125" extent="1-16" drill="0.35"/>
-<via x="37.30855625" y="42.715075" extent="1-16" drill="0.35"/>
-<via x="36.708553125" y="42.715075" extent="1-16" drill="0.35"/>
-<via x="36.708553125" y="42.115075" extent="1-16" drill="0.35"/>
-<via x="36.108559375" y="42.715075" extent="1-16" drill="0.35"/>
-<via x="36.10855625" y="42.115075" extent="1-16" drill="0.35"/>
-<via x="35.508553125" y="42.115078125" extent="1-16" drill="0.35"/>
-<via x="35.508553125" y="42.715078125" extent="1-16" drill="0.35"/>
-<via x="39.10855625" y="45.115078125" extent="1-16" drill="0.35"/>
-<via x="38.508559375" y="45.115078125" extent="1-16" drill="0.35"/>
-<via x="34.90855625" y="42.115078125" extent="1-16" drill="0.35"/>
-<via x="34.90855625" y="42.715078125" extent="1-16" drill="0.35"/>
-<contactref element="C9" pad="2"/>
-<contactref element="C10" pad="2"/>
-<contactref element="R8" pad="2"/>
-<contactref element="R9" pad="2"/>
-<contactref element="R11" pad="2"/>
-<contactref element="C12" pad="2"/>
-<contactref element="U2" pad="9"/>
-<contactref element="U2" pad="GND-ISO"/>
-<contactref element="C11" pad="2"/>
-<contactref element="D9" pad="A"/>
-<contactref element="U2" pad="P$1"/>
-<contactref element="U2" pad="P$2"/>
-<contactref element="U2" pad="P$3"/>
-<contactref element="U2" pad="P$4"/>
-<contactref element="U2" pad="P$5"/>
-<contactref element="U2" pad="P$6"/>
-<contactref element="U2" pad="P$7"/>
-<contactref element="U2" pad="P$8"/>
-<contactref element="U2" pad="P$9"/>
-<contactref element="U2" pad="P$10"/>
-<contactref element="U2" pad="P$11"/>
-<contactref element="U2" pad="P$12"/>
-<contactref element="C15" pad="2"/>
-<via x="31.81896875" y="13.77245" extent="1-16" drill="0.35"/>
-<via x="31.81896875" y="13.17245" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="13.77245" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="13.17245" extent="1-16" drill="0.35"/>
-<via x="30.61896875" y="13.17245" extent="1-16" drill="0.35"/>
-<via x="30.61896875" y="13.77245" extent="1-16" drill="0.35"/>
-<via x="30.01896875" y="13.77245" extent="1-16" drill="0.35"/>
-<via x="30.01896875" y="13.17245" extent="1-16" drill="0.35"/>
-<via x="29.41896875" y="13.17245" extent="1-16" drill="0.35"/>
-<via x="29.41896875" y="13.77245" extent="1-16" drill="0.35"/>
-<via x="31.81896875" y="23.52245" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="23.52245" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="22.92245" extent="1-16" drill="0.35"/>
-<via x="31.81896875" y="22.92245" extent="1-16" drill="0.35"/>
-<via x="31.81896875" y="22.32245" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="22.32245" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="21.72245" extent="1-16" drill="0.35"/>
-<via x="31.81896875" y="21.722446875" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="21.12245" extent="1-16" drill="0.35"/>
-<via x="31.81896875" y="21.12245" extent="1-16" drill="0.35"/>
-<via x="30.61896875" y="21.72245" extent="1-16" drill="0.35"/>
-<via x="30.61896875" y="21.12245" extent="1-16" drill="0.35"/>
-<via x="30.01896875" y="21.122453125" extent="1-16" drill="0.35"/>
-<via x="30.01896875" y="21.72245" extent="1-16" drill="0.35"/>
-<via x="29.41896875" y="21.722446875" extent="1-16" drill="0.35"/>
-<via x="29.41896875" y="21.12245" extent="1-16" drill="0.35"/>
-<via x="28.81896875" y="21.72245" extent="1-16" drill="0.35"/>
-<via x="28.81896875" y="21.12245" extent="1-16" drill="0.35"/>
-<via x="28.21896875" y="21.12245" extent="1-16" drill="0.35"/>
-<via x="28.21896875" y="21.722453125" extent="1-16" drill="0.35"/>
-<via x="31.81896875" y="24.122446875" extent="1-16" drill="0.35"/>
-<via x="31.21896875" y="24.12245" extent="1-16" drill="0.35"/>
-<via x="27.61896875" y="21.122453125" extent="1-16" drill="0.35"/>
-<via x="27.61896875" y="21.72245" extent="1-16" drill="0.35"/>
-<contactref element="D11" pad="P$3"/>
-<contactref element="D11" pad="P$1"/>
-<contactref element="D11" pad="P$2"/>
-<contactref element="D11" pad="GND"/>
-<contactref element="D12" pad="P$3"/>
-<contactref element="D12" pad="P$1"/>
-<contactref element="D12" pad="P$2"/>
-<contactref element="D12" pad="GND"/>
-<contactref element="D13" pad="P$3"/>
-<contactref element="D13" pad="P$1"/>
-<contactref element="D13" pad="P$2"/>
-<contactref element="D13" pad="GND"/>
-<contactref element="D14" pad="P$3"/>
-<contactref element="D14" pad="P$1"/>
-<contactref element="D14" pad="P$2"/>
-<contactref element="D14" pad="GND"/>
-<contactref element="D10" pad="P$3"/>
-<contactref element="D10" pad="P$1"/>
-<contactref element="D10" pad="P$2"/>
-<contactref element="D10" pad="GND"/>
-</signal>
-<signal name="24V">
-<contactref element="C2" pad="1"/>
-<contactref element="C3" pad="1"/>
-<contactref element="R1" pad="1"/>
-<contactref element="D1" pad="C"/>
-<contactref element="U1" pad="2"/>
-<contactref element="C1" pad="1"/>
-<contactref element="J45" pad="7"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="32.158553125" y="44.515078125"/>
-<vertex x="32.158553125" y="47.715078125"/>
-<vertex x="41.30855625" y="47.715078125"/>
-<vertex x="41.30855625" y="46.115075"/>
-<vertex x="32.70855625" y="46.115078125"/>
-<vertex x="32.708553125" y="44.515078125"/>
-</polygon>
-<wire x1="32.13380625" y1="44.74033125" x2="32.4297" y2="44.810328125" width="0.3048" layer="1"/>
-<wire x1="31.742409375" y1="44.348928125" x2="31.7424125" y2="43.389834375" width="0.3048" layer="1"/>
-<wire x1="32.13380625" y1="44.74033125" x2="31.742409375" y2="44.348928125" width="0.3048" layer="1"/>
-<contactref element="C9" pad="1"/>
-<contactref element="C10" pad="1"/>
-<contactref element="R7" pad="1"/>
-<contactref element="D8" pad="C"/>
-<contactref element="U2" pad="2"/>
-<contactref element="C15" pad="1"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="24.868971875" y="23.52245"/>
-<vertex x="24.86896875" y="26.72245"/>
-<vertex x="34.018965625" y="26.72245"/>
-<vertex x="34.01896875" y="25.122453125"/>
-<vertex x="25.41896875" y="25.12245"/>
-<vertex x="25.41896875" y="23.52245"/>
-</polygon>
-<wire x1="24.844221875" y1="23.7477" x2="25.1401125" y2="23.8177" width="0.3048" layer="1"/>
-<wire x1="24.452825" y1="23.356309375" x2="24.452825" y2="22.397203125" width="0.3048" layer="1"/>
-<wire x1="24.844221875" y1="23.7477" x2="24.452825" y2="23.356309375" width="0.3048" layer="1"/>
-<wire x1="33.422821875" y1="25.72720625" x2="38.52720625" y2="25.72720625" width="0.3048" layer="1"/>
-<wire x1="38.52720625" y1="25.72720625" x2="40" y2="27.2" width="0.3048" layer="1"/>
-<wire x1="40" y1="27.2" x2="40" y2="30.4" width="0.3048" layer="1"/>
-<wire x1="40" y1="30.4" x2="39.4" y2="31" width="0.3048" layer="1"/>
-<wire x1="39.4" y1="31" x2="28.84" y2="31" width="0.3048" layer="1"/>
-<wire x1="28.84" y1="31" x2="27.74" y2="32.1" width="0.3048" layer="1"/>
-<wire x1="27.74" y1="32.1" x2="22.3" y2="37.54" width="0.3048" layer="16"/>
-<wire x1="22.3" y1="37.54" x2="22.3" y2="46.1" width="0.3048" layer="16"/>
-<wire x1="22.3" y1="46.1" x2="24.1" y2="47.9" width="0.3048" layer="16"/>
-<wire x1="24.1" y1="47.9" x2="28" y2="47.9" width="0.3048" layer="16"/>
-<via x="28" y="47.9" extent="1-16" drill="0.35"/>
-<wire x1="28" y1="47.9" x2="33.92363125" y2="47.9" width="0.3048" layer="1"/>
-<wire x1="33.92363125" y1="47.9" x2="34.90855625" y2="46.915075" width="0.3048" layer="1"/>
-</signal>
-<signal name="PDIM1">
-<contactref element="U1" pad="4"/>
-<contactref element="J45" pad="4"/>
-<wire x1="30.7424125" y1="43.389834375" x2="30.7424125" y2="44.5575875" width="0.3048" layer="1"/>
-<wire x1="30.7424125" y1="44.5575875" x2="30.1" y2="45.2" width="0.3048" layer="1"/>
-<wire x1="30.1" y1="45.2" x2="22.9" y2="45.2" width="0.3048" layer="1"/>
-<wire x1="22.9" y1="45.2" x2="20.1" y2="42.4" width="0.3048" layer="1"/>
-<via x="20.1" y="42.4" extent="1-16" drill="0.35"/>
-<wire x1="20.1" y1="42.4" x2="20.1" y2="32.12" width="0.3048" layer="16"/>
-<wire x1="20.1" y1="32.12" x2="20.12" y2="32.1" width="0.3048" layer="16"/>
-</signal>
-<signal name="PDIM2">
-<contactref element="U2" pad="4"/>
-<contactref element="J45" pad="3"/>
-<wire x1="23.452825" y1="22.397203125" x2="23.452825" y2="23.547175" width="0.3048" layer="1"/>
-<wire x1="23.452825" y1="23.547175" x2="23" y2="24" width="0.3048" layer="1"/>
-<wire x1="23" y1="24" x2="21.2" y2="24" width="0.3048" layer="1"/>
-<wire x1="17.58" y1="27.62" x2="17.58" y2="32.1" width="0.3048" layer="1"/>
-<wire x1="21.2" y1="24" x2="17.58" y2="27.62" width="0.3048" layer="1"/>
+<contactref element="C1" pad="P$3"/>
+<contactref element="C1" pad="P$1"/>
+<contactref element="C1" pad="P$2"/>
+<contactref element="C1" pad="GND"/>
+<contactref element="C2" pad="P$3"/>
+<contactref element="C2" pad="P$1"/>
+<contactref element="C2" pad="P$2"/>
+<contactref element="C2" pad="GND"/>
+<contactref element="C3" pad="P$3"/>
+<contactref element="C3" pad="P$1"/>
+<contactref element="C3" pad="P$2"/>
+<contactref element="C3" pad="GND"/>
+<contactref element="C4" pad="P$3"/>
+<contactref element="C4" pad="P$1"/>
+<contactref element="C4" pad="P$2"/>
+<contactref element="C4" pad="GND"/>
+<contactref element="C5" pad="P$3"/>
+<contactref element="C5" pad="P$1"/>
+<contactref element="C5" pad="P$2"/>
+<contactref element="C5" pad="GND"/>
+<wire x1="30.7457" y1="24.9193" x2="31.054715625" y2="23.968240625" width="0" layer="19" extent="1-1"/>
+<wire x1="30.43668125" y1="25.87035625" x2="30.7457" y2="24.9193" width="0" layer="19" extent="1-1"/>
+<wire x1="31.67278125" y1="22.06615625" x2="31.054715625" y2="23.968240625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.9818" y1="21.1151" x2="31.67278125" y2="22.06615625" width="0" layer="19" extent="1-1"/>
+<wire x1="32.290815625" y1="20.164040625" x2="31.9818" y2="21.1151" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="32" x2="30.43668125" y2="25.87035625" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="32" x2="22" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="20" y1="32" x2="21" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="32" x2="20" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="32" x2="18" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="16" y1="32" x2="17" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="29.068215625" y1="10.246084375" x2="32.290815625" y2="20.164040625" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2592" y1="9.6583" x2="29.068215625" y2="10.246084375" width="0" layer="19" extent="1-1"/>
+<wire x1="27.45018125" y1="9.0705125" x2="28.2592" y2="9.6583" width="0" layer="19" extent="1-1"/>
+<wire x1="25.832215625" y1="7.894984375" x2="27.45018125" y2="9.0705125" width="0" layer="19" extent="1-1"/>
+<wire x1="25.0232" y1="7.3072" x2="25.832215625" y2="7.894984375" width="0" layer="19" extent="1-1"/>
+<wire x1="24.21418125" y1="6.7194125" x2="25.0232" y2="7.3072" width="0" layer="19" extent="1-1"/>
+<wire x1="7.563315625" y1="25.87035625" x2="16" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="7.2543" y1="24.9193" x2="7.563315625" y2="25.87035625" width="0" layer="19" extent="1-1"/>
+<wire x1="6.94528125" y1="23.968240625" x2="7.2543" y2="24.9193" width="0" layer="19" extent="1-1"/>
+<wire x1="6.327215625" y1="22.06615625" x2="6.94528125" y2="23.968240625" width="0" layer="19" extent="1-1"/>
+<wire x1="6.0182" y1="21.1151" x2="6.327215625" y2="22.06615625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.70918125" y1="20.164040625" x2="6.0182" y2="21.1151" width="0" layer="19" extent="1-1"/>
+<wire x1="13.785815625" y1="6.7194125" x2="24.21418125" y2="6.7194125" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9768" y1="7.3072" x2="13.785815625" y2="6.7194125" width="0" layer="19" extent="1-1"/>
+<wire x1="12.16778125" y1="7.894984375" x2="12.9768" y2="7.3072" width="0" layer="19" extent="1-1"/>
+<wire x1="10.549815625" y1="9.0705125" x2="12.16778125" y2="7.894984375" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7408" y1="9.6583" x2="10.549815625" y2="9.0705125" width="0" layer="19" extent="1-1"/>
+<wire x1="8.93178125" y1="10.246084375" x2="9.7408" y2="9.6583" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
-<contactref element="D6" pad="C"/>
-<contactref element="D7" pad="A"/>
-<wire x1="8.790178125" y1="33.463675" x2="12.763675" y2="33.463675" width="0.3048" layer="1"/>
-<wire x1="12.763675" y1="33.463675" x2="14" y2="34.7" width="0.3048" layer="1"/>
-<wire x1="14" y1="34.7" x2="13.4" y2="46" width="0.3048" layer="1"/>
-<wire x1="13.4" y1="46" x2="21.6" y2="54.2" width="0.3048" layer="1"/>
-<wire x1="21.6" y1="54.2" x2="27" y2="52.4" width="0.3048" layer="1"/>
-</signal>
-<signal name="IADJ1">
-<contactref element="C5" pad="1"/>
-<contactref element="U1" pad="6"/>
-<wire x1="30.2424125" y1="38.989834375" x2="30.226025" y2="39.00621875" width="0.1524" layer="1"/>
-<wire x1="30.226025" y1="39.00621875" x2="28.51330625" y2="39.00621875" width="0.3048" layer="1"/>
-<contactref element="J45" pad="5"/>
-<wire x1="28.51330625" y1="39.00621875" x2="25.90621875" y2="39.00621875" width="0.3048" layer="1"/>
-<wire x1="22.66" y1="35.76" x2="22.66" y2="32.1" width="0.3048" layer="1"/>
-<wire x1="25.90621875" y1="39.00621875" x2="22.66" y2="35.76" width="0.3048" layer="1"/>
-</signal>
-<signal name="IADJ2">
-<contactref element="C11" pad="1"/>
-<contactref element="U2" pad="6"/>
-<wire x1="22.952825" y1="17.997203125" x2="22.936434375" y2="18.01359375" width="0.1524" layer="1"/>
-<wire x1="22.936434375" y1="18.01359375" x2="21.223721875" y2="18.01359375" width="0.3048" layer="1"/>
-<contactref element="J45" pad="2"/>
-<wire x1="21.223721875" y1="18.01359375" x2="17.98640625" y2="18.01359375" width="0.3048" layer="1"/>
-<wire x1="17.98640625" y1="18.01359375" x2="15" y2="21" width="0.3048" layer="1"/>
-<via x="15" y="21" extent="1-16" drill="0.35"/>
-<wire x1="15" y1="21" x2="15" y2="32.06" width="0.3048" layer="16"/>
-<wire x1="15" y1="32.06" x2="15.04" y2="32.1" width="0.3048" layer="16"/>
-</signal>
-<signal name="N$34">
-<contactref element="R4" pad="1"/>
-<contactref element="C4" pad="1"/>
-<wire x1="28.708559375" y1="42.190078125" x2="28.693559375" y2="42.205075" width="0.3048" layer="1"/>
-<wire x1="28.693559375" y1="42.205075" x2="27.363553125" y2="42.205075" width="0.3048" layer="1"/>
-</signal>
-<signal name="CLK">
-<contactref element="C4" pad="2"/>
-<contactref element="J45" pad="1"/>
-<contactref element="C16" pad="2"/>
-<wire x1="18.62396875" y1="21.212453125" x2="16.487546875" y2="21.212453125" width="0.3048" layer="1"/>
-<wire x1="12.5" y1="25.2" x2="12.5" y2="32.1" width="0.3048" layer="1"/>
-<wire x1="16.487546875" y1="21.212453125" x2="12.5" y2="25.2" width="0.3048" layer="1"/>
-<wire x1="12.5" y1="32.1" x2="22.605075" y2="42.205075" width="0.3048" layer="1"/>
-<wire x1="22.605075" y1="42.205075" x2="25.913553125" y2="42.205075" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$1">
-<contactref element="R8" pad="1"/>
-<contactref element="R7" pad="2"/>
-<contactref element="U2" pad="3"/>
-<wire x1="24.327828125" y1="25.39720625" x2="23.952825" y2="25.022209375" width="0.3048" layer="1"/>
-<wire x1="23.952825" y1="25.022209375" x2="23.952825" y2="22.397203125" width="0.3048" layer="1"/>
-<wire x1="23.952825" y1="25.022209375" x2="23.577825" y2="25.39720625" width="0.3048" layer="1"/>
-<wire x1="23.577825" y1="25.39720625" x2="24.327828125" y2="25.39720625" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$16">
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="24.86896875" y="18.722453125"/>
-<vertex x="24.86896875" y="16.92245"/>
-<vertex x="27.118965625" y="16.92245"/>
-<vertex x="28.71896875" y="15.32245"/>
-<vertex x="28.718965625" y="14.422453125"/>
-<vertex x="30.81896875" y="14.422446875"/>
-<vertex x="30.81896875" y="20.42245"/>
-<vertex x="26.01896875" y="20.42245"/>
-<vertex x="26.01896875" y="18.722453125"/>
-</polygon>
-<contactref element="L2" pad="1"/>
-<contactref element="D9" pad="C"/>
-<contactref element="U2" pad="10"/>
-<contactref element="C13" pad="1"/>
-</signal>
-<signal name="N$17">
-<contactref element="R9" pad="1"/>
-<contactref element="U2" pad="5"/>
-<contactref element="R12" pad="2"/>
-<wire x1="22.952825" y1="22.397203125" x2="22.702578125" y2="22.64745" width="0.3048" layer="1"/>
-<wire x1="22.702578125" y1="22.64745" x2="21.41896875" y2="22.64745" width="0.3048" layer="1"/>
-<wire x1="21.41896875" y1="22.64745" x2="20.277825" y2="22.647203125" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$18">
-<contactref element="C12" pad="1"/>
-<contactref element="U2" pad="8"/>
-<wire x1="23.952825" y1="17.997203125" x2="23.952825" y2="15.1727" width="0.3048" layer="1"/>
-<wire x1="23.952825" y1="15.1727" x2="23.66921875" y2="15.156309375" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$19">
-<contactref element="C13" pad="2"/>
-<contactref element="U2" pad="1"/>
-<wire x1="26.552825" y1="21.22220625" x2="26.552825" y2="21.788590625" width="0.3048" layer="1"/>
-<wire x1="25.944215625" y1="22.3972" x2="24.952825" y2="22.397203125" width="0.3048" layer="1"/>
-<wire x1="26.552825" y1="21.788590625" x2="25.944215625" y2="22.3972" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$20">
-<contactref element="U2" pad="7"/>
-<contactref element="R10" pad="2"/>
-<wire x1="23.352821875" y1="13.722203125" x2="23.1192125" y2="13.922203125" width="0.3048" layer="1"/>
-<wire x1="23.1192125" y1="13.922203125" x2="22.61896875" y2="14.422453125" width="0.3048" layer="1"/>
-<wire x1="22.61896875" y1="14.422453125" x2="22.61896875" y2="15.92245" width="0.3048" layer="1"/>
-<wire x1="23.452825" y1="16.75630625" x2="23.452825" y2="17.997203125" width="0.3048" layer="1"/>
-<wire x1="22.61896875" y1="15.92245" x2="23.452825" y2="16.75630625" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$25">
-<contactref element="R12" pad="1"/>
-<contactref element="C16" pad="1"/>
-<wire x1="21.41896875" y1="21.19745" x2="21.40396875" y2="21.21245" width="0.3048" layer="1"/>
-<wire x1="21.40396875" y1="21.21245" x2="20.07396875" y2="21.212453125" width="0.3048" layer="1"/>
+<contactref element="W4" pad="C"/>
+<contactref element="W5" pad="A"/>
+<wire x1="7.349678125" y1="20.682475" x2="17" y2="33.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
-<contactref element="D12" pad="A"/>
-<contactref element="D11" pad="C"/>
-<wire x1="49.20981875" y1="33.463675" x2="49.20981875" y2="12.00981875" width="0.3048" layer="1"/>
-<wire x1="49.20981875" y1="12.00981875" x2="45.3" y2="8.1" width="0.3048" layer="1"/>
-<wire x1="45.3" y1="8.1" x2="41.929571875" y2="8.1" width="0.3048" layer="1"/>
-<wire x1="41.929571875" y1="8.1" x2="41.136096875" y2="8.893475" width="0.3048" layer="1"/>
+<contactref element="C2" pad="A"/>
+<contactref element="C1" pad="C"/>
+<wire x1="25.846096875" y1="6.174575" x2="30.65031875" y2="20.682475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
-<contactref element="D13" pad="C"/>
-<contactref element="D14" pad="A"/>
-<wire x1="15.273596875" y1="13.509821875" x2="15.273596875" y2="17.626403125" width="0.3048" layer="1"/>
-<wire x1="15.273596875" y1="17.626403125" x2="3.9" y2="29" width="0.3048" layer="1"/>
-<wire x1="3.9" y1="29" x2="3.9" y2="34.669803125" width="0.3048" layer="1"/>
-<wire x1="3.9" y1="34.669803125" x2="7.36331875" y2="38.133121875" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$23">
-<contactref element="C14" pad="1"/>
-<contactref element="D8" pad="A"/>
-<contactref element="L2" pad="2"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="35.11896875" y="23.42245"/>
-<vertex x="35.118971875" y="11.222453125"/>
-<vertex x="32.81896875" y="11.222453125"/>
-<vertex x="32.81896875" y="23.422453125"/>
-</polygon>
-<contactref element="D12" pad="C"/>
-<wire x1="33.537825" y1="11.8772" x2="38.771821875" y2="11.8772" width="0.3048" layer="1"/>
-<wire x1="38.771821875" y1="11.8772" x2="39.4903" y2="11.158721875" width="0.3048" layer="1"/>
+<contactref element="C3" pad="C"/>
+<contactref element="C4" pad="A"/>
+<wire x1="10.563696875" y1="10.790921875" x2="5.92281875" y2="25.351921875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
-<contactref element="D10" pad="A"/>
-<contactref element="D14" pad="C"/>
-<wire x1="10.026278125" y1="37.267875" x2="11.767875" y2="37.267875" width="0.3048" layer="1"/>
-<wire x1="11.767875" y1="37.267875" x2="13" y2="38.5" width="0.3048" layer="1"/>
-<wire x1="13" y1="38.5" x2="12.1" y2="46.4" width="0.3048" layer="1"/>
-<wire x1="12.1" y1="46.4" x2="21.5" y2="55.8" width="0.3048" layer="1"/>
-<wire x1="21.5" y1="55.8" x2="28.9" y2="54.5" width="0.3048" layer="1"/>
-<wire x1="28.9" y1="54.5" x2="31" y2="52.4" width="0.3048" layer="1"/>
+<contactref element="C5" pad="A"/>
+<contactref element="C4" pad="C"/>
+<wire x1="8.585778125" y1="24.486675" x2="21" y2="33.4" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$26">
-<contactref element="R10" pad="1"/>
-<contactref element="R11" pad="1"/>
-<contactref element="C14" pad="2"/>
-<polygon width="0.1524" layer="1" thermals="no" rank="2">
-<vertex x="23.61896875" y="13.12245"/>
-<vertex x="23.118971875" y="13.122453125"/>
-<vertex x="23.11896875" y="11.22245"/>
-<vertex x="32.51896875" y="11.22245"/>
-<vertex x="32.61896875" y="12.52245"/>
-<vertex x="23.61896875" y="12.522453125"/>
-</polygon>
-<contactref element="D13" pad="A"/>
-<wire x1="31.787825" y1="11.8772" x2="31.787825" y2="6.487825" width="0.3048" layer="1"/>
-<wire x1="31.787825" y1="6.487825" x2="28.8" y2="3.5" width="0.3048" layer="1"/>
-<wire x1="28.8" y1="3.5" x2="18" y2="3.5" width="0.3048" layer="1"/>
-<wire x1="18" y1="3.5" x2="13.4" y2="8.1" width="0.3048" layer="1"/>
-<wire x1="13.4" y1="8.1" x2="13.4" y2="11.016775" width="0.3048" layer="1"/>
-<wire x1="13.4" y1="11.016775" x2="13.6278" y2="11.244575" width="0.3048" layer="1"/>
+<signal name="N$30">
+<contactref element="W1" pad="A"/>
+<contactref element="W+" pad="1"/>
+<wire x1="18" y1="19" x2="32.077178125" y2="25.351921875" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$27">
-<contactref element="D10" pad="C"/>
-<contactref element="D11" pad="A"/>
-<wire x1="53.8" y1="41.6" x2="45.8" y2="49.6" width="0.3048" layer="1"/>
-<wire x1="53.8" y1="41.6" x2="53.8" y2="36.25614375" width="0.3048" layer="1"/>
-<wire x1="53.8" y1="36.25614375" x2="51.872778125" y2="34.328921875" width="0.3048" layer="1"/>
-<wire x1="45.8" y1="49.6" x2="31" y2="49.6" width="0.3048" layer="1"/>
+<signal name="N$31">
+<contactref element="W5" pad="C"/>
+<contactref element="W-" pad="1"/>
+<wire x1="16" y1="19" x2="17" y2="30.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="C2" pad="C"/>
+<contactref element="C3" pad="A"/>
+<wire x1="8.9179" y1="8.525675" x2="24.2003" y2="8.439821875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="C1" pad="A"/>
+<contactref element="C+" pad="1"/>
+<wire x1="22" y1="19" x2="33.313278125" y2="21.547721875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="C5" pad="C"/>
+<contactref element="C-" pad="1"/>
+<wire x1="20" y1="19" x2="21" y2="30.6" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

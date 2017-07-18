@@ -246,10 +246,10 @@
 <text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-0.625" y1="-2.57" x2="0.625" y2="-2.57" width="0.2032" layer="21"/>
 </package>
-<package name="CAPPR7.5-16X25">
+<package name="CAPPR7.5-18X20">
 <pad name="P$1" x="-3.75" y="0" drill="1" shape="square"/>
 <pad name="P$2" x="3.75" y="0" drill="1"/>
-<circle x="0" y="0" radius="8" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="51"/>
 <text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-3" y1="1.6" x2="-2" y2="1.6" width="0.127" layer="21"/>
@@ -862,24 +862,18 @@ Switches electronic signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="EEU-ED2G470">
+<deviceset name="EEU-ED2G470S">
 <gates>
 <gate name="G$1" symbol="WB_CAPACITOR-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAPPR7.5-16X25">
+<device name="" package="CAPPR7.5-18X20">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DATASHEET_URL" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1062.pdf" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="P13545-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="PART_NUMBER" value="EEU-ED2G470" constant="no"/>
-<attribute name="VALUE" value="47µF"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1398,7 +1392,7 @@ Switches electronic signals</description>
 <part name="D3" library="derek" deviceset="RH06-T" device=""/>
 <part name="U$2" library="derek" deviceset="TP-1502" device=""/>
 <part name="U$3" library="derek" deviceset="TP-1502" device=""/>
-<part name="C7" library="derek" deviceset="EEU-ED2G470" device="" value="47µF"/>
+<part name="C7" library="derek" deviceset="EEU-ED2G470S" device="" value="EEU-ED2G470S"/>
 <part name="U$9" library="derek" deviceset="TP-1502" device=""/>
 <part name="U$10" library="derek" deviceset="TP-1502" device=""/>
 <part name="D2" library="derek" deviceset="SMAJ120A" device=""/>
