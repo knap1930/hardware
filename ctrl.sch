@@ -287,8 +287,8 @@
 </package>
 <package name="TP-1502">
 <pad name="1" x="0" y="0" drill="0.8128" diameter="1.651"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<text x="0" y="1.2" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.2" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1105,13 +1105,13 @@
 <part name="U$2" library="derek" deviceset="CRCW040210M0JNED" device="" value="10M"/>
 <part name="SUPPLY2" library="derek" deviceset="24V" device=""/>
 <part name="SUPPLY3" library="derek" deviceset="24V" device=""/>
-<part name="U$3" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$4" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$5" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$7" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$8" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$9" library="derek" deviceset="TP-1502" device=""/>
-<part name="U$10" library="derek" deviceset="TP-1502" device=""/>
+<part name="3.3V" library="derek" deviceset="TP-1502" device=""/>
+<part name="24V" library="derek" deviceset="TP-1502" device=""/>
+<part name="C+" library="derek" deviceset="TP-1502" device=""/>
+<part name="C-" library="derek" deviceset="TP-1502" device=""/>
+<part name="W+" library="derek" deviceset="TP-1502" device=""/>
+<part name="W-" library="derek" deviceset="TP-1502" device=""/>
+<part name="GND" library="derek" deviceset="TP-1502" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1169,13 +1169,13 @@
 <instance part="U$2" gate="G$1" x="-121.92" y="66.04"/>
 <instance part="SUPPLY2" gate="G$1" x="-137.16" y="78.74"/>
 <instance part="SUPPLY3" gate="G$1" x="-137.16" y="68.58"/>
-<instance part="U$3" gate="A" x="-198.12" y="177.8"/>
-<instance part="U$4" gate="A" x="-152.4" y="76.2"/>
-<instance part="U$5" gate="A" x="88.9" y="167.64" rot="R180"/>
-<instance part="U$7" gate="A" x="88.9" y="142.24" rot="R180"/>
-<instance part="U$8" gate="A" x="91.44" y="45.72" rot="R180"/>
-<instance part="U$9" gate="A" x="91.44" y="20.32" rot="R180"/>
-<instance part="U$10" gate="A" x="-99.06" y="180.34" rot="R180"/>
+<instance part="3.3V" gate="A" x="-198.12" y="177.8"/>
+<instance part="24V" gate="A" x="-152.4" y="76.2"/>
+<instance part="C+" gate="A" x="88.9" y="167.64" rot="R180"/>
+<instance part="C-" gate="A" x="88.9" y="142.24" rot="R180"/>
+<instance part="W+" gate="A" x="91.44" y="45.72" rot="R180"/>
+<instance part="W-" gate="A" x="91.44" y="20.32" rot="R180"/>
+<instance part="GND" gate="A" x="-99.06" y="180.34" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -1220,7 +1220,7 @@
 <junction x="73.66" y="142.24"/>
 <wire x1="73.66" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
 <junction x="73.66" y="142.24"/>
-<pinref part="U$7" gate="A" pin="TP"/>
+<pinref part="C-" gate="A" pin="TP"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -1233,7 +1233,7 @@
 <pinref part="D1" gate="A" pin="A"/>
 <wire x1="25.4" y1="177.8" x2="73.66" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="177.8" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="A" pin="TP"/>
+<pinref part="C+" gate="A" pin="TP"/>
 <wire x1="88.9" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1382,7 +1382,7 @@
 <pinref part="GND-ISO9" gate="G$1" pin="GND-ISO"/>
 <wire x1="-119.38" y1="180.34" x2="-106.68" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="180.34" x2="-106.68" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="A" pin="TP"/>
+<pinref part="GND" gate="A" pin="TP"/>
 <wire x1="-99.06" y1="180.34" x2="-106.68" y2="180.34" width="0.1524" layer="91"/>
 <junction x="-106.68" y="180.34"/>
 </segment>
@@ -1460,7 +1460,7 @@
 <wire x1="-129.54" y1="76.2" x2="-137.16" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="24V"/>
 <wire x1="-137.16" y1="76.2" x2="-137.16" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="A" pin="TP"/>
+<pinref part="24V" gate="A" pin="TP"/>
 <wire x1="-152.4" y1="76.2" x2="-137.16" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-137.16" y="76.2"/>
 </segment>
@@ -1636,7 +1636,7 @@
 <junction x="73.66" y="45.72"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="A" pin="TP"/>
+<pinref part="W+" gate="A" pin="TP"/>
 <wire x1="91.44" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1650,7 +1650,7 @@
 <junction x="73.66" y="20.32"/>
 <junction x="73.66" y="20.32"/>
 <wire x1="73.66" y1="20.32" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="A" pin="TP"/>
+<pinref part="W-" gate="A" pin="TP"/>
 <wire x1="91.44" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1664,7 +1664,7 @@
 <wire x1="-185.42" y1="175.26" x2="-187.96" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="175.26" x2="-187.96" y2="177.8" width="0.1524" layer="91"/>
 <junction x="-187.96" y="177.8"/>
-<pinref part="U$3" gate="A" pin="TP"/>
+<pinref part="3.3V" gate="A" pin="TP"/>
 <wire x1="-198.12" y1="177.8" x2="-187.96" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
