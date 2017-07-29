@@ -2775,7 +2775,7 @@ Switches electronic signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP-1502">
+<deviceset name="TP-1502" prefix="TP">
 <gates>
 <gate name="A" symbol="TP-1502" x="0" y="0"/>
 </gates>
@@ -4747,7 +4747,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW060310K0FKEA">
+<deviceset name="CRCW060310K0FKEA" prefix="R">
 <gates>
 <gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
@@ -4811,7 +4811,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW040210M0JNED">
+<deviceset name="CRCW040210M0JNED" prefix="R">
 <gates>
 <gate name="G$1" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
