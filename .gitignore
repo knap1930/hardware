@@ -11,6 +11,9 @@
 # comment the following line if you want to have your project file included.
 eagle.epf
 
+# DHX import
+dxfimp.scr
+
 # Autorouter files
 *.pro
 *.job
