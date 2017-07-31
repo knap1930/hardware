@@ -409,10 +409,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="VALUE" x="7.8296875" y="26.690165625" size="0.6096" layer="27" font="vector" ratio="20" rot="R162" align="top-center"/>
 </element>
-<element name="W+" library="derek" package="TP-1502" value="TP-1502" x="18" y="19" rot="MR0"/>
-<element name="W-" library="derek" package="TP-1502" value="TP-1502" x="16" y="19" rot="MR0"/>
-<element name="C+" library="derek" package="TP-1502" value="TP-1502" x="22" y="19" rot="MR0"/>
-<element name="C-" library="derek" package="TP-1502" value="TP-1502" x="20" y="19" rot="MR0"/>
+<element name="W+" library="derek" package="TP-1502" value="TP-1502" x="18" y="28.7" locked="yes" rot="MR0"/>
+<element name="W-" library="derek" package="TP-1502" value="TP-1502" x="16" y="28.7" locked="yes" rot="MR0"/>
+<element name="C+" library="derek" package="TP-1502" value="TP-1502" x="22" y="28.7" locked="yes" rot="MR0"/>
+<element name="C-" library="derek" package="TP-1502" value="TP-1502" x="20" y="28.7" locked="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$13">
@@ -507,12 +507,12 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$30">
 <contactref element="W1" pad="A"/>
 <contactref element="W+" pad="1"/>
-<wire x1="18" y1="19" x2="32.077178125" y2="25.351921875" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="28.7" x2="32.077178125" y2="25.351921875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="W5" pad="C"/>
 <contactref element="W-" pad="1"/>
-<wire x1="16" y1="19" x2="17" y2="30.6" width="0" layer="19" extent="1-1"/>
+<wire x1="16" y1="28.7" x2="17" y2="30.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C2" pad="C"/>
@@ -522,12 +522,12 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$3">
 <contactref element="C1" pad="A"/>
 <contactref element="C+" pad="1"/>
-<wire x1="22" y1="19" x2="33.313278125" y2="21.547721875" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="28.7" x2="33.313278125" y2="21.547721875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C5" pad="C"/>
 <contactref element="C-" pad="1"/>
-<wire x1="20" y1="19" x2="21" y2="30.6" width="0" layer="19" extent="1-1"/>
+<wire x1="20" y1="28.7" x2="21" y2="30.6" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
