@@ -385,7 +385,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP-1502">
+<deviceset name="TP-1502" prefix="TP">
 <gates>
 <gate name="A" symbol="TP-1502" x="0" y="0"/>
 </gates>
