@@ -374,39 +374,39 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="6.0182" y="21.1151" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="6.0182" y="21.1151" size="1.778" layer="27" rot="R162" display="off"/>
 </element>
-<element name="C5" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="21" y="32" locked="yes" smashed="yes" rot="R90">
+<element name="C5" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="21" y="32" locked="yes" smashed="yes" rot="R90">
 <attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.538" y="32" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="21" y="32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.862" y="32" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C1" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="31.9818" y="21.1151" locked="yes" smashed="yes" rot="R18">
+<element name="C1" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="31.9818" y="21.1151" locked="yes" smashed="yes" rot="R18">
 <attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="NAME" x="32.806409375" y="18.785965625" size="0.6096" layer="25" font="vector" ratio="20" rot="R18" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="31.9818" y="21.1151" size="1.778" layer="27" rot="R18" display="off"/>
 <attribute name="VALUE" x="32.5571875" y="19.34423125" size="0.6096" layer="27" font="vector" ratio="20" rot="R18" align="top-center"/>
 </element>
-<element name="C2" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="25.0232" y="7.3072" locked="yes" smashed="yes" rot="R306">
+<element name="C2" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="25.0232" y="7.3072" locked="yes" smashed="yes" rot="R306">
 <attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
 <attribute name="NAME" x="23.0295875" y="5.801653125" size="0.6096" layer="25" font="vector" ratio="20" rot="R306" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="25.0232" y="7.3072" size="1.778" layer="27" rot="R306" display="off"/>
 <attribute name="VALUE" x="23.516809375" y="6.21274375" size="0.6096" layer="27" font="vector" ratio="20" rot="R306" align="top-center"/>
 </element>
-<element name="C3" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="9.7408" y="9.6583" locked="yes" smashed="yes" rot="R234">
+<element name="C3" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="9.7408" y="9.6583" locked="yes" smashed="yes" rot="R234">
 <attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="NAME" x="7.7471875" y="11.16384375" size="0.6096" layer="25" font="vector" ratio="20" rot="R234" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="9.7408" y="9.6583" size="1.778" layer="27" rot="R234" display="off"/>
 <attribute name="VALUE" x="8.234409375" y="10.752753125" size="0.6096" layer="27" font="vector" ratio="20" rot="R234" align="top-center"/>
 </element>
-<element name="C4" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00BE8" x="7.2543" y="24.9193" locked="yes" smashed="yes" rot="R162">
+<element name="C4" library="derek" package="XLAMP-XPG" value="XPGWHT-L1-0000-00G51" x="7.2543" y="24.9193" locked="yes" smashed="yes" rot="R162">
 <attribute name="DATASHEET_URL" value="http://www.cree.com/led-components/media/documents/XLampXPG.pdf" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00BE8CT-ND" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XPGWHT-L1-0000-00G51CT-ND" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="NAME" x="8.078909375" y="27.24843125" size="0.6096" layer="25" font="vector" ratio="20" rot="R162" align="bottom-center"/>
-<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00BE8" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
+<attribute name="PART_NUMBER" value="XPGWHT-L1-0000-00G51" x="7.2543" y="24.9193" size="1.778" layer="27" rot="R162" display="off"/>
 <attribute name="VALUE" x="7.8296875" y="26.690165625" size="0.6096" layer="27" font="vector" ratio="20" rot="R162" align="top-center"/>
 </element>
 <element name="W+" library="derek" package="TP-1502" value="TP-1502" x="18" y="28.7" locked="yes" rot="MR0"/>

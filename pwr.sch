@@ -872,7 +872,13 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET_URL" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1258.pdf"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P13546-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="PART_NUMBER" value="EEU-ED2G470S"/>
+<attribute name="VALUE" value="47µF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1391,7 +1397,7 @@ Switches electronic signals</description>
 <part name="D2" library="derek" deviceset="RH06-T" device=""/>
 <part name="L" library="derek" deviceset="TP-1502" device=""/>
 <part name="N" library="derek" deviceset="TP-1502" device=""/>
-<part name="C3" library="derek" deviceset="EEU-ED2G470S" device="" value="EEU-ED2G470S"/>
+<part name="C3" library="derek" deviceset="EEU-ED2G470S" device="" value="47µF"/>
 <part name="24V" library="derek" deviceset="TP-1502" device=""/>
 <part name="GND" library="derek" deviceset="TP-1502" device=""/>
 <part name="D3" library="derek" deviceset="SMAJ120A" device=""/>

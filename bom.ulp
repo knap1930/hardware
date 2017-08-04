@@ -48,7 +48,7 @@
 
 string Version = "1.11";
 
-char   Separator = ';'; // 2012-12-04
+char   Separator = ','; // 2012-12-04
 
 
 #usage "en: <b>Export a Bill Of Material</b>\n"
@@ -249,8 +249,8 @@ numeric string PartAttributes[];    // Adjusted list of attributes per part.
 
 enum { ltParts, ltValues };         // List Types
 enum { ofText, ofCSV, ofHTML };     // Output Formats
-int ListType = 0;
-int OutputFormat = 0;
+int ListType = 1;
+int OutputFormat = 1;
 
 
 string StripWhiteSpace (string s)
@@ -295,50 +295,12 @@ void CollectPartData (string var)
   NumParts = 0;
 
   // First, collect the names of all available attributes.
-  FoundAttributes = 0;
-  if (UseAttributes) {
-    schematic (SCH)
-    {
-      SCH.allparts (P) // 2014-08-07
-      {
-        if (P.device.package)
-        {
-          if (P.populate)
-          {
-            P.attributes (A)
-            {
-              if (0 == FoundAttributes)
-              {
-                // First one
-                AttributesList[0] = A.name;
-                FoundAttributes = 1;
-              }
-              else
-              {
-                Found = 0;
-                for (i = 0; i < FoundAttributes; i ++)
-                {
-                  if (A.name == AttributesList[i])
-                  {
-                    // Found an already listed atrribute
-                    Found = 1;
-                    break;
-                  }
-                }
-                if (0 == Found)
-                {
-                  // Attribute not listed, add at the end.
-                  AttributesList[FoundAttributes] = A.name;
-                  FoundAttributes ++;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    sort (FoundAttributes, AttributesList);
-  }
+  FoundAttributes = 3;
+  AttributesList[0] = "PART_NUMBER";
+  AttributesList[1] = "DIGIKEY_PART_NUMBER";
+  AttributesList[2] = "MANUFACTURER";
+  sort (FoundAttributes, AttributesList);
+
   // Second, collect all data
   schematic (SCH)
   {
@@ -411,7 +373,7 @@ void GenerateValueList (void)
   if (UseAttributes) s = strjoin(AttributesList, '\t');
 
   // 2010-04-17 cwi: Included description.
-  Lines[NumLines ++] = tr ("Qty\tValue\tDevice\tPackage\tParts\tDescription\t") + s;                 // 2011-04-08
+  Lines[NumLines ++] = tr ("Qty\tParts\t") + s;                 // 2011-04-08
   sort (NumParts, Index, PartValue, PartDevice, PartPackage, PartAttributes, PartName, PartHeadline); // 2011-11-08 Partattribute jetzt nach Package alf@cadsoft.de
   for (int n1 = 0, n2 = 0; ++ n2 <= NumParts; )
   {
@@ -428,7 +390,7 @@ void GenerateValueList (void)
     }
     string Quantity;
     sprintf (Quantity, "%d", n2 - n1);
-    Lines[NumLines] = Quantity + "\t" + PartValue[i1] + "\t" + PartDevice[i1] + "\t" + PartPackage[i1] + "\t";
+    Lines[NumLines] = Quantity + "\t";
     for (;;)
     {
       Lines[NumLines] += PartName[i1];
@@ -442,7 +404,7 @@ void GenerateValueList (void)
     }
     // cwi: add extra information from attributes
     // 2010-04-17 cwi: Included description.
-    Lines[NumLines] += "\t" + PartHeadline[i1] + "\t" + s;
+    Lines[NumLines] += "\t" + s;
     NumLines ++;
   }
   Lines[NumLines] = "";

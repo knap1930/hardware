@@ -602,7 +602,13 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="L" library="derek" package="TP-1502" value="TP-1502" x="69" y="15" rot="R270"/>
 <element name="N" library="derek" package="TP-1502" value="TP-1502" x="69" y="27" rot="R270"/>
-<element name="C3" library="derek" package="CAPPR7.5-18X20" value="EEU-ED2G470S" x="45" y="33" rot="R180"/>
+<element name="C3" library="derek" package="CAPPR7.5-18X20" value="47µF" x="45" y="33" rot="R180">
+<attribute name="DATASHEET_URL" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1258.pdf" x="45" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P13546-ND" x="45" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="45" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_NUMBER" value="EEU-ED2G470S" x="45" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="47µF" x="45" y="33" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="24V" library="derek" package="TP-1502" value="TP-1502" x="2" y="7" locked="yes" rot="R90"/>
 <element name="GND" library="derek" package="TP-1502" value="TP-1502" x="2" y="9" locked="yes" rot="R90"/>
 <element name="D3" library="derek" package="SMA" value="SMAJ120A" x="30.8" y="10.8" smashed="yes" rot="MR180">
